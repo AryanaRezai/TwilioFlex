@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.realpage.suites.Suites" time="609.359" tests="450" errors="0" skipped="1" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\arezai\workspace\realpage-automation-framework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="Suites"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\arezai\workspace\realpage-automation-framework"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\arezai\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Selenium\geckodriver;;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Users\arezai\scoop\shims;C:\Users\arezai\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\allure\allure-2.6.0\allure-2.6.0\bin;C:\Program Files\internet explorer;C:\Users\arezai\workspace\realpage-automation-framework\src\test\resources\drivers\win;;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="run.brand" value="realpage"/>
+    <property name="library.jansi.path" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\arezai"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="arezai"/>
+    <property name="java.class.path" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -DRC_BROWSERS=chrome -Drun.environment=uat -Drun.brand=realpage -Dtest=Suites"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="run.environment" value="uat"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="RC_BROWSERS" value="chrome"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0.011"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0.001"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User expands the Naigation Menu" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User expands the Naigation Menu" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User expands the Naigation Menu" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User expands the Naigation Menu" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User clicks on Properties" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0.001"/>
+  <testcase name="And User clicks on Properties" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User clicks on Properties" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User clicks on Properties" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directed to the Properties Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directed to the Properties Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directed to the Properties Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directed to the Properties Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User clicks on the property search drop down" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User clicks on the property search drop down" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User clicks on the property search drop down" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User clicks on the property search drop down" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User clicks on the property search drop down" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User clicks on the property search drop down" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User sees a list of search options" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User picks Property Name" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User picks Property Name" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User picks Property Name" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User picks Property Name" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User enters a Property Name 1000 Kiely" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User enters a Property Name 1000 Kiely" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User enters a Property Name 1000 Kiely" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User enters a Property Name 1000 Kiely" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0.001"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User sees eight information titles" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User sees eight information titles" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User sees eight information titles" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User sees information related to the search" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User sees information related to the search" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User sees information related to the search" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And User picks Company Name" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User enters a Company Name &quot;Essex&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0.001"/>
+  <testcase name="And User picks Property ID" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User enters a Property ID &quot;7789&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User clicks on the actual property name" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User clicks on the actual property name" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User clicks on the actual property name" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User clicks on the actual property name" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directed to the property details page &quot;/property/&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directed to the property details page &quot;/property/&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directed to the property details page &quot;/property/&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directed to the property details page &quot;/property/&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="| QA Tester | LoginPage | 1000 Kiely |" classname="| QA Tester | LoginPage | 1000 Kiely |" time="1.372"/>
+  <testcase name="| QA Tester | LoginPage | 1000 Kiely |" classname="| QA Tester | LoginPage | 1000 Kiely |" time="1.038"/>
+  <testcase name="| QA Tester | LoginPage | 1000 Kiely |" classname="| QA Tester | LoginPage | 1000 Kiely |" time="1.012"/>
+  <testcase name="| QA Tester | LoginPage | 1000 Kiely |" classname="| QA Tester | LoginPage | 1000 Kiely |" time="1.08"/>
+  <testcase name="Then The property name is shown in the URL &quot;8d514821-236a-445e-84d5-eecc4a14b24b&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And There is a Property Management Company details section &quot;Property Management Company&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And There is a Property Details section &quot;Property Details&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When user selects Product Tab" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directed to the Products page &quot;/property/8d514821-236a-445e-84d5-eecc4a14b24b/products&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0.002"/>
+  <testcase name="When user selects one or more options" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="And user saves it" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then They are saved" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0.001"/>
+  <testcase name="When user clicks on Activation History" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directed to that page &quot;/history&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When user selects Return to Products" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then user is directed back to &quot;/property/8d514821-236a-445e-84d5-eecc4a14b24b/products&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User navigates to People Page" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And finds an specific agent &quot;william&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And Verifies that agents roll" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User clicks on the Log Out link" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User is redirected to the Login Page &quot;/login&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters valid username &quot;william.davis@realpage.com&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User clicks on navigation button" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User is able to see Properties and Onboarding only" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="| QA Tester | LoginPage |" classname="| QA Tester | LoginPage |" time="0.989"/>
+  <testcase name="| QA Tester | LoginPage |" classname="| QA Tester | LoginPage |" time="1.006"/>
+  <testcase name="| QA Tester | LoginPage |" classname="| QA Tester | LoginPage |" time="0.979"/>
+  <testcase name="| QA Tester | LoginPage |" classname="| QA Tester | LoginPage |" time="1.003"/>
+  <testcase name="| QA Tester | LoginPage |" classname="| QA Tester | LoginPage |" time="1.048"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="When User opens the widget admin url https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And A chat preview is displayed in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And The widget name box is not empty" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And Greeting Text is there in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And Call To Action Text is there in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And Prechat questions are there in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="When User navigates to Appearance in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="Then there is a note visible" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And there is a Text color field in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And there is a Header and Button color field" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0.001"/>
+  <testcase name="Then User opens the widget url https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="Then The header text is matching in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="When User clicks on the widget in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And The text color is matching in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="And The header and button color is matching in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="0"/>
+  <testcase name="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg | https://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg |" time="1.002"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0.003"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="When User opens the widget admin url https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And A chat preview is displayed in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And The widget name box is not empty" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And Greeting Text is there in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And Call To Action Text is there in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And Prechat questions are there in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="When User navigates to Appearance in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="Then there is a note visible" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And there is a Text color field in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And there is a Header and Button color field" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="Then User opens the widget url https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="Then The header text is matching in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="When User clicks on the widget in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And The text color is matching in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="And The header and button color is matching in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0"/>
+  <testcase name="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg | https://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg |" time="0.991"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="When User opens the widget admin url https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And A chat preview is displayed in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And The widget name box is not empty" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And Greeting Text is there in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And Call To Action Text is there in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And Prechat questions are there in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="When User navigates to Appearance in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="Then there is a note visible" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And there is a Text color field in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And there is a Header and Button color field" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="Then User opens the widget url https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="Then The header text is matching in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="When User clicks on the widget in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And The text color is matching in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="And The header and button color is matching in uat" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="0"/>
+  <testcase name="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A | https://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A |" time="1.155"/>
+  <testcase name="And User clicks on Company tab" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User is directed to the Comany Page &quot;/company&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User select a company &quot;AHS Development Group&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then A page with five tabs is displayed" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User selects the Property Tab" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then Related properties are dispalyed" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User selects the Settings tab" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees differet cards" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User selects Widget Templates card" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then Template List Page is displayed" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User clicks on Add Widget Template" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then An empty template is displayed" classname="| QA Tester | LoginPage |" time="0.001"/>
+  <testcase name="When User selects cancel button" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User is directed to template list page" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User clicks on an already existing template" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User changes the content of the template" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When user selects Settings" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directed to &quot;/property/8d514821-236a-445e-84d5-eecc4a14b24b/settings&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User selects Communication Widgets" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User adds a widget by selecting Add Widget link" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directd to Widgets Detail Page &quot;/property/8d514821-236a-445e-84d5-eecc4a14b24b/widgets/add&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="When User selects cancel" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Then User is directd to Widgets list page &quot;/property/8d514821-236a-445e-84d5-eecc4a14b24b/widgets&quot;" classname="| QA Tester | LoginPage | 1000 Kiely |" time="0"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User expands the Naigation Menu" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User expands the Naigation Menu" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User clicks on the property search drop down" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User clicks on the property search drop down" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0.001"/>
+  <testcase name="And User picks Property Name" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User picks Property Name" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0.001"/>
+  <testcase name="When User enters a Property Name 1000 Kiely" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User enters a Property Name 1000 Kiely" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User clicks on the actual property name" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User clicks on the actual property name" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then User is directed to the property details page &quot;/property&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When user selects Settings" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When user selects Settings" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then User is directed to &quot;/settings&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User selects Communication Widgets" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User selects Communication Widgets" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then User is directed to widgets page &quot;/widgets&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then User is directed to widgets page &quot;/widgets&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User selects an already excisting widget" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User selects an already excisting widget" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then User is directed to widgets details page &quot;/widgets&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then User is directed to widgets details page &quot;/widgets&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And A chat preview is displayed" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And A chat preview is displayed" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User setts the status to Disable" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And The widget name box is not empty" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And Call To Action Text is modified" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User clicks on save" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User clicks on save" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User clicks on Widget Search Page" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User clicks on Widget Search Page" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then User is directed to the Widget Search Page &quot;/products/widgetsearch&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then User is directed to the Widget Search Page &quot;/products/widgetsearch&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User enters a new Widget Name Automation Test Widget" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User enters a new Widget Name Automation Test Widget" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User clicks on Preview" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="When User clicks on Preview" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then Enabled is false" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User clicks on Properties" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then User is directed to the Properties Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then User is directed to the property details page &quot;/property/&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then User is directed to &quot;settings&quot;" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="And User setts the status to Active" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="Then Enabled is True" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="0"/>
+  <testcase name="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" classname="| QA Tester | LoginPage | 1000 Kiely | Automation Test Widget |" time="1.059"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="When User opens the widget admin url https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0.022"/>
+  <testcase name="And A chat preview is displayed" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And User setts the status to Active" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And The widget name box is not empty" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And Greeting Text is modified" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And Call To Action Text is modified" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And Prechat questions are modified" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="When User navigates to Appearance" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0.001"/>
+  <testcase name="Then there is a note visible" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And there is a Text color field" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And there is a Header and Button color field" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="When User clicks on save button" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="Then A success message will appear on top of the page" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And The correct date format is there &quot;https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="Then User opens the widget url https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="Then The header text is matching" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="When User clicks on the widget" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="Then User selects CHAT option" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And User selects maintenance from drop down" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And Maintenance Problem Category is displayed" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="When User clicks on the category drop down" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="Then user can select a ctegory" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And user can give permission to enter" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="Then there is a warning text visible" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And user can select pets" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And user can select entry alarm" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="Then user enters issue description" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="When User deselcts any of the mandatory questions" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And clicks on Start Chatting" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="Then An error message will appear &quot;This field is required&quot;" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And The text color is matching" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="And The header and button color is matching" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="0"/>
+  <testcase name="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" classname="| QA Tester | LoginPage | https://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg | https://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg |" time="1.039"/>
+  <testcase name="When User expands the Naigation Menu" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User expands the Naigation Menu" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on Widget Search Page" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User is directed to the Widget Search Page &quot;/products/widgetsearch&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters a Widget ID &quot;Ya1ITCXgNMc6EVQ2446n7A&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage |" time="0.001"/>
+  <testcase name="Then User sees eight column titles" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees eight column titles" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees eight column titles" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees eight column titles" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters a Widget Name &quot;Test Automation Widget&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters RPCC ID &quot;702&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters RPCC property ID &quot;414&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees information that is related to the search" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User clicks on the Preview button" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees a payload" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And A widget is opened in less than 10 seconds" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on Onboarding" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User is directed to the Onboarding Page &quot;/onboard&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on the onboarding property search drop down" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User enters a Property ID to onboard &quot;22&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees a Matching Property message &quot;We have matched the property to the following. If this is correct, please click the onboard button below.&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees eight titles" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User sees an Onboarding button" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters a Property ID to onboard &quot;0&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees a missMatching Property message &quot;Unable to locate the Property in the Books Api.&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters a Property ID to onboard &quot;7789&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees an already onboarded message &quot;This Property has already been onboarded. View the Property Page.&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User clicks on the onboarding company search drop down" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User enters a Company ID to onboard &quot;22&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees an already onboarded message &quot;This Company has already been onboarded.&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User enters a Company ID to onboard &quot;0&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees an unable to locate message &quot;Unable to locate the Company in the Books Api.&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="And User enters a Company ID to onboard &quot;45&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User sees an already onboarded message &quot;We have matched the property to the following. If this is correct, please click the onboard button below.&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Given QA Tester wants to navigate the content of ConsumerWidgetPage" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="Given QA Tester wants to navigate the content of ConsumerWidgetPage" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="When Consumer selects Text" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Consumer enters the first name &quot;Ary&quot;" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Consumer enters the last name &quot;Rez&quot;" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Consumer marks the opt in box" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Consumer enters the phone nrs" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="When Consumer clicks the START TEXTING button" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="Then Consumer is directed to connecting page" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="When Agent logs in to desktop https://uc-agent-desktop-uat.devplaypen.com/login" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Agent navigates to Tasks Page" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Agent accepts text" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="Then Agent is directed to the bridge widget" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Agent logs out of the agent desktop" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="1.025"/>
+  <testcase name="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0.014">
+    <failure message="Not directed to bridge widget" type="java.lang.AssertionError">java.lang.AssertionError: Not directed to bridge widget
+</failure>
+  </testcase>
+  <testcase name="When Consumer selects CHAT" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Consumer enters first name &quot;Ary&quot;" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Consumer enters last name &quot;Rez&quot;" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Consumer enters email address &quot;aryana.rezai@realpage.com&quot;" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And consumer enters phone number" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Consumer clicks the START CHATTING button" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="When Consumer is directed to the connecting page" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="Then Agent logs in to the agent desktop https://uc-agent-desktop-uat.devplaypen.com/login" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Agent navigates to the Tasks Page" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Agent accepts the chat" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0"/>
+  <testcase name="And Agent is directed to bridge widget" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0.014">
+    <failure message="Not directed to bridge widget" type="java.lang.AssertionError">java.lang.AssertionError: Not directed to bridge widget
+</failure>
+    <system-out><![CDATA[**********Switching
+**********Switched
+]]></system-out>
+  </testcase>
+  <testcase name="And Agent logs out of agent desktop" classname="| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When User clicks on SMS tab &quot;SMS Status&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then User is directed to the phone page &quot;/smsstatuses&quot;" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User enters a phone number &quot;+14692165826&quot;" classname="| QA Tester | LoginPage |" time="0.001"/>
+  <testcase name="And Clicks on search" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then That number is displayed" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="When User clicks search with an empty box" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Then An error message is displayed" classname="| QA Tester | LoginPage |" time="0"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="When User navigates to the Proprty Product URL /8d514821-236a-445e-84d5-eecc4a14b24b/products" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="When User picks Chat For Leasing" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User navigates to Settings Page" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User navigates to Settings Page" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User navigates to Settings Page" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User navigates to Settings Page" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="Then The Leasing settings Card is displayed" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0.001"/>
+  <testcase name="When User navigates to the widget /widgets/0HRN5vooBIBKgrqIwdHQw" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="When User navigates to the widget /widgets/0HRN5vooBIBKgrqIwdHQw" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="When User navigates to the widget /widgets/0HRN5vooBIBKgrqIwdHQw" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="When User navigates to the widget /widgets/0HRN5vooBIBKgrqIwdHQw" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="Then The Leasing Subject is displayed" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0.001"/>
+  <testcase name="When User navigates back to Products" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="When User navigates back to Products" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="When User navigates back to Products" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User selects Chat for Maintenance" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="Then The Maintenance settings Card is displayed" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="Then The Maintenance Subject is displayed" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User selects Text for Leasing" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="Then The Phone Numbers card is displayed" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="Then The Phone Numbers card is displayed" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And the IVR Greeting Menus is displayed" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And the IVR Greeting Menus is displayed" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="Then Text Messages option is Enabled under Leasing subject" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User selects Text for Maintenance" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="Then Text Messages option is Enabled under Maintenance subject" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="And User unmarks all the options" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="0"/>
+  <testcase name="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" classname="| QA Tester | LoginPage | /8d514821-236a-445e-84d5-eecc4a14b24b/products | /widgets/0HRN5vooBIBKgrqIwdHQw |" time="1.13"/>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="When User enters username john.Ficshelli@realpagecom" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="And User enters password password" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="Then User sees an error message" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="And User is Not directed to the Home Page /login/" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="When User enters valid username &quot;john.fischelli@realpage.com&quot;" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="When User clicks on the Log Out link" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="Then User is redirected to the Login Page &quot;/login&quot;" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="When User clicks on the Forgot Your Password link" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="Then User is directed to Send Password Reset Link Page" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="When User enters non existing email address &quot;xx.xx@realpage.com&quot;" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="Then User clicks on the Send Password Reset button" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="Then User clicks on the Send Password Reset button" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="Then User sees a message" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="When User enters email address &quot;aryana.rezai@realpage.com&quot;" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="Then User sees a success message" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0"/>
+  <testcase name="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" classname="| QA Tester | LoginPage | john.Ficshelli@realpagecom | password | /login/ |" time="0.986"/>
+</testsuite>

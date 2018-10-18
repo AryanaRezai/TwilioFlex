@@ -1,0 +1,1567 @@
+Feature: Properties HTML Rendering
+
+***** WebDriverManager ******
+DataManager profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+PageFactory profile1: uat
+
+***** UIPage ******
+UIPage profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+UIPage profile: uat
+UIPage file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+UIPage yamlFile: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+UIPage getPages: {Domain=https://www.qa.google.com/, AdlLoginPage=https://uc-agent-desktop-uat.devplaypen.com/login, LoginPage=https://realpageos-uat.devplaypen.com/login/, ConsumerWidgetPage=https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg, LoginPagee=https://admin.rentjoy.com/login, lpBluePage=https://staging.rentjoy.com/apartment/1050-galatyn-parkway-richardson-tx-1130385?layout=2#welcome}
+PageFactory profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+PageFactory profile: uat
+DataManager profile: uat
+DataManager profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+
+***** UIComponentMapFactory ******
+UIComponentMapFactory getUIComponentMap profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory getUIComponentMap profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory buildUIComponents profile: uat
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-chattest.yaml
+UIComponentMap addUIComponentMap map key: chattest | val: com.realpage.core.component.UIComponent@5170bcf4
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-chattestdev.yaml
+UIComponentMap addUIComponentMap map key: chattestdev | val: com.realpage.core.component.UIComponent@764faa6
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets.yaml
+UIComponentMap addUIComponentMap map key: devwidgets | val: com.realpage.core.component.UIComponent@42bc14c1
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets1.yaml
+UIComponentMap addUIComponentMap map key: devwidgets1 | val: com.realpage.core.component.UIComponent@6bbe2511
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets2.yaml
+UIComponentMap addUIComponentMap map key: devwidgets2 | val: com.realpage.core.component.UIComponent@613a8ee1
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets3.yaml
+UIComponentMap addUIComponentMap map key: devwidgets3 | val: com.realpage.core.component.UIComponent@77d2e85
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-login.yaml
+UIComponentMap addUIComponentMap map key: login | val: com.realpage.core.component.UIComponent@aeab9a1
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-mainwidgetcheck.yaml
+UIComponentMap addUIComponentMap map key: mainwidgetcheck | val: com.realpage.core.component.UIComponent@1698ee84
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-olgatool.yaml
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-onboarding.yaml
+UIComponentMap addUIComponentMap map key: onboarding | val: com.realpage.core.component.UIComponent@1643d68f
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-productssettings.yaml
+UIComponentMap addUIComponentMap map key: widgetcheck | val: com.realpage.core.component.UIComponent@2c9399a4
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-properties.yaml
+UIComponentMap addUIComponentMap map key: properties | val: com.realpage.core.component.UIComponent@72f46e16
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-signin.yaml
+UIComponentMap addUIComponentMap map key: signin | val: com.realpage.core.component.UIComponent@4a9e6faf
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-texttest.yaml
+UIComponentMap addUIComponentMap map key: texttest | val: com.realpage.core.component.UIComponent@5ed190be
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-widgetcheck.yaml
+UIComponentMap addUIComponentMap map key: widgetcheck | val: com.realpage.core.component.UIComponent@160c3ec1
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-widgetsearch.yaml
+UIComponentMap addUIComponentMap map key: widgetsearch | val: com.realpage.core.component.UIComponent@13c612bd
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 34664
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (f161f2a4f1200683db0845566ab401f5)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: properties
+https://realpageos-uat.devplaypen.com/properties
+1000 Kiely
+7789
+Essex
+206
+121
+5
+1000 Kiely
+7789
+Essex
+206
+121
+5
+1000 Kiely
+7789
+Essex
+206
+121
+5
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b
+
+  Scenario Outline: Rendering Properties Page                       [90m# src/test/resources/com/realpage/components/Properties/properties.feature:40[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m      [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                              [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m   [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                       [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                 [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m             [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser expands the Naigation Menu[0m                            [90m# PropertiesStepDefinitions.User_expands_the_Naigation_Menu()[0m
+    [32mAnd [0m[32mUser clicks on Properties[0m                                   [90m# PropertiesStepDefinitions.User_clicks_on_Properties()[0m
+    [32mThen [0m[32mUser is directed to the Properties Page "[0m[32m[1m/properties[0m[32m"[0m      [90m# PropertiesStepDefinitions.User_is_directed_to_the_Properties_Page(String)[0m
+    [32mWhen [0m[32mUser clicks on the property search drop down[0m               [90m# PropertiesStepDefinitions.User_clicks_on_the_property_search_drop_down()[0m
+    [32mThen [0m[32mUser sees a list of search options[0m                         [90m# PropertiesStepDefinitions.User_sees_a_list_of_search_options()[0m
+    [32mAnd [0m[32mUser picks Property Name[0m                                    [90m# PropertiesStepDefinitions.User_picks_Property_Name()[0m
+    [32mWhen [0m[32mUser enters a Property Name [0m[32m[1m1000 Kiely[0m                     [90m# PropertiesStepDefinitions.User_enters_a_Property_Name(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                       [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mThen [0m[32mUser sees eight information titles[0m                         [90m# PropertiesStepDefinitions.User_sees_eight_information_titles()[0m
+    [32mAnd [0m[32mUser sees information related to the search[0m                 [90m# PropertiesStepDefinitions.User_sees_information_related_to_the_search()[0m
+    [32mWhen [0m[32mUser clicks on the property search drop down[0m               [90m# PropertiesStepDefinitions.User_clicks_on_the_property_search_drop_down()[0m
+    [32mAnd [0m[32mUser picks Company Name[0m                                     [90m# PropertiesStepDefinitions.User_picks_Company_Name()[0m
+    [32mThen [0m[32mUser enters a Company Name "[0m[32m[1mEssex[0m[32m"[0m                         [90m# PropertiesStepDefinitions.User_enters_a_Company_Name(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                       [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mThen [0m[32mUser sees eight information titles[0m                         [90m# PropertiesStepDefinitions.User_sees_eight_information_titles()[0m
+    [32mAnd [0m[32mUser sees information related to the search[0m                 [90m# PropertiesStepDefinitions.User_sees_information_related_to_the_search()[0m
+    [32mWhen [0m[32mUser clicks on the property search drop down[0m               [90m# PropertiesStepDefinitions.User_clicks_on_the_property_search_drop_down()[0m
+    [32mAnd [0m[32mUser picks Property ID[0m                                      [90m# PropertiesStepDefinitions.User_picks_Property_ID()[0m
+    [32mThen [0m[32mUser enters a Property ID "[0m[32m[1m7789[0m[32m"[0m                           [90m# PropertiesStepDefinitions.User_enters_a_Property_ID(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                       [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mThen [0m[32mUser sees eight information titles[0m                         [90m# PropertiesStepDefinitions.User_sees_eight_information_titles()[0m
+    [32mAnd [0m[32mUser sees information related to the search[0m                 [90m# PropertiesStepDefinitions.User_sees_information_related_to_the_search()[0m
+    [32mWhen [0m[32mUser clicks on the actual property name[0m                    [90m# PropertiesStepDefinitions.User_clicks_on_the_actual_property_name()[0m
+    [32mThen [0m[32mUser is directed to the property details page "[0m[32m[1m/property/[0m[32m"[0m [90m# PropertiesStepDefinitions.User_is_directed_to_the_property_details_page(String)[0m
+
+1 Scenarios ([32m1 passed[0m)
+30 Steps ([32m30 passed[0m)
+0m38.621s
+
+Feature: Properties HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 43853
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (b19a052fb4293bc7889d1f90eb934b08)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: properties
+https://realpageos-uat.devplaypen.com/properties
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b
+*****Property Management Company
+============
+Property Details
+============
+
+  Scenario Outline: Rendering Properties Page                                                [90m# src/test/resources/com/realpage/components/Properties/propertiesoverview.feature:29[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m                               [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                                       [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m                            [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                                [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                                          [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                                      [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser expands the Naigation Menu[0m                                                     [90m# PropertiesStepDefinitions.User_expands_the_Naigation_Menu()[0m
+    [32mAnd [0m[32mUser clicks on Properties[0m                                                            [90m# PropertiesStepDefinitions.User_clicks_on_Properties()[0m
+    [32mThen [0m[32mUser is directed to the Properties Page "[0m[32m[1m/properties[0m[32m"[0m                               [90m# PropertiesStepDefinitions.User_is_directed_to_the_Properties_Page(String)[0m
+    [32mWhen [0m[32mUser clicks on the property search drop down[0m                                        [90m# PropertiesStepDefinitions.User_clicks_on_the_property_search_drop_down()[0m
+    [32mAnd [0m[32mUser picks Property Name[0m                                                             [90m# PropertiesStepDefinitions.User_picks_Property_Name()[0m
+    [32mWhen [0m[32mUser enters a Property Name [0m[32m[1m1000 Kiely[0m                                              [90m# PropertiesStepDefinitions.User_enters_a_Property_Name(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                                [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mWhen [0m[32mUser clicks on the actual property name[0m                                             [90m# PropertiesStepDefinitions.User_clicks_on_the_actual_property_name()[0m
+    [32mThen [0m[32mUser is directed to the property details page "[0m[32m[1m/property/[0m[32m"[0m                          [90m# PropertiesStepDefinitions.User_is_directed_to_the_property_details_page(String)[0m
+    [32mThen [0m[32mThe property name is shown in the URL "[0m[32m[1m8d514821-236a-445e-84d5-eecc4a14b24b[0m[32m"[0m        [90m# PropertiesStepDefinitions.The_property_name_is_shown_in_the_URL(String)[0m
+    [32mAnd [0m[32mThere is a Property Management Company details section "[0m[32m[1mProperty Management Company[0m[32m"[0m [90m# PropertiesStepDefinitions.There_is_a_Property_Management_Company_details_section(String)[0m
+    [32mAnd [0m[32mThere is a Property Details section "[0m[32m[1mProperty Details[0m[32m"[0m                               [90m# PropertiesStepDefinitions.There_is_a_Property_Details_section(String)[0m
+
+1 Scenarios ([32m1 passed[0m)
+18 Steps ([32m18 passed[0m)
+0m19.665s
+
+Feature: Properties HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 39403
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (5ac8c2ba8e9128db0a6582e676cbde4b)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: properties
+https://realpageos-uat.devplaypen.com/properties
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/products
+========
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/products/history
+========
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/products
+========
+
+  Scenario Outline: Rendering Properties Page                                                            [90m# src/test/resources/com/realpage/components/Properties/propertiesproducts.feature:33[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m                                           [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                                                   [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m                                        [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                                            [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                                                      [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                                                  [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser expands the Naigation Menu[0m                                                                 [90m# PropertiesStepDefinitions.User_expands_the_Naigation_Menu()[0m
+    [32mAnd [0m[32mUser clicks on Properties[0m                                                                        [90m# PropertiesStepDefinitions.User_clicks_on_Properties()[0m
+    [32mThen [0m[32mUser is directed to the Properties Page "[0m[32m[1m/properties[0m[32m"[0m                                           [90m# PropertiesStepDefinitions.User_is_directed_to_the_Properties_Page(String)[0m
+    [32mWhen [0m[32mUser clicks on the property search drop down[0m                                                    [90m# PropertiesStepDefinitions.User_clicks_on_the_property_search_drop_down()[0m
+    [32mAnd [0m[32mUser picks Property Name[0m                                                                         [90m# PropertiesStepDefinitions.User_picks_Property_Name()[0m
+    [32mWhen [0m[32mUser enters a Property Name [0m[32m[1m1000 Kiely[0m                                                          [90m# PropertiesStepDefinitions.User_enters_a_Property_Name(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                                            [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mWhen [0m[32mUser clicks on the actual property name[0m                                                         [90m# PropertiesStepDefinitions.User_clicks_on_the_actual_property_name()[0m
+    [32mThen [0m[32mUser is directed to the property details page "[0m[32m[1m/property/[0m[32m"[0m                                      [90m# PropertiesStepDefinitions.User_is_directed_to_the_property_details_page(String)[0m
+    [32mWhen [0m[32muser selects Product Tab[0m                                                                        [90m# PropertiesStepDefinitions.user_selects_Product_Tab()[0m
+    [32mThen [0m[32mUser is directed to the Products page "[0m[32m[1m/property/8d514821-236a-445e-84d5-eecc4a14b24b/products[0m[32m"[0m [90m# PropertiesStepDefinitions.User_is_directed_to_the_Products_page(String)[0m
+    [32mWhen [0m[32muser selects one or more options[0m                                                                [90m# PropertiesStepDefinitions.user_selects_one_or_more_options()[0m
+    [32mAnd [0m[32muser saves it[0m                                                                                    [90m# PropertiesStepDefinitions.user_saves_it()[0m
+    [32mThen [0m[32mThey are saved[0m                                                                                  [90m# PropertiesStepDefinitions.They_are_saved()[0m
+    [32mWhen [0m[32muser clicks on Activation History[0m                                                               [90m# PropertiesStepDefinitions.user_clicks_on_Activation_History()[0m
+    [32mThen [0m[32mUser is directed to that page "[0m[32m[1m/history[0m[32m"[0m                                                        [90m# PropertiesStepDefinitions.User_is_directed_to_that_page(String)[0m
+    [32mWhen [0m[32muser selects Return to Products[0m                                                                 [90m# PropertiesStepDefinitions.user_selects_Return_to_Products()[0m
+    [32mThen [0m[32muser is directed back to "[0m[32m[1m/property/8d514821-236a-445e-84d5-eecc4a14b24b/products[0m[32m"[0m              [90m# PropertiesStepDefinitions.user_is_directed_back_to(String)[0m
+
+1 Scenarios ([32m1 passed[0m)
+24 Steps ([32m24 passed[0m)
+0m26.159s
+
+Feature: Onboarding HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 49057
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (082e3a1b998e02d73de287be6e8c04fb)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+UIComponentMap getComponent key: onboarding
+https://realpageos-uat.devplaypen.com/login
+https://realpageos-uat.devplaypen.com/properties
+Properties
+Onboarding
+
+  Scenario Outline: Rendering Onboarding Page                     [90m# src/test/resources/com/realpage/components/RollnRights/rollnrights.feature:30[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m    [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                            [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                     [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                               [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mThen [0m[32mUser navigates to People Page[0m                            [90m# RollnRightsStepDefinitions.User_navigates_to_People_Page()[0m
+    [32mAnd [0m[32mfinds an specific agent "[0m[32m[1mwilliam[0m[32m"[0m                         [90m# RollnRightsStepDefinitions.finds_an_specific_agent(String)[0m
+    [32mAnd [0m[32mVerifies that agents roll[0m                                 [90m# RollnRightsStepDefinitions.Verifies_that_agents_roll()[0m
+    [32mWhen [0m[32mUser clicks on the Log Out link[0m                          [90m# LoginStepDefinitions.User_clicks_on_the_Log_Out_link()[0m
+    [32mThen [0m[32mUser is redirected to the Login Page "[0m[32m[1m/login[0m[32m"[0m            [90m# LoginStepDefinitions.User_redirected_to_the_Login_Page(String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                            [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mwilliam.davis@realpage.com[0m[32m"[0m  [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                     [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                               [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m           [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser clicks on navigation button[0m                         [90m# RollnRightsStepDefinitions.User_clicks_on_navigation_button()[0m
+    [32mAnd [0m[32mUser is able to see Properties and Onboarding only[0m        [90m# RollnRightsStepDefinitions.User_is_able_to_see_Properties_and_Onboarding_only()[0m
+
+1 Scenarios ([32m1 passed[0m)
+17 Steps ([32m17 passed[0m)
+0m15.225s
+
+Feature: Properties HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 38594
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (aaf9a6514b787088c5637007ba0ccad0)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: widgetcheck
+UIComponentMap getComponent key: widgetcheckonlyuat
+UIComponentMap getComponent key: properties
+***********Automation Test Widget
+MTEOUFhv
+Let's Chat iBds
+LET'S CHAT IBDS
+Text Messages
+FFFFFF
+0079FF
+LET'S CHAT IBDS
+Bla
+rgba(255, 255, 255, 1)
+#FFFFFF
+rgb(0, 121, 255) none repeat scroll 0% 0% / auto padding-box border-box
+#######rgb(0, 121, 255
+String was split
+*********
+#0079FF
+*********
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 45563
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+  Scenario Outline: Rendering Properties Page                                                                                                               [90m# src/test/resources/com/realpage/components/WidgetCheckOnlyUat/widgetcheckonlyuat.feature:33[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m                                                                                              [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                                                                                                      [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m                                                                                           [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                                                                                               [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                                                                                                         [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                                                                                                     [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser opens the widget admin url [0m[32m[1mhttps://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/l6gSG9m8NAHKW2hRrY25Wg[0m [90m# WidgetCheckStepDefinitions.User_opens_the_widget_admin_url(String)[0m
+    [32mAnd [0m[32mA chat preview is displayed in uat[0m                                                                                                                  [90m# WidgetCheckOnlyUatStepDefinitions.A_chat_preview_is_displayed_in_uat()[0m
+    [32mAnd [0m[32mThe widget name box is not empty[0m                                                                                                                    [90m# PropertiesStepDefinitions.The_widget_name_box_is_not_empty()[0m
+    [32mAnd [0m[32mGreeting Text is there in uat[0m                                                                                                                       [90m# WidgetCheckOnlyUatStepDefinitions.Greeting_Text_is_there_in_uat()[0m
+    [32mAnd [0m[32mCall To Action Text is there in uat[0m                                                                                                                 [90m# WidgetCheckOnlyUatStepDefinitions.Call_To_Action_Text_is_there_in_uat()[0m
+    [32mAnd [0m[32mPrechat questions are there in uat[0m                                                                                                                  [90m# WidgetCheckOnlyUatStepDefinitions.Prechat_questions_are_there_in_uat()[0m
+    [32mWhen [0m[32mUser navigates to Appearance in uat[0m                                                                                                                [90m# WidgetCheckOnlyUatStepDefinitions.User_navigates_to_Appearance_in_uat()[0m
+    [32mThen [0m[32mthere is a note visible[0m                                                                                                                            [90m# WidgetCheckStepDefinitions.there_is_a_note_visible()[0m
+    [32mAnd [0m[32mthere is a Text color field in uat[0m                                                                                                                  [90m# WidgetCheckOnlyUatStepDefinitions.there_is_a_Text_color_field_in_uat()[0m
+    [32mAnd [0m[32mthere is a Header and Button color field[0m                                                                                                            [90m# WidgetCheckStepDefinitions.there_is_a_Header_and_Button_color_field()[0m
+    [32mThen [0m[32mUser opens the widget url [0m[32m[1mhttps://realpageos-uat.devplaypen.com/products/widgetsearch/l6gSG9m8NAHKW2hRrY25Wg[0m                                       [90m# WidgetCheckStepDefinitions.User_opens_the_widget_url(String)[0m
+    [32mThen [0m[32mThe header text is matching in uat[0m                                                                                                                 [90m# WidgetCheckOnlyUatStepDefinitions.The_header_text_is_matching_in_uat()[0m
+    [32mWhen [0m[32mUser clicks on the widget in uat[0m                                                                                                                   [90m# WidgetCheckOnlyUatStepDefinitions.User_clicks_on_the_widget_in_uat()[0m
+    [32mAnd [0m[32mThe text color is matching in uat[0m                                                                                                                   [90m# WidgetCheckOnlyUatStepDefinitions.The_text_color_is_matching_in_uat()[0m
+    [32mAnd [0m[32mThe header and button color is matching in uat[0m                                                                                                      [90m# WidgetCheckOnlyUatStepDefinitions.The_header_and_button_is_matching_in_uat()[0m
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (f6b16196483f99f5272483d738f3139e)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: widgetcheck
+UIComponentMap getComponent key: widgetcheckonlyuat
+UIComponentMap getComponent key: properties
+***********Automation Widget
+bXyMuodQ
+Let's Chat QOCq
+LET'S CHAT QOCQ
+Text Messages
+FFFFFF
+0079FF
+LET'S CHAT QOCQ
+Bla
+rgba(255, 255, 255, 1)
+#FFFFFF
+rgb(0, 121, 255) none repeat scroll 0% 0% / auto padding-box border-box
+#######rgb(0, 121, 255
+String was split
+*********
+#0079FF
+*********
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 7677
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+  Scenario Outline: Rendering Properties Page                                                                                                              [90m# src/test/resources/com/realpage/components/WidgetCheckOnlyUat/widgetcheckonlyuat.feature:34[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m                                                                                             [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                                                                                                     [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m                                                                                          [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                                                                                              [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                                                                                                        [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                                                                                                    [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser opens the widget admin url [0m[32m[1mhttps://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/3cE2o9POxJDrgQLAtbqzg[0m [90m# WidgetCheckStepDefinitions.User_opens_the_widget_admin_url(String)[0m
+    [32mAnd [0m[32mA chat preview is displayed in uat[0m                                                                                                                 [90m# WidgetCheckOnlyUatStepDefinitions.A_chat_preview_is_displayed_in_uat()[0m
+    [32mAnd [0m[32mThe widget name box is not empty[0m                                                                                                                   [90m# PropertiesStepDefinitions.The_widget_name_box_is_not_empty()[0m
+    [32mAnd [0m[32mGreeting Text is there in uat[0m                                                                                                                      [90m# WidgetCheckOnlyUatStepDefinitions.Greeting_Text_is_there_in_uat()[0m
+    [32mAnd [0m[32mCall To Action Text is there in uat[0m                                                                                                                [90m# WidgetCheckOnlyUatStepDefinitions.Call_To_Action_Text_is_there_in_uat()[0m
+    [32mAnd [0m[32mPrechat questions are there in uat[0m                                                                                                                 [90m# WidgetCheckOnlyUatStepDefinitions.Prechat_questions_are_there_in_uat()[0m
+    [32mWhen [0m[32mUser navigates to Appearance in uat[0m                                                                                                               [90m# WidgetCheckOnlyUatStepDefinitions.User_navigates_to_Appearance_in_uat()[0m
+    [32mThen [0m[32mthere is a note visible[0m                                                                                                                           [90m# WidgetCheckStepDefinitions.there_is_a_note_visible()[0m
+    [32mAnd [0m[32mthere is a Text color field in uat[0m                                                                                                                 [90m# WidgetCheckOnlyUatStepDefinitions.there_is_a_Text_color_field_in_uat()[0m
+    [32mAnd [0m[32mthere is a Header and Button color field[0m                                                                                                           [90m# WidgetCheckStepDefinitions.there_is_a_Header_and_Button_color_field()[0m
+    [32mThen [0m[32mUser opens the widget url [0m[32m[1mhttps://realpageos-uat.devplaypen.com/products/widgetsearch/3cE2o9POxJDrgQLAtbqzg[0m                                       [90m# WidgetCheckStepDefinitions.User_opens_the_widget_url(String)[0m
+    [32mThen [0m[32mThe header text is matching in uat[0m                                                                                                                [90m# WidgetCheckOnlyUatStepDefinitions.The_header_text_is_matching_in_uat()[0m
+    [32mWhen [0m[32mUser clicks on the widget in uat[0m                                                                                                                  [90m# WidgetCheckOnlyUatStepDefinitions.User_clicks_on_the_widget_in_uat()[0m
+    [32mAnd [0m[32mThe text color is matching in uat[0m                                                                                                                  [90m# WidgetCheckOnlyUatStepDefinitions.The_text_color_is_matching_in_uat()[0m
+    [32mAnd [0m[32mThe header and button color is matching in uat[0m                                                                                                     [90m# WidgetCheckOnlyUatStepDefinitions.The_header_and_button_is_matching_in_uat()[0m
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (5917f26f90beab810573b2333e9b2d84)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: widgetcheck
+UIComponentMap getComponent key: widgetcheckonlyuat
+UIComponentMap getComponent key: properties
+***********Test Automation Widget
+Let's talk about renting an apartment
+Need Help?
+NEED HELP?
+Text Messages
+FF196C
+2B94FF
+NEED HELP?
+Bla
+rgba(255, 25, 108, 1)
+#FF196C
+rgb(43, 148, 255) none repeat scroll 0% 0% / auto padding-box border-box
+#######rgb(43, 148, 25
+String was split
+*********
+#2B9419
+*********
+
+  Scenario Outline: Rendering Properties Page                                                                                                               [90m# src/test/resources/com/realpage/components/WidgetCheckOnlyUat/widgetcheckonlyuat.feature:35[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m                                                                                              [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                                                                                                      [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m                                                                                           [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                                                                                               [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                                                                                                         [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                                                                                                     [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser opens the widget admin url [0m[32m[1mhttps://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/Ya1ITCXgNMc6EVQ2446n7A[0m [90m# WidgetCheckStepDefinitions.User_opens_the_widget_admin_url(String)[0m
+    [32mAnd [0m[32mA chat preview is displayed in uat[0m                                                                                                                  [90m# WidgetCheckOnlyUatStepDefinitions.A_chat_preview_is_displayed_in_uat()[0m
+    [32mAnd [0m[32mThe widget name box is not empty[0m                                                                                                                    [90m# PropertiesStepDefinitions.The_widget_name_box_is_not_empty()[0m
+    [32mAnd [0m[32mGreeting Text is there in uat[0m                                                                                                                       [90m# WidgetCheckOnlyUatStepDefinitions.Greeting_Text_is_there_in_uat()[0m
+    [32mAnd [0m[32mCall To Action Text is there in uat[0m                                                                                                                 [90m# WidgetCheckOnlyUatStepDefinitions.Call_To_Action_Text_is_there_in_uat()[0m
+    [32mAnd [0m[32mPrechat questions are there in uat[0m                                                                                                                  [90m# WidgetCheckOnlyUatStepDefinitions.Prechat_questions_are_there_in_uat()[0m
+    [32mWhen [0m[32mUser navigates to Appearance in uat[0m                                                                                                                [90m# WidgetCheckOnlyUatStepDefinitions.User_navigates_to_Appearance_in_uat()[0m
+    [32mThen [0m[32mthere is a note visible[0m                                                                                                                            [90m# WidgetCheckStepDefinitions.there_is_a_note_visible()[0m
+    [32mAnd [0m[32mthere is a Text color field in uat[0m                                                                                                                  [90m# WidgetCheckOnlyUatStepDefinitions.there_is_a_Text_color_field_in_uat()[0m
+    [32mAnd [0m[32mthere is a Header and Button color field[0m                                                                                                            [90m# WidgetCheckStepDefinitions.there_is_a_Header_and_Button_color_field()[0m
+    [32mThen [0m[32mUser opens the widget url [0m[32m[1mhttps://realpageos-uat.devplaypen.com/products/widgetsearch/Ya1ITCXgNMc6EVQ2446n7A[0m                                       [90m# WidgetCheckStepDefinitions.User_opens_the_widget_url(String)[0m
+    [32mThen [0m[32mThe header text is matching in uat[0m                                                                                                                 [90m# WidgetCheckOnlyUatStepDefinitions.The_header_text_is_matching_in_uat()[0m
+    [32mWhen [0m[32mUser clicks on the widget in uat[0m                                                                                                                   [90m# WidgetCheckOnlyUatStepDefinitions.User_clicks_on_the_widget_in_uat()[0m
+    [32mAnd [0m[32mThe text color is matching in uat[0m                                                                                                                   [90m# WidgetCheckOnlyUatStepDefinitions.The_text_color_is_matching_in_uat()[0m
+    [32mAnd [0m[32mThe header and button color is matching in uat[0m                                                                                                      [90m# WidgetCheckOnlyUatStepDefinitions.The_header_and_button_is_matching_in_uat()[0m
+
+3 Scenarios ([32m3 passed[0m)
+63 Steps ([32m63 passed[0m)
+2m24.772s
+
+Feature: Properties HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 22579
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (fe050040ecfc593c912cad954cd433dc)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: templates
+https://realpageos-uat.devplaypen.com/company
+Overview
+Products
+Properties
+Users
+Settings
+Template List Page
+Widget Setup
+Template List Page
+
+  Scenario Outline: Rendering Properties Page                     [90m# src/test/resources/com/realpage/components/Templates/templates.feature:36[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m    [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                            [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                     [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                               [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m           [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mAnd [0m[32mUser clicks on Company tab[0m                                [90m# TemplatesStepDefinitions.User_clicks_on_Company_tab()[0m
+    [32mThen [0m[32mUser is directed to the Comany Page "[0m[32m[1m/company[0m[32m"[0m           [90m# TemplatesStepDefinitions.User_is_directed_to_the_Comany_Page(String)[0m
+    [32mAnd [0m[32mUser select a company "[0m[32m[1mAHS Development Group[0m[32m"[0m             [90m# TemplatesStepDefinitions.User_select_a_company(String)[0m
+    [32mThen [0m[32mA page with five tabs is displayed[0m                       [90m# TemplatesStepDefinitions.A_page_with_five_tabs_is_displayed()[0m
+    [32mWhen [0m[32mUser selects the Property Tab[0m                            [90m# TemplatesStepDefinitions.User_selects_the_Property_Tab()[0m
+    [32mThen [0m[32mRelated properties are dispalyed[0m                         [90m# TemplatesStepDefinitions.Related_properties_are_dispalyed()[0m
+    [32mWhen [0m[32mUser selects the Settings tab[0m                            [90m# TemplatesStepDefinitions.User_selects_the_Settings_tab()[0m
+    [32mThen [0m[32mUser sees differet cards[0m                                 [90m# TemplatesStepDefinitions.User_sees_differet_cards()[0m
+    [32mWhen [0m[32mUser selects Widget Templates card[0m                       [90m# TemplatesStepDefinitions.User_selects_Widget_Templates_card()[0m
+    [32mThen [0m[32mTemplate List Page is displayed[0m                          [90m# TemplatesStepDefinitions.Template_List_Page_is_displayed()[0m
+    [32mWhen [0m[32mUser clicks on Add Widget Template[0m                       [90m# TemplatesStepDefinitions.User_clicks_on_Add_Widget_Template()[0m
+    [32mThen [0m[32mAn empty template is displayed[0m                           [90m# TemplatesStepDefinitions.An_empty_template_is_displayed()[0m
+    [32mWhen [0m[32mUser selects cancel button[0m                               [90m# TemplatesStepDefinitions.User_selects_cancel_button()[0m
+    [32mThen [0m[32mUser is directed to template list page[0m                   [90m# TemplatesStepDefinitions.User_is_directed_to_template_list_page()[0m
+    [32mWhen [0m[32mUser clicks on an already existing template[0m              [90m# TemplatesStepDefinitions.User_clicks_on_an_already_existing_template()[0m
+    [32mAnd [0m[32mUser changes the content of the template[0m                  [90m# TemplatesStepDefinitions.User_changes_the_content_of_the_template()[0m
+
+1 Scenarios ([32m1 passed[0m)
+22 Steps ([32m22 passed[0m)
+0m20.019s
+
+Feature: Properties HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 32674
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (2325a09aa4b5276414c735ca9722520a)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: properties
+https://realpageos-uat.devplaypen.com/properties
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/settings
+========
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/widgets/add
+========
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/widgets
+========
+
+  Scenario Outline: Rendering Properties Page                                                                [90m# src/test/resources/com/realpage/components/Properties/propertiessettingsaddwidgets.feature:32[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m                                               [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                                                       [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m                                            [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                                                [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                                                          [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                                                      [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser expands the Naigation Menu[0m                                                                     [90m# PropertiesStepDefinitions.User_expands_the_Naigation_Menu()[0m
+    [32mAnd [0m[32mUser clicks on Properties[0m                                                                            [90m# PropertiesStepDefinitions.User_clicks_on_Properties()[0m
+    [32mThen [0m[32mUser is directed to the Properties Page "[0m[32m[1m/properties[0m[32m"[0m                                               [90m# PropertiesStepDefinitions.User_is_directed_to_the_Properties_Page(String)[0m
+    [32mWhen [0m[32mUser clicks on the property search drop down[0m                                                        [90m# PropertiesStepDefinitions.User_clicks_on_the_property_search_drop_down()[0m
+    [32mAnd [0m[32mUser picks Property Name[0m                                                                             [90m# PropertiesStepDefinitions.User_picks_Property_Name()[0m
+    [32mWhen [0m[32mUser enters a Property Name [0m[32m[1m1000 Kiely[0m                                                              [90m# PropertiesStepDefinitions.User_enters_a_Property_Name(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                                                [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mWhen [0m[32mUser clicks on the actual property name[0m                                                             [90m# PropertiesStepDefinitions.User_clicks_on_the_actual_property_name()[0m
+    [32mThen [0m[32mUser is directed to the property details page "[0m[32m[1m/property/[0m[32m"[0m                                          [90m# PropertiesStepDefinitions.User_is_directed_to_the_property_details_page(String)[0m
+    [32mWhen [0m[32muser selects Settings[0m                                                                               [90m# PropertiesStepDefinitions.user_selects_Settings()[0m
+    [32mThen [0m[32mUser is directed to "[0m[32m[1m/property/8d514821-236a-445e-84d5-eecc4a14b24b/settings[0m[32m"[0m                       [90m# PropertiesStepDefinitions.User_is_directed_to(String)[0m
+    [32mWhen [0m[32mUser selects Communication Widgets[0m                                                                  [90m# PropertiesStepDefinitions.User_selects_Communication_Widgets()[0m
+    [32mWhen [0m[32mUser adds a widget by selecting Add Widget link[0m                                                     [90m# PropertiesStepDefinitions.User_adds_a_widget_by_selecting_Add_Widget_link()[0m
+    [32mThen [0m[32mUser is directd to Widgets Detail Page "[0m[32m[1m/property/8d514821-236a-445e-84d5-eecc4a14b24b/widgets/add[0m[32m"[0m [90m# PropertiesStepDefinitions.User_is_directd_to_Widgets_Detail_Page(String)[0m
+    [32mWhen [0m[32mUser selects cancel[0m                                                                                 [90m# PropertiesStepDefinitions.User_selects_cancel()[0m
+    [32mThen [0m[32mUser is directd to Widgets list page "[0m[32m[1m/property/8d514821-236a-445e-84d5-eecc4a14b24b/widgets[0m[32m"[0m       [90m# PropertiesStepDefinitions.User_is_directd_to_Widgets_list_Page(String)[0m
+
+1 Scenarios ([32m1 passed[0m)
+22 Steps ([32m22 passed[0m)
+0m30.936s
+
+Feature: Properties HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 41921
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (7adc2edbae6fe3f2d4a2c160f2ad8155)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: properties
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/settings
+========
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/widgets
+User is on widgets list page
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/widgets/l6gSG9m8NAHKW2hRrY25Wg
+========================
+***********Automation Test Widget
+UIComponentMap getComponent key: widgetcheck
+Let's Chat jtHs
+LET'S CHAT JTHS
+UIComponentMap getComponent key: widgetsearch
+https://realpageos-uat.devplaypen.com/products/widgetsearch
+        "is_enabled": false,
+https://realpageos-uat.devplaypen.com/properties
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/settings
+========
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/widgets
+User is on widgets list page
+https://realpageos-uat.devplaypen.com/property/8d514821-236a-445e-84d5-eecc4a14b24b/widgets/l6gSG9m8NAHKW2hRrY25Wg
+========================
+https://realpageos-uat.devplaypen.com/products/widgetsearch
+        "is_enabled": true,
+
+  Scenario Outline: Rendering Properties Page                                [90m# src/test/resources/com/realpage/components/Properties/propertiessettingseditwidgets.feature:66[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m               [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                       [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m            [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                          [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                      [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser expands the Naigation Menu[0m                                     [90m# PropertiesStepDefinitions.User_expands_the_Naigation_Menu()[0m
+    [32mWhen [0m[32mUser clicks on the property search drop down[0m                        [90m# PropertiesStepDefinitions.User_clicks_on_the_property_search_drop_down()[0m
+    [32mAnd [0m[32mUser picks Property Name[0m                                             [90m# PropertiesStepDefinitions.User_picks_Property_Name()[0m
+    [32mWhen [0m[32mUser enters a Property Name [0m[32m[1m1000 Kiely[0m                              [90m# PropertiesStepDefinitions.User_enters_a_Property_Name(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mWhen [0m[32mUser clicks on the actual property name[0m                             [90m# PropertiesStepDefinitions.User_clicks_on_the_actual_property_name()[0m
+    [32mThen [0m[32mUser is directed to the property details page "[0m[32m[1m/property[0m[32m"[0m           [90m# PropertiesStepDefinitions.User_is_directed_to_the_property_details_page(String)[0m
+    [32mWhen [0m[32muser selects Settings[0m                                               [90m# PropertiesStepDefinitions.user_selects_Settings()[0m
+    [32mThen [0m[32mUser is directed to "[0m[32m[1m/settings[0m[32m"[0m                                     [90m# PropertiesStepDefinitions.User_is_directed_to(String)[0m
+    [32mWhen [0m[32mUser selects Communication Widgets[0m                                  [90m# PropertiesStepDefinitions.User_selects_Communication_Widgets()[0m
+    [32mThen [0m[32mUser is directed to widgets page "[0m[32m[1m/widgets[0m[32m"[0m                         [90m# PropertiesStepDefinitions.User_is_directed_to_widgets_page(String)[0m
+    [32mWhen [0m[32mUser selects an already excisting widget[0m                            [90m# PropertiesStepDefinitions.User_selects_an_already_excisting_widget()[0m
+    [32mThen [0m[32mUser is directed to widgets details page "[0m[32m[1m/widgets[0m[32m"[0m                 [90m# PropertiesStepDefinitions.User_is_directed_to_widgets_details_page(String)[0m
+    [32mAnd [0m[32mA chat preview is displayed[0m                                          [90m# PropertiesStepDefinitions.A_chat_preview_is_displayed()[0m
+    [32mAnd [0m[32mUser setts the status to Disable[0m                                     [90m# PropertiesStepDefinitions.User_setts_the_status_to_Disable()[0m
+    [32mAnd [0m[32mThe widget name box is not empty[0m                                     [90m# PropertiesStepDefinitions.The_widget_name_box_is_not_empty()[0m
+    [32mAnd [0m[32mCall To Action Text is modified[0m                                      [90m# WidgetCheckStepDefinitions.Call_To_Action_Text_is_modified()[0m
+    [32mWhen [0m[32mUser clicks on save[0m                                                 [90m# PropertiesStepDefinitions.User_clicks_on_save()[0m
+    [32mAnd [0m[32mUser clicks on Widget Search Page[0m                                    [90m# WidgetSearchStepDefinitions.User_clicks_on_Widget_Search_Page()[0m
+    [32mThen [0m[32mUser is directed to the Widget Search Page "[0m[32m[1m/products/widgetsearch[0m[32m"[0m [90m# WidgetSearchStepDefinitions.User_is_directed_to_the_Widget_Search_Page(String)[0m
+    [32mWhen [0m[32mUser enters a new Widget Name [0m[32m[1mAutomation Test Widget[0m                [90m# PropertiesStepDefinitions.User_enters_a_new_Widget_Name(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mWhen [0m[32mUser clicks on Preview[0m                                              [90m# PropertiesStepDefinitions.User_clicks_on_Preview()[0m
+    [32mThen [0m[32mEnabled is false[0m                                                    [90m# PropertiesStepDefinitions.Enabled_is_false()[0m
+    [32mWhen [0m[32mUser expands the Naigation Menu[0m                                     [90m# PropertiesStepDefinitions.User_expands_the_Naigation_Menu()[0m
+    [32mAnd [0m[32mUser clicks on Properties[0m                                            [90m# PropertiesStepDefinitions.User_clicks_on_Properties()[0m
+    [32mThen [0m[32mUser is directed to the Properties Page "[0m[32m[1m/properties[0m[32m"[0m               [90m# PropertiesStepDefinitions.User_is_directed_to_the_Properties_Page(String)[0m
+    [32mWhen [0m[32mUser clicks on the property search drop down[0m                        [90m# PropertiesStepDefinitions.User_clicks_on_the_property_search_drop_down()[0m
+    [32mAnd [0m[32mUser picks Property Name[0m                                             [90m# PropertiesStepDefinitions.User_picks_Property_Name()[0m
+    [32mWhen [0m[32mUser enters a Property Name [0m[32m[1m1000 Kiely[0m                              [90m# PropertiesStepDefinitions.User_enters_a_Property_Name(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mWhen [0m[32mUser clicks on the actual property name[0m                             [90m# PropertiesStepDefinitions.User_clicks_on_the_actual_property_name()[0m
+    [32mThen [0m[32mUser is directed to the property details page "[0m[32m[1m/property/[0m[32m"[0m          [90m# PropertiesStepDefinitions.User_is_directed_to_the_property_details_page(String)[0m
+    [32mWhen [0m[32muser selects Settings[0m                                               [90m# PropertiesStepDefinitions.user_selects_Settings()[0m
+    [32mThen [0m[32mUser is directed to "[0m[32m[1msettings[0m[32m"[0m                                      [90m# PropertiesStepDefinitions.User_is_directed_to(String)[0m
+    [32mWhen [0m[32mUser selects Communication Widgets[0m                                  [90m# PropertiesStepDefinitions.User_selects_Communication_Widgets()[0m
+    [32mThen [0m[32mUser is directed to widgets page "[0m[32m[1m/widgets[0m[32m"[0m                         [90m# PropertiesStepDefinitions.User_is_directed_to_widgets_page(String)[0m
+    [32mWhen [0m[32mUser selects an already excisting widget[0m                            [90m# PropertiesStepDefinitions.User_selects_an_already_excisting_widget()[0m
+    [32mThen [0m[32mUser is directed to widgets details page "[0m[32m[1m/widgets[0m[32m"[0m                 [90m# PropertiesStepDefinitions.User_is_directed_to_widgets_details_page(String)[0m
+    [32mAnd [0m[32mA chat preview is displayed[0m                                          [90m# PropertiesStepDefinitions.A_chat_preview_is_displayed()[0m
+    [32mAnd [0m[32mUser setts the status to Active[0m                                      [90m# PropertiesStepDefinitions.User_setts_the_status_to_Active()[0m
+    [32mWhen [0m[32mUser clicks on save[0m                                                 [90m# PropertiesStepDefinitions.User_clicks_on_save()[0m
+    [32mAnd [0m[32mUser clicks on Widget Search Page[0m                                    [90m# WidgetSearchStepDefinitions.User_clicks_on_Widget_Search_Page()[0m
+    [32mThen [0m[32mUser is directed to the Widget Search Page "[0m[32m[1m/products/widgetsearch[0m[32m"[0m [90m# WidgetSearchStepDefinitions.User_is_directed_to_the_Widget_Search_Page(String)[0m
+    [32mWhen [0m[32mUser enters a new Widget Name [0m[32m[1mAutomation Test Widget[0m                [90m# PropertiesStepDefinitions.User_enters_a_new_Widget_Name(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mWhen [0m[32mUser clicks on Preview[0m                                              [90m# PropertiesStepDefinitions.User_clicks_on_Preview()[0m
+    [32mThen [0m[32mEnabled is True[0m                                                     [90m# PropertiesStepDefinitions.Enabled_is_True()[0m
+
+1 Scenarios ([32m1 passed[0m)
+54 Steps ([32m54 passed[0m)
+1m9.020s
+
+Feature: Properties HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 47523
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (600fd4f61563262a1cdbd1ffe372e35d)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: widgetcheck
+UIComponentMap getComponent key: properties
+***********Enclave At 127tha
+QPIlQPat
+Let's Chat IulJ
+LET'S CHAT IULJ
+Getting to toggle
+Enabling toggle
+Getting texts
+FFFFFF
+0079FF
+LET'S CHAT IULJ
+UIComponentMap getComponent key: mainwidgetcheck
+@@@@                I have a question about...
+                                    QPIlQPat
+                                    Submit a maintenance request
+                            
+Maintenance Problem Category *
+######                            Select
+                                                    Appliance
+                                                    Building exterior
+                                                    Communications
+                                                    Community Deliveries
+                                                    Doors and locks
+                                                    Electrical and lighting
+                                                    Eviction/Skip
+                                                    Flooring
+                                                    General
+                                                    Grounds and landscaping
+                                                    Heating and cooling
+                                                    Inspection and make ready
+                                                    Plumbing and bath
+                                                    Pool and recreational
+                                                    Preventative maintenance
+                                                    Safety equipment
+                                            
+Permission to Enter? *
+If service request is deemed an emergency, a maintenance technician may enter the home even if no one is present.
+Pets? *
+Entry Alarm? *
+Issue Description *
+It just broke
+rgba(255, 255, 255, 1)
+#FFFFFF
+rgb(0, 121, 255) none repeat scroll 0% 0% / auto padding-box border-box
+rgb(0, 121, 255
+#0079FF
+*********
+
+  Scenario Outline: Rendering Properties Page                                                                                                              [90m# src/test/resources/com/realpage/components/MainWidgetCheck/mainwidgetcheck.feature:48[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m                                                                                             [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                                                                                                     [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m                                                                                          [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                                                                                              [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                                                                                                        [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                                                                                                    [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser opens the widget admin url [0m[32m[1mhttps://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets/vZuA70M9KHrWoLuF6K5vg[0m [90m# WidgetCheckStepDefinitions.User_opens_the_widget_admin_url(String)[0m
+    [32mAnd [0m[32mA chat preview is displayed[0m                                                                                                                        [90m# PropertiesStepDefinitions.A_chat_preview_is_displayed()[0m
+    [32mAnd [0m[32mUser setts the status to Active[0m                                                                                                                    [90m# PropertiesStepDefinitions.User_setts_the_status_to_Active()[0m
+    [32mAnd [0m[32mThe widget name box is not empty[0m                                                                                                                   [90m# PropertiesStepDefinitions.The_widget_name_box_is_not_empty()[0m
+    [32mAnd [0m[32mGreeting Text is modified[0m                                                                                                                          [90m# WidgetCheckStepDefinitions.Greeting_Text_is_modified()[0m
+    [32mAnd [0m[32mCall To Action Text is modified[0m                                                                                                                    [90m# WidgetCheckStepDefinitions.Call_To_Action_Text_is_modified()[0m
+    [32mAnd [0m[32mPrechat questions are modified[0m                                                                                                                     [90m# WidgetCheckStepDefinitions.Prechat_questions_are_modified()[0m
+    [32mWhen [0m[32mUser navigates to Appearance[0m                                                                                                                      [90m# WidgetCheckStepDefinitions.User_navigates_to_Appearance()[0m
+    [32mThen [0m[32mthere is a note visible[0m                                                                                                                           [90m# WidgetCheckStepDefinitions.there_is_a_note_visible()[0m
+    [32mAnd [0m[32mthere is a Text color field[0m                                                                                                                        [90m# WidgetCheckStepDefinitions.there_is_a_Text_color_field()[0m
+    [32mAnd [0m[32mthere is a Header and Button color field[0m                                                                                                           [90m# WidgetCheckStepDefinitions.there_is_a_Header_and_Button_color_field()[0m
+    [32mWhen [0m[32mUser clicks on save button[0m                                                                                                                        [90m# WidgetCheckStepDefinitions.User_clicks_on_save_button()[0m
+    [32mThen [0m[32mA success message will appear on top of the page[0m                                                                                                  [90m# WidgetCheckStepDefinitions.A_success_message_will_appear_on_top_of_the_page()[0m
+    [32mAnd [0m[32mThe correct date format is there "[0m[32m[1mhttps://realpageos-uat.devplaypen.com/property/54fadeb0-4112-438a-bf97-6febc95161bf/widgets[0m[32m"[0m                     [90m# WidgetCheckStepDefinitions.The_correct_date_format_is_there(String)[0m
+    [32mThen [0m[32mUser opens the widget url [0m[32m[1mhttps://realpageos-uat.devplaypen.com/products/widgetsearch/vZuA70M9KHrWoLuF6K5vg[0m                                       [90m# WidgetCheckStepDefinitions.User_opens_the_widget_url(String)[0m
+    [32mThen [0m[32mThe header text is matching[0m                                                                                                                       [90m# WidgetCheckStepDefinitions.The_header_text_is_matching()[0m
+    [32mWhen [0m[32mUser clicks on the widget[0m                                                                                                                         [90m# WidgetCheckStepDefinitions.User_clicks_on_the_widget()[0m
+    [32mThen [0m[32mUser selects CHAT option[0m                                                                                                                          [90m# WidgetCheckStepDefinitions.User_selects_CHAT_option()[0m
+    [32mAnd [0m[32mUser selects maintenance from drop down[0m                                                                                                            [90m# MainWidgetCheckStepDefinitions.User_select_maintenance_from_drop_down()[0m
+    [32mAnd [0m[32mMaintenance Problem Category is displayed[0m                                                                                                          [90m# MainWidgetCheckStepDefinitions.Maintenance_Problem_Category_is_displayed()[0m
+    [32mWhen [0m[32mUser clicks on the category drop down[0m                                                                                                             [90m# MainWidgetCheckStepDefinitions.User_clicks_on_the_category_drop_down()[0m
+    [32mThen [0m[32muser can select a ctegory[0m                                                                                                                         [90m# MainWidgetCheckStepDefinitions.user_can_select_a_ctegory()[0m
+    [32mAnd [0m[32muser can give permission to enter[0m                                                                                                                  [90m# MainWidgetCheckStepDefinitions.user_can_give_permission_to_enter()[0m
+    [32mThen [0m[32mthere is a warning text visible[0m                                                                                                                   [90m# MainWidgetCheckStepDefinitions.there_is_a_warning_text_visible()[0m
+    [32mAnd [0m[32muser can select pets[0m                                                                                                                               [90m# MainWidgetCheckStepDefinitions.user_can_select_pets()[0m
+    [32mAnd [0m[32muser can select entry alarm[0m                                                                                                                        [90m# MainWidgetCheckStepDefinitions.user_can_select_entry_alarm()[0m
+    [32mThen [0m[32muser enters issue description[0m                                                                                                                     [90m# MainWidgetCheckStepDefinitions.user_enters_issue_description()[0m
+    [32mWhen [0m[32mUser deselcts any of the mandatory questions[0m                                                                                                      [90m# MainWidgetCheckStepDefinitions.User_deselcts_any_of_the_mandatory_questions()[0m
+    [32mAnd [0m[32mclicks on Start Chatting[0m                                                                                                                           [90m# MainWidgetCheckStepDefinitions.clicks_on_Start_Chatting()[0m
+    [32mThen [0m[32mAn error message will appear "[0m[32m[1mThis field is required[0m[32m"[0m                                                                                             [90m# MainWidgetCheckStepDefinitions.An_error_message_will_appear(String)[0m
+    [32mAnd [0m[32mThe text color is matching[0m                                                                                                                         [90m# WidgetCheckStepDefinitions.The_text_color_is_matching()[0m
+    [32mAnd [0m[32mThe header and button color is matching[0m                                                                                                            [90m# WidgetCheckStepDefinitions.The_header_and_button_color_is_matching()[0m
+
+1 Scenarios ([32m1 passed[0m)
+38 Steps ([32m38 passed[0m)
+0m59.695s
+
+Feature: Properties HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 18492
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (392645d200979901c2b68e8ccc74fd0f)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: properties
+UIComponentMap getComponent key: widgetsearch
+https://realpageos-uat.devplaypen.com/products/widgetsearch
+Widget ID
+Widget Name
+Status
+Type
+Subject/Mode Type
+Property Type
+RPCC ID
+RPCC Property #
+Created Time
+Actions
+Widget ID
+Widget Name
+Status
+Type
+Subject/Mode Type
+Property Type
+RPCC ID
+RPCC Property #
+Created Time
+Actions
+Widget ID
+Widget Name
+Status
+Type
+Subject/Mode Type
+Property Type
+RPCC ID
+RPCC Property #
+Created Time
+Actions
+Widget ID
+Widget Name
+Status
+Type
+Subject/Mode Type
+Property Type
+RPCC ID
+RPCC Property #
+Created Time
+Actions
+2j62Cc37tDg82w2Qtl1ONaMg
+Arpeggio Victory Park
+Active
+Classic
+Leasing Chat
+Conventional
+353
+13414
+{
+    "data": {
+        "widget_id": "2j62Cc37tDg82w2Qtl1ONaMg",
+        "property_type": "conventional",
+        "name": "Arpeggio Victory Park",
+        "is_enabled": true,
+        "ask_help": "",
+        "mobile_cta": "rc",
+        "desktop_cta": "br",
+        "proactive_text_color": "#40454F",
+        "proactive_primary_color": "#0079FF",
+        "proactive_background_color": "#FEFEFE",
+        "proactive_button_text_color": "#FEFEFE",
+        "proactive_trigger": "30",
+        "proactive_headline": "Chat Invitation",
+        "proactive_position": "left",
+        "proactive_desktop_enabled": true,
+        "proactive_mobile_enabled": false,
+        "proactive_icon": "",
+        "proactive_logo": "",
+        "proactive_photo": "https:\/\/omnichannel-prod.s3.amazonaws.com\/default_images\/default_photo_link.jpg",
+        "proactive_invitation": "Have questions about living at {property_name}? Chat with a live person right now about our community.",
+        "proactive_logo_text_blurb": "",
+        "proactive_button_text": "Click to chat",
+        "cta_button_text": "Need Help?",
+        "design_logo": "",
+        "base_color": "#40454F",
+        "fill_color": "#0079FF",
+        "secondary_color": "#FEFEFE",
+        "terms_of_use": "https:\/\/www.realpage.com\/privacy-policy",
+        "csat_enabled": true,
+        "default_mode": "chat",
+        "is_template": false,
+        "lvl1_pmc_id": "353",
+        "lvl1_property_id": "13414",
+        "lvl1_adsource_id": "0",
+        "email_address": "",
+        "call_phone_number": "+",
+        "text_phone_number": "",
+        "leasing_label": "Let's talk about renting an apartment",
+        "leasing_routing": "leasingsales",
+        "leasing_questions": {
+            "1": {
+                "question_text": "Bedrooms",
+                "question_type": "inline-radio",
+                "question_choices": [
+                    "0+",
+                    "1+",
+                    "2+",
+                    "3+",
+                    "4+"
+                ],
+                "question_required": false
+            },
+            "2": {
+                "question_text": "Move-In Date",
+                "question_type": "date",
+                "question_choices": false,
+                "question_required": false
+            },
+            "3": {
+                "question_text": "Pets",
+                "question_type": "inline-check",
+                "question_choices": [
+                    "Dogs Allowed",
+                    "Cats Allowed"
+                ],
+                "question_required": false
+            }
+        },
+        "maintenance_label": "Submit a maintenance request",
+        "maintenance_routing": "",
+        "maintenance_questions": [],
+        "created_at": "2018-05-03 15:08:38",
+        "updated_at": "2018-05-14 21:28:31",
+        "books_company_id": "3938",
+        "books_property_id": "56608",
+        "company_rjaid": null,
+        "property_rjaid": null,
+        "company_name": null,
+        "version": 1,
+        "property_name": "Arpeggio Victory Park",
+        "parent_widget": null,
+        "leasing_enabled": true,
+        "maintenance_enabled": false,
+        "modes": [
+            "chat"
+        ],
+        "proactive_format": [
+            "photo"
+        ],
+        "splash_screen": "",
+        "prechat_questions": {
+            "email": true,
+            "last_name": true,
+            "first_name": true,
+            "on_behalf_of": false,
+            "phone_number": false,
+            "email_required": true,
+            "last_name_required": true,
+            "first_name_required": true,
+            "on_behalf_of_required": false,
+            "phone_number_required": false
+        },
+        "privacy_policy": "https:\/\/www.realpage.com\/privacy-policy",
+        "is_training_widget": false,
+        "proactive_photo_alt_text": null,
+        "proactive_logo_alt_text": null,
+        "leasing_sms_number": null,
+        "maintenance_sms_number": null,
+        "enable_sound": true,
+        "leasing_modes": [
+            "chat"
+        ],
+        "leasing_default_mode": "chat",
+        "maintenance_modes": [
+            "chat"
+        ],
+        "maintenance_default_mode": null,
+        "multi_subject_label": "How can we help you?",
+        "widget_template_id": null,
+        "smartbot_avatar": null,
+        "transcript_enabled": false
+    }
+}
+
+  Scenario Outline: Rendering Widget Search Page                             [90m# src/test/resources/com/realpage/components/WidgetSearch/widgetsearch.feature:37[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m               [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                       [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m            [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                          [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                      [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser expands the Naigation Menu[0m                                     [90m# PropertiesStepDefinitions.User_expands_the_Naigation_Menu()[0m
+    [32mAnd [0m[32mUser clicks on Widget Search Page[0m                                    [90m# WidgetSearchStepDefinitions.User_clicks_on_Widget_Search_Page()[0m
+    [32mThen [0m[32mUser is directed to the Widget Search Page "[0m[32m[1m/products/widgetsearch[0m[32m"[0m [90m# WidgetSearchStepDefinitions.User_is_directed_to_the_Widget_Search_Page(String)[0m
+    [32mWhen [0m[32mUser enters a Widget ID "[0m[32m[1mYa1ITCXgNMc6EVQ2446n7A[0m[32m"[0m                    [90m# WidgetSearchStepDefinitions.User_enters_a_Widget_ID(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mThen [0m[32mUser sees eight column titles[0m                                       [90m# WidgetSearchStepDefinitions.User_sees_eight_column_titles()[0m
+    [32mWhen [0m[32mUser enters a Widget Name "[0m[32m[1mTest Automation Widget[0m[32m"[0m                  [90m# WidgetSearchStepDefinitions.User_enters_a_Widget_Name(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mThen [0m[32mUser sees eight column titles[0m                                       [90m# WidgetSearchStepDefinitions.User_sees_eight_column_titles()[0m
+    [32mWhen [0m[32mUser enters RPCC ID "[0m[32m[1m702[0m[32m"[0m                                           [90m# WidgetSearchStepDefinitions.User_enters_RPCC_ID(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mThen [0m[32mUser sees eight column titles[0m                                       [90m# WidgetSearchStepDefinitions.User_sees_eight_column_titles()[0m
+    [32mWhen [0m[32mUser enters RPCC property ID "[0m[32m[1m414[0m[32m"[0m                                  [90m# WidgetSearchStepDefinitions.User_enters_property_ID(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mThen [0m[32mUser sees eight column titles[0m                                       [90m# WidgetSearchStepDefinitions.User_sees_eight_column_titles()[0m
+    [32mThen [0m[32mUser sees information that is related to the search[0m                 [90m# WidgetSearchStepDefinitions.User_sees_information_that_is_related_to_the_search()[0m
+    [32mWhen [0m[32mUser clicks on the Preview button[0m                                   [90m# WidgetSearchStepDefinitions.User_clicks_on_the_Preview_button()[0m
+    [32mThen [0m[32mUser sees a payload[0m                                                 [90m# WidgetSearchStepDefinitions.User_sees_a_payload()[0m
+    [32mAnd [0m[32mA widget is opened in less than 10 seconds[0m                           [90m# WidgetSearchStepDefinitions.A_widget_is_opened_in_less_than_10_seconds()[0m
+
+1 Scenarios ([32m1 passed[0m)
+25 Steps ([32m25 passed[0m)
+0m34.641s
+
+Feature: Onboarding HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 31483
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (b15f703100c9f9a3e11d4677b62a1523)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: properties
+UIComponentMap getComponent key: onboarding
+https://realpageos-uat.devplaypen.com/onboard
+We have matched the property to the following. If this is correct, please click the onboard button below.
+Property Name
+Property Address
+RPCC Property ID
+Type
+Company Name
+Company Address
+RPCC Company ID
+Type
+Unable to locate the Property in the Books Api.
+Unable to locate the Company in the Books Api.
+
+  Scenario Outline: Rendering Onboarding Page                                                                                                               [90m# src/test/resources/com/realpage/components/Onboarding/onboarding.feature:38[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m                                                                                              [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                                                                                                      [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m                                                                                           [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                                                                                               [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                                                                                                         [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                                                                                                     [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser expands the Naigation Menu[0m                                                                                                                    [90m# PropertiesStepDefinitions.User_expands_the_Naigation_Menu()[0m
+    [32mAnd [0m[32mUser clicks on Onboarding[0m                                                                                                                           [90m# OnboardingStepDefinitions.User_clicks_on_Onboarding()[0m
+    [32mThen [0m[32mUser is directed to the Onboarding Page "[0m[32m[1m/onboard[0m[32m"[0m                                                                                                 [90m# OnboardingStepDefinitions.User_is_directed_to_the_Onboarding_Page(String)[0m
+    [32mAnd [0m[32mUser clicks on the onboarding property search drop down[0m                                                                                             [90m# OnboardingStepDefinitions.User_clicks_on_the_onboarding_property_search_drop_down()[0m
+    [32mAnd [0m[32mUser enters a Property ID to onboard "[0m[32m[1m22[0m[32m"[0m                                                                                                           [90m# OnboardingStepDefinitions.User_enters_a_Property_ID_to_onboard(String)[0m
+    [32mThen [0m[32mUser sees a Matching Property message "[0m[32m[1mWe have matched the property to the following. If this is correct, please click the onboard button below.[0m[32m"[0m  [90m# OnboardingStepDefinitions.User_sees_a_Matching_Property_message(String)[0m
+    [32mThen [0m[32mUser sees eight titles[0m                                                                                                                             [90m# OnboardingStepDefinitions.User_sees_eight_titles()[0m
+    [32mAnd [0m[32mUser sees an Onboarding button[0m                                                                                                                      [90m# OnboardingStepDefinitions.User_sees_an_Onboarding_button()[0m
+    [32mWhen [0m[32mUser enters a Property ID to onboard "[0m[32m[1m0[0m[32m"[0m                                                                                                           [90m# OnboardingStepDefinitions.User_enters_a_Property_ID_to_onboard(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                                                                                               [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mThen [0m[32mUser sees a missMatching Property message "[0m[32m[1mUnable to locate the Property in the Books Api.[0m[32m"[0m                                                        [90m# OnboardingStepDefinitions.User_sees_a_missMatching_Property_message(String)[0m
+    [32mWhen [0m[32mUser enters a Property ID to onboard "[0m[32m[1m7789[0m[32m"[0m                                                                                                        [90m# OnboardingStepDefinitions.User_enters_a_Property_ID_to_onboard(String)[0m
+    [32mThen [0m[32mUser sees an already onboarded message "[0m[32m[1mThis Property has already been onboarded. View the Property Page.[0m[32m"[0m                                         [90m# OnboardingStepDefinitions.User_sees_an_already_onboarded_message(String)[0m
+    [32mAnd [0m[32mUser clicks on the onboarding company search drop down[0m                                                                                              [90m# OnboardingStepDefinitions.User_clicks_on_the_onboarding_company_search_drop_down()[0m
+    [32mAnd [0m[32mUser enters a Company ID to onboard "[0m[32m[1m22[0m[32m"[0m                                                                                                            [90m# OnboardingStepDefinitions.User_enters_a_Company_ID_to_onboard(String)[0m
+    [32mThen [0m[32mUser sees an already onboarded message "[0m[32m[1mThis Company has already been onboarded.[0m[32m"[0m                                                                  [90m# OnboardingStepDefinitions.User_sees_an_already_onboarded_message(String)[0m
+    [32mAnd [0m[32mUser enters a Company ID to onboard "[0m[32m[1m0[0m[32m"[0m                                                                                                             [90m# OnboardingStepDefinitions.User_enters_a_Company_ID_to_onboard(String)[0m
+    [32mThen [0m[32mUser sees an unable to locate message "[0m[32m[1mUnable to locate the Company in the Books Api.[0m[32m"[0m                                                             [90m# OnboardingStepDefinitions.User_sees_an_unable_to_locate_message(String)[0m
+    [32mAnd [0m[32mUser enters a Company ID to onboard "[0m[32m[1m45[0m[32m"[0m                                                                                                            [90m# OnboardingStepDefinitions.User_enters_a_Company_ID_to_onboard(String)[0m
+    [32mThen [0m[32mUser sees an already onboarded message "[0m[32m[1mWe have matched the property to the following. If this is correct, please click the onboard button below.[0m[32m"[0m [90m# OnboardingStepDefinitions.User_sees_an_already_onboarded_message(String)[0m
+
+1 Scenarios ([32m1 passed[0m)
+26 Steps ([32m26 passed[0m)
+0m33.366s
+
+Feature: ChatTest HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 17701
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (ce358d4b57726ccde7046a29cf8ecc4b)
+WebDriverUtils page: ConsumerWidgetPage
+UIPage uiPageName: ConsumerWidgetPage
+UIPage uiPageUrl: https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg
+https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg
+WebDriverUtils Url: https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg
+Mock Status is set: false
+Able to find page url https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg
+UIComponentMap getComponent key: texttest
+Parent CDwindow-1D44CCAA9EB79EBE238177064D4A1701
+Found the text success image
+
+  Scenario Outline: Rendering Consumer Widget Page                                  [90m# src/test/resources/com/realpage/components/TextTest/texttest.feature:23[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mConsumerWidgetPage[0m             [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mWhen [0m[32mConsumer selects Text[0m                                                      [90m# TextTestStepDefinitions.Consumer_selects_Text()[0m
+    [32mAnd [0m[32mConsumer enters the first name "[0m[32m[1mAry[0m[32m"[0m                                        [90m# TextTestStepDefinitions.Consumer_enters_the_first_name(String)[0m
+    [32mAnd [0m[32mConsumer enters the last name "[0m[32m[1mRez[0m[32m"[0m                                         [90m# TextTestStepDefinitions.Consumer_enters_the_last_name(String)[0m
+    [32mAnd [0m[32mConsumer marks the opt in box[0m                                               [90m# TextTestStepDefinitions.Consumer_marks_the_opt_in_box()[0m
+    [32mAnd [0m[32mConsumer enters the phone nrs[0m                                               [90m# TextTestStepDefinitions.Consumer_enters_the_phone_nrs()[0m
+    [32mWhen [0m[32mConsumer clicks the START TEXTING button[0m                                   [90m# TextTestStepDefinitions.Consumer_clicks_the_START_TEXTING_button()[0m
+    [32mThen [0m[32mConsumer is directed to connecting page[0m                                    [90m# TextTestStepDefinitions.Consumer_is_directed_to_connecting_Page()[0m
+    [32mWhen [0m[32mAgent logs in to desktop [0m[32m[1mhttps://uc-agent-desktop-uat.devplaypen.com/login[0m [90m# TextTestStepDefinitions.Agent_logs_in_to_desktop(String)[0m
+    [32mAnd [0m[32mAgent navigates to Tasks Page[0m                                               [90m# TextTestStepDefinitions.Agent_navigates_to_Tasks_Page()[0m
+    [32mAnd [0m[32mAgent accepts text[0m                                                          [90m# TextTestStepDefinitions.Agent_accepts_text()[0m
+    [32mThen [0m[32mAgent is directed to the bridge widget[0m                                     [90m# TextTestStepDefinitions.Agent_is_directed_to_the_bridge_widget()[0m
+    [32mAnd [0m[32mAgent logs out of the agent desktop[0m                                         [90m# TextTestStepDefinitions.Agent_logs_out_of_the_agent_desktop()[0m
+
+1 Scenarios ([32m1 passed[0m)
+13 Steps ([32m13 passed[0m)
+0m25.395s
+
+Feature: ChatTest HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 41558
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (d26c1b47c551261457543f5faba65e0a)
+WebDriverUtils page: ConsumerWidgetPage
+UIPage uiPageName: ConsumerWidgetPage
+UIPage uiPageUrl: https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg
+https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg
+WebDriverUtils Url: https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg
+Mock Status is set: false
+Able to find page url https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg
+UIComponentMap getComponent key: chattest
+Parent CDwindow-1C325D7182E6E9664D937B2E6D9AF598
+**********Switching
+**********Switched
+
+  Scenario Outline: Rendering Consumer Widget Page                                            [90m# src/test/resources/com/realpage/components/ChatTest/chattest.feature:24[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mConsumerWidgetPage[0m                       [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mWhen [0m[32mConsumer selects CHAT[0m                                                                [90m# ChatTestStepDefinitions.Consumer_selects_CHAT()[0m
+    [32mAnd [0m[32mConsumer enters first name "[0m[32m[1mAry[0m[32m"[0m                                                      [90m# ChatTestStepDefinitions.Consumer_enters_first_name(String)[0m
+    [32mAnd [0m[32mConsumer enters last name "[0m[32m[1mRez[0m[32m"[0m                                                       [90m# ChatTestStepDefinitions.Consumer_enters_last_name(String)[0m
+    [32mAnd [0m[32mConsumer enters email address "[0m[32m[1maryana.rezai@realpage.com[0m[32m"[0m                             [90m# ChatTestStepDefinitions.Consumer_enters_email_address(String)[0m
+    [32mAnd [0m[32mconsumer enters phone number[0m                                                          [90m# ChatTestStepDefinitions.consumer_enters_phone_number()[0m
+    [32mAnd [0m[32mConsumer clicks the START CHATTING button[0m                                             [90m# ChatTestStepDefinitions.Consumer_clicks_the_START_CHATTING_button()[0m
+    [32mWhen [0m[32mConsumer is directed to the connecting page[0m                                          [90m# ChatTestStepDefinitions.Consumer_is_directed_to_the_connecting_Page()[0m
+    [32mThen [0m[32mAgent logs in to the agent desktop [0m[32m[1mhttps://uc-agent-desktop-uat.devplaypen.com/login[0m [90m# ChatTestStepDefinitions.Agent_logs_in_to_the_agent_desktop(String)[0m
+    [32mAnd [0m[32mAgent navigates to the Tasks Page[0m                                                     [90m# ChatTestStepDefinitions.Agent_navigates_to_the_Tasks_Page()[0m
+    [32mAnd [0m[32mAgent accepts the chat[0m                                                                [90m# ChatTestStepDefinitions.Agent_accepts_the_chat()[0m
+    [31mAnd [0m[31mAgent is directed to bridge widget[0m                                                    [90m# ChatTestStepDefinitions.Agent_is_directed_to_bridge_widget()[0m
+      [31mjava.lang.AssertionError: Not directed to bridge widget
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at com.realpage.ui.ChatTest.ChatTestStepDefinitions.Agent_is_directed_to_bridge_widget(ChatTestStepDefinitions.java:412)
+      	at ?.And Agent is directed to bridge widget(src/test/resources/com/realpage/components/ChatTest/chattest.feature:18)
+      [0m
+    [36mAnd [0m[36mAgent logs out of agent desktop[0m                                                       [90m# ChatTestStepDefinitions.Agent_logs_out_of_agent_desktop()[0m
+
+1 Scenarios ([31m1 failed[0m)
+13 Steps ([31m1 failed[0m, [36m1 skipped[0m, [32m11 passed[0m)
+0m44.115s
+
+java.lang.AssertionError: Not directed to bridge widget
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.realpage.ui.ChatTest.ChatTestStepDefinitions.Agent_is_directed_to_bridge_widget(ChatTestStepDefinitions.java:412)
+	at ?.And Agent is directed to bridge widget(src/test/resources/com/realpage/components/ChatTest/chattest.feature:18)
+
+Feature: Login HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 39245
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (e400dbea7c658a6d5e7dc29f8a3fc3a6)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: sms
+https://realpageos-uat.devplaypen.com/smsstatuses
++14692165826
++14692165826The smsstatus search field is required.
+
+  Scenario Outline: Rendering Login Page                          [90m# src/test/resources/com/realpage/components/SMS/sms.feature:26[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m    [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                            [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                     [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                               [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m           [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser clicks on SMS tab "[0m[32m[1mSMS Status[0m[32m"[0m                      [90m# SMSStepDefinitions.User_clicks_on_SMS_tab(String)[0m
+    [32mThen [0m[32mUser is directed to the phone page "[0m[32m[1m/smsstatuses[0m[32m"[0m        [90m# SMSStepDefinitions.User_is_directed_to_the_phone_page(String)[0m
+    [32mWhen [0m[32mUser enters a phone number "[0m[32m[1m+14692165826[0m[32m"[0m                [90m# SMSStepDefinitions.User_enters_a_phone_number(String)[0m
+    [32mAnd [0m[32mClicks on search[0m                                          [90m# SMSStepDefinitions.Clicks_on_search()[0m
+    [32mThen [0m[32mThat number is displayed[0m                                 [90m# SMSStepDefinitions.That_number_is_displayed()[0m
+    [32mWhen [0m[32mUser clicks search with an empty box[0m                     [90m# SMSStepDefinitions.User_clicks_search_with_an_empty_box()[0m
+    [32mThen [0m[32mAn error message is displayed[0m                            [90m# SMSStepDefinitions.An_error_message_is_displayed()[0m
+
+1 Scenarios ([32m1 passed[0m)
+13 Steps ([32m13 passed[0m)
+0m11.731s
+
+Feature: Properties HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 32259
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (9950557e06941a61389b197b3391570f)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: productssettings
+https://realpageos-uat.devplaypen.com/properties
+
+  Scenario Outline: Rendering Properties Page                                                     [90m# src/test/resources/com/realpage/components/ProductsSettings/productssettings.feature:46[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m                                    [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                                            [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m                                 [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                                     [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                                               [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                                           [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser navigates to the Proprty Product URL [0m[32m[1m/8d514821-236a-445e-84d5-eecc4a14b24b/products[0m [90m# ProductsSettingsStepDefinitions.User_navigates_to_Proprty_Product_URL(String)[0m
+    [32mWhen [0m[32mUser picks Chat For Leasing[0m                                                              [90m# ProductsSettingsStepDefinitions.User_picks_Chat_For_Leasing()[0m
+    [32mAnd [0m[32mUser navigates to Settings Page[0m                                                           [90m# ProductsSettingsStepDefinitions.User_navigates_to_Settings_Page()[0m
+    [32mThen [0m[32mThe Leasing settings Card is displayed[0m                                                   [90m# ProductsSettingsStepDefinitions.The_Leasing_settings_Card_is_displayed()[0m
+    [32mWhen [0m[32mUser navigates to the widget [0m[32m[1m/widgets/0HRN5vooBIBKgrqIwdHQw[0m                              [90m# ProductsSettingsStepDefinitions.User_navigates_to_the_widget(String)[0m
+    [32mThen [0m[32mThe Leasing Subject is displayed[0m                                                         [90m# ProductsSettingsStepDefinitions.The_Leasing_Subject_is_displayed()[0m
+    [32mWhen [0m[32mUser navigates back to Products[0m                                                          [90m# ProductsSettingsStepDefinitions.User_navigates_back_to_Products()[0m
+    [32mAnd [0m[32mUser selects Chat for Maintenance[0m                                                         [90m# ProductsSettingsStepDefinitions.User_selects_Chat_for_Maintenance()[0m
+    [32mAnd [0m[32mUser navigates to Settings Page[0m                                                           [90m# ProductsSettingsStepDefinitions.User_navigates_to_Settings_Page()[0m
+    [32mThen [0m[32mThe Maintenance settings Card is displayed[0m                                               [90m# ProductsSettingsStepDefinitions.The_Maintenance_settings_Card_is_displayed()[0m
+    [32mWhen [0m[32mUser navigates to the widget [0m[32m[1m/widgets/0HRN5vooBIBKgrqIwdHQw[0m                              [90m# ProductsSettingsStepDefinitions.User_navigates_to_the_widget(String)[0m
+    [32mThen [0m[32mThe Maintenance Subject is displayed[0m                                                     [90m# ProductsSettingsStepDefinitions.The_Maintenance_Subject_is_displayed()[0m
+    [32mWhen [0m[32mUser navigates back to Products[0m                                                          [90m# ProductsSettingsStepDefinitions.User_navigates_back_to_Products()[0m
+    [32mAnd [0m[32mUser selects Text for Leasing[0m                                                             [90m# ProductsSettingsStepDefinitions.User_selects_Text_for_Leasing()[0m
+    [32mAnd [0m[32mUser navigates to Settings Page[0m                                                           [90m# ProductsSettingsStepDefinitions.User_navigates_to_Settings_Page()[0m
+    [32mThen [0m[32mThe Phone Numbers card is displayed[0m                                                      [90m# ProductsSettingsStepDefinitions.The_Phone_Numbers_card_is_displayed()[0m
+    [32mAnd [0m[32mthe IVR Greeting Menus is displayed[0m                                                       [90m# ProductsSettingsStepDefinitions.the_IVR_Greeting_Menus_is_displayed()[0m
+    [32mWhen [0m[32mUser navigates to the widget [0m[32m[1m/widgets/0HRN5vooBIBKgrqIwdHQw[0m                              [90m# ProductsSettingsStepDefinitions.User_navigates_to_the_widget(String)[0m
+    [32mThen [0m[32mText Messages option is Enabled under Leasing subject[0m                                    [90m# ProductsSettingsStepDefinitions.Text_Messages_option_is_Enabled_under_Leasing_subject()[0m
+    [32mWhen [0m[32mUser navigates back to Products[0m                                                          [90m# ProductsSettingsStepDefinitions.User_navigates_back_to_Products()[0m
+    [32mAnd [0m[32mUser selects Text for Maintenance[0m                                                         [90m# ProductsSettingsStepDefinitions.User_selects_Text_for_Maintenance()[0m
+    [32mAnd [0m[32mUser navigates to Settings Page[0m                                                           [90m# ProductsSettingsStepDefinitions.User_navigates_to_Settings_Page()[0m
+    [32mThen [0m[32mThe Phone Numbers card is displayed[0m                                                      [90m# ProductsSettingsStepDefinitions.The_Phone_Numbers_card_is_displayed()[0m
+    [32mAnd [0m[32mthe IVR Greeting Menus is displayed[0m                                                       [90m# ProductsSettingsStepDefinitions.the_IVR_Greeting_Menus_is_displayed()[0m
+    [32mWhen [0m[32mUser navigates to the widget [0m[32m[1m/widgets/0HRN5vooBIBKgrqIwdHQw[0m                              [90m# ProductsSettingsStepDefinitions.User_navigates_to_the_widget(String)[0m
+    [32mThen [0m[32mText Messages option is Enabled under Maintenance subject[0m                                [90m# ProductsSettingsStepDefinitions.Text_Messages_option_is_Enabled_under_Maintenance_subject()[0m
+    [32mAnd [0m[32mUser unmarks all the options[0m                                                              [90m# ProductsSettingsStepDefinitions.User_unmarks_all_the_options()[0m
+
+1 Scenarios ([32m1 passed[0m)
+33 Steps ([32m33 passed[0m)
+0m9.726s
+
+Feature: Login HTML Rendering
+
+***** WebDriverManager ******
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 1046
+Only local connections are allowed.
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (9332f3aa13f6d7f5fcf35cd79775ffe7)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login
+
+  Scenario Outline: Rendering Login Page                             [90m# src/test/resources/com/realpage/components/Login/loginregtest.feature:34[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m       [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                               [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters username [0m[32m[1mjohn.Ficshelli@realpagecom[0m             [90m# LoginStepDefinitions.User_enters_username(String)[0m
+    [32mAnd [0m[32mUser enters password [0m[32m[1mpassword[0m                                [90m# LoginStepDefinitions.User_enters_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                  [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mThen [0m[32mUser sees an error message[0m                                  [90m# LoginStepDefinitions.User_sees_an_error_message()[0m
+    [32mAnd [0m[32mUser is Not directed to the Home Page [0m[32m[1m/login/[0m                [90m# LoginStepDefinitions.User_is_Not_directed_to_the_Home_Page(String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                               [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1mjohn.fischelli@realpage.com[0m[32m"[0m    [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                        [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                  [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mWhen [0m[32mUser clicks on the Log Out link[0m                             [90m# LoginStepDefinitions.User_clicks_on_the_Log_Out_link()[0m
+    [32mThen [0m[32mUser is redirected to the Login Page "[0m[32m[1m/login[0m[32m"[0m               [90m# LoginStepDefinitions.User_redirected_to_the_Login_Page(String)[0m
+    [32mWhen [0m[32mUser clicks on the Forgot Your Password link[0m                [90m# LoginStepDefinitions.User_clicks_on_the_Forgot_Your_Password_link()[0m
+    [32mThen [0m[32mUser is directed to Send Password Reset Link Page[0m           [90m# LoginStepDefinitions.User_is_directed_to_Send_Password_Reset_Link_Page()[0m
+    [32mWhen [0m[32mUser enters non existing email address "[0m[32m[1mxx.xx@realpage.com[0m[32m"[0m [90m# LoginStepDefinitions.User_enters_non_existing_email_address(String)[0m
+    [32mThen [0m[32mUser clicks on the Send Password Reset button[0m               [90m# LoginStepDefinitions.User_clicks_on_the_Send_Password_Reset_button()[0m
+    [32mThen [0m[32mUser sees a message[0m                                         [90m# LoginStepDefinitions.User_sees_a_message()[0m
+    [32mWhen [0m[32mUser enters email address "[0m[32m[1maryana.rezai@realpage.com[0m[32m"[0m       [90m# LoginStepDefinitions.User_enters_email_address(String)[0m
+    [32mThen [0m[32mUser clicks on the Send Password Reset button[0m               [90m# LoginStepDefinitions.User_clicks_on_the_Send_Password_Reset_button()[0m
+    [32mThen [0m[32mUser sees a success message[0m                                 [90m# LoginStepDefinitions.User_sees_a_success_message()[0m
+
+1 Scenarios ([32m1 passed[0m)
+21 Steps ([32m21 passed[0m)
+0m13.323s
+

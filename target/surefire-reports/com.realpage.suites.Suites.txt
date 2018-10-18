@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.realpage.suites.Suites
+-------------------------------------------------------------------------------
+Tests run: 450, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 609.359 sec <<< FAILURE! - in com.realpage.suites.Suites
+And Agent is directed to bridge widget(| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: Not directed to bridge widget
+
+| QA Tester | ConsumerWidgetPage | https://uc-agent-desktop-uat.devplaypen.com/login |  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: Not directed to bridge widget
+
