@@ -10,9 +10,7 @@ Feature: Login HTML Rendering
     And User enters password <pass>
     And User clicks on Login Button
     Then User sees an error message 
-    And User is Not directed to the Home Page <loginp>
-
-    Examples:
+      Examples:
     |userName|pageName|user|pass|loginp|
     |QA Tester|LoginPage|john.Ficshelli@realpagecom|password|devplaypen.com/login/|
     |QA Tester|LoginPage|john.Ficshelli@realpage.com|passwd|devplaypen.com/login/|
