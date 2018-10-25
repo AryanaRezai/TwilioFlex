@@ -38,7 +38,6 @@ import com.realpage.ui.WidgetCheck.WidgetCheckDevCucumberTest;
 		                 TemplatesCucumberTest.class,
 		                 SMSCucumberTest.class,
 		                 RollnRightsCucumberTest.class,
-		                 ProductsSettingsCucumberTest.class,
 		                 MainWidgetCheckDevCucumberTest.class,
 		                 LoginRegTestCucumberTest.class})
 

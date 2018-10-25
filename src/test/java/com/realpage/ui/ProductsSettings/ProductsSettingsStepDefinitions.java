@@ -131,7 +131,7 @@ public class ProductsSettingsStepDefinitions extends PageBase{
 			Thread.sleep(500);
 			WebElement chatlease = driver.findElement(By.xpath("//*[@id='product_selection_table']/tbody/tr[1]/td[2]/div/label/span"));
 			
-			if (chatlease.isSelected()) {
+			if (!chatlease.isSelected()) {
 				System.out.println("Already Selected");
 			} else {
 				chatlease.click();
@@ -229,7 +229,7 @@ public class ProductsSettingsStepDefinitions extends PageBase{
 			
            WebElement chatmain= driver.findElement(By.xpath("//*[@id='product_selection_table']/tbody/tr[2]/td[2]/div/label/span"));
 			
-			if(chatmain.isSelected()) {
+			if(!chatmain.isSelected()) {
 				System.out.println("Already Selected");
 			} else {
 				chatmain.click();
@@ -280,7 +280,7 @@ public class ProductsSettingsStepDefinitions extends PageBase{
 			
 		     WebElement textlease= driver.findElement(By.xpath("//*[@id='product_selection_table']/tbody/tr[3]/td[2]/div/label/span"));
 				
-				if(textlease.isSelected()) {
+				if(!textlease.isSelected()) {
 					System.out.println("Already Selected");
 				} else {
 					textlease.click();
@@ -361,7 +361,7 @@ public class ProductsSettingsStepDefinitions extends PageBase{
 			
 			  WebElement textmain= driver.findElement(By.xpath("//*[@id='product_selection_table']/tbody/tr[4]/td[2]/div/label/span"));
 				
-				if(textmain.isSelected()) {
+				if(!textmain.isSelected()) {
 					System.out.println("selected");
 				} else{
 					textmain.click();

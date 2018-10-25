@@ -566,13 +566,13 @@ public class WidgetCheckStepDefinitions extends PageBase{
 	@When("^Prechat questions are matching$")
 	public void Prechat_questions_are_matching() throws Throwable {
 		try{
-			
-			WebElement dd = driver.findElement(By.cssSelector("#contactDetails > div.form-group.inline-block.w-full > div.col-xs-12 > div"));
-			String ddtext= dd.getText();
-			System.out.println("************" + ddtext);
+//			
+//			WebElement dd = driver.findElement(By.cssSelector("#contactDetails > div.form-group.inline-block.w-full > div.col-xs-12 > div"));
+//			String ddtext= dd.getText();
+//			System.out.println("************" + ddtext);
 			
 	
-			WebElement fnamel = driver.findElement(By.cssSelector("#label-firstName"));
+			WebElement fnamel = driver.findElement(By.id("label-firstName"));
 			Thread.sleep(200);
 			String fnamelabl = fnamel.getText();
 			System.out.println(fnamelabl);
@@ -602,14 +602,14 @@ public class WidgetCheckStepDefinitions extends PageBase{
 			System.out.println("*********"+ "Email");
 			
 			
-//			WebElement phonel = driver.findElement(By.cssSelector("#contactDetails > div.form-container > div:nth-child(4) > label"));
-//			Thread.sleep(200);
-//			String phonelabl = phonel.getText();
-//			System.out.println(phonelabl);
-//			Thread.sleep(200);
-//			assertTrue(phonelabl.contains("Phone"));
-//			assertTrue(phonelabl.contains("*"));
-//			System.out.println("*********"+ "Phone");
+			WebElement phonel = driver.findElement(By.cssSelector("#contactDetails > div.form-container > div:nth-child(4) > label"));
+			Thread.sleep(200);
+			String phonelabl = phonel.getText();
+			System.out.println(phonelabl);
+			Thread.sleep(200);
+			assertTrue(phonelabl.contains("Phone"));
+			assertTrue(phonelabl.contains("*"));
+			System.out.println("*********"+ "Phone");
 			
 			
 	} catch (NoSuchElementException e) {

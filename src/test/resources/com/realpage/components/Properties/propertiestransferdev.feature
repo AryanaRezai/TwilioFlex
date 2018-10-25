@@ -9,7 +9,6 @@ Feature: Properties HTML Rendering
     When User enters valid username "john.fischelli@realpage.com"
     And User enters valid password "password"
     And User clicks on Login Button
-    And User is directed to the Home Page "/properties"
     When User navigates to "https://realpageos-dev.devplaypen.com/property/5de65574-31c3-445c-8131-bfbe175f9723"
     Then User is directed to the property details page "/property/"
     When user selects Transfer Tab
