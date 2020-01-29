@@ -7,6 +7,15 @@ development: &id001 !!com.realpage.core.page.UIPage
     ConsumerWidgetPage: https://consumerwidget-dev.devplaypen.com/widget/window/?wid=c4IInDN6REg5TKF967vwxw
     lpBluePage2: https://dev.rentjoy.com/apartment/1050-galatyn-parkway-richardson-tx-1130385?layout=2#welcome
     lpBluePage1: https://dev.rentjoy.com/apartment/1050-galatyn-parkway-richardson-tx-1130385?layout=1#welcome
+    OrbsLoginPage: https://oa-dev.realpage.com/
+    Flexloginpage: https://flex-qa.devplaypen.com
+    FlexWidgetPage: https://consumerwidget-qa.devplaypen.com/widget/window?wid=ybB9NXFPhKFKHATTISkzw
+    PAMM: https://qa-rpcc.realpage.com
+qa: !!com.realpage.core.page.UIPage
+  UIPages:
+    Domain: https://www.google.com/
+    smartWidgetPage: https://consumerwidget-qa.devplaypen.com/widget/window?wid=Q31Wv5cZPoZnBSt5lEdIA
+    smartWidgetrja: https://realpageos-qa.devplaypen.com/login
 uat: !!com.realpage.core.page.UIPage
   UIPages:
     Domain: https://www.qa.google.com/
@@ -15,6 +24,9 @@ uat: !!com.realpage.core.page.UIPage
     ConsumerWidgetPage: https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg
     LoginPagee: https://admin.rentjoy.com/login
     lpBluePage: https://staging.rentjoy.com/apartment/1050-galatyn-parkway-richardson-tx-1130385?layout=2#welcome
+    OnePage: https://staging.rentjoy.com/apartment/
+    Flexloginpage: https://flex-uat.devplaypen.com
+    smartWidgetrja: https://realpageos-uat.devplaypen.com
 stage: !!com.realpage.core.page.UIPage
   UIPages:
     Domain: https://www.stage.google.com/

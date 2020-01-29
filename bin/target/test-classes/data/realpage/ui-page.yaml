@@ -1,0 +1,46 @@
+development: &id001 !!com.realpage.core.page.UIPage
+  UIPages:
+    Domain: http://realpageos-dev.devplaypen.com/
+    AdlLoginPage: https://uc-agent-desktop-dev.devplaypen.com/login
+    LoginPage: https://realpageos-dev.devplaypen.com/login/
+    OlgaTool: http://uc-reporting-dev.devplaypen.com
+    ConsumerWidgetPage: https://consumerwidget-dev.devplaypen.com/widget/window/?wid=c4IInDN6REg5TKF967vwxw
+    lpBluePage2: https://dev.rentjoy.com/apartment/1050-galatyn-parkway-richardson-tx-1130385?layout=2#welcome
+    lpBluePage1: https://dev.rentjoy.com/apartment/1050-galatyn-parkway-richardson-tx-1130385?layout=1#welcome
+<<<<<<< Updated upstream
+=======
+    OrbsLoginPage: https://oa-dev.realpage.com/
+    Flexloginpage: https://flex-qa.devplaypen.com
+    FlexWidgetPage: https://consumerwidget-qa.devplaypen.com/widget/window?wid=ybB9NXFPhKFKHATTISkzw
+    PAMM: https://qa-rpcc.realpage.com
+qa: !!com.realpage.core.page.UIPage
+  UIPages:
+    Domain: https://www.google.com/
+    smartWidgetPage: https://consumerwidget-qa.devplaypen.com/widget/window?wid=Q31Wv5cZPoZnBSt5lEdIA
+    smartWidgetrja: https://realpageos-qa.devplaypen.com/login
+>>>>>>> Stashed changes
+uat: !!com.realpage.core.page.UIPage
+  UIPages:
+    Domain: https://www.qa.google.com/
+    AdlLoginPage: https://uc-agent-desktop-uat.devplaypen.com/login
+    LoginPage: https://realpageos-uat.devplaypen.com/login/
+    ConsumerWidgetPage: https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg
+    LoginPagee: https://admin.rentjoy.com/login
+    lpBluePage: https://staging.rentjoy.com/apartment/1050-galatyn-parkway-richardson-tx-1130385?layout=2#welcome
+<<<<<<< Updated upstream
+=======
+    OnePage: https://staging.rentjoy.com/apartment/
+    Flexloginpage: https://flex-uat.devplaypen.com
+    smartWidgetrja: https://realpageos-uat.devplaypen.com
+>>>>>>> Stashed changes
+stage: !!com.realpage.core.page.UIPage
+  UIPages:
+    Domain: https://www.stage.google.com/
+    GooglePage: https://www.google.com/
+production: !!com.realpage.core.page.UIPage
+  UIPages:
+    Domain: https://www.google.com/
+    WidgetreportingPage: https://reporting.realpageuc.com/
+    LoginPagee: https://admin.rentjoy.com/login
+
+    

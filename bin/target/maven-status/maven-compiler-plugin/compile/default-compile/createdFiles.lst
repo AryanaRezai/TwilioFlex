@@ -1,0 +1,8 @@
+com\realpage\core\page\UIPageFactory.class
+com\realpage\core\page\PageBase.class
+com\realpage\core\page\UIPage.class
+com\realpage\core\component\UIComponent.class
+com\realpage\core\component\UIComponentMapFactory.class
+com\realpage\core\component\UIComponentMap.class
+com\realpage\core\component\UIElement.class
+com\realpage\core\page\PageBase$1.class

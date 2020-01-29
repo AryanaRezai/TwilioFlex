@@ -1,0 +1,181 @@
+Feature: Properties HTML Rendering
+
+***** WebDriverManager ******
+DataManager profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+PageFactory profile1: uat
+
+***** UIPage ******
+UIPage profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+UIPage profile: uat
+UIPage file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+UIPage yamlFile: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+UIPage getPages: {Domain=https://www.qa.google.com/, AdlLoginPage=https://uc-agent-desktop-uat.devplaypen.com/login, LoginPage=https://realpageos-uat.devplaypen.com/login/, ConsumerWidgetPage=https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg, LoginPagee=https://admin.rentjoy.com/login, lpBluePage=https://staging.rentjoy.com/apartment/1050-galatyn-parkway-richardson-tx-1130385?layout=2#welcome, OnePage=https://staging.rentjoy.com/apartment/, Flexloginpage=https://flex-uat.devplaypen.com}
+PageFactory profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+PageFactory profile: uat
+DataManager profile: uat
+DataManager profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+
+***** UIComponentMapFactory ******
+UIComponentMapFactory getUIComponentMap profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory getUIComponentMap profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory buildUIComponents profile: uat
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-chattest.yaml
+UIComponentMap addUIComponentMap map key: chattest | val: com.realpage.core.component.UIComponent@4dc27487
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-chattestdev.yaml
+UIComponentMap addUIComponentMap map key: chattestdev | val: com.realpage.core.component.UIComponent@5a37d3ed
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets.yaml
+UIComponentMap addUIComponentMap map key: devwidgets | val: com.realpage.core.component.UIComponent@332729ad
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets1.yaml
+UIComponentMap addUIComponentMap map key: devwidgets1 | val: com.realpage.core.component.UIComponent@38b27cdc
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets2.yaml
+UIComponentMap addUIComponentMap map key: devwidgets2 | val: com.realpage.core.component.UIComponent@3f9342d4
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets3.yaml
+UIComponentMap addUIComponentMap map key: devwidgets3 | val: com.realpage.core.component.UIComponent@3e7dd664
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-FlexLogin.yaml
+UIComponentMap addUIComponentMap map key: flexlogin | val: com.realpage.core.component.UIComponent@17aad511
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-login.yaml
+UIComponentMap addUIComponentMap map key: login | val: com.realpage.core.component.UIComponent@6ee660fb
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-mainwidgetcheck.yaml
+UIComponentMap addUIComponentMap map key: mainwidgetcheck | val: com.realpage.core.component.UIComponent@3a6f2de3
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-olgatool.yaml
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-onboarding.yaml
+UIComponentMap addUIComponentMap map key: onboarding | val: com.realpage.core.component.UIComponent@a776e
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-productssettings.yaml
+UIComponentMap addUIComponentMap map key: widgetcheck | val: com.realpage.core.component.UIComponent@7be58f16
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-properties.yaml
+UIComponentMap addUIComponentMap map key: properties | val: com.realpage.core.component.UIComponent@74cadd41
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-signin.yaml
+UIComponentMap addUIComponentMap map key: signin | val: com.realpage.core.component.UIComponent@61526469
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-texttest.yaml
+UIComponentMap addUIComponentMap map key: texttest | val: com.realpage.core.component.UIComponent@7caa550
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-widgetcheck.yaml
+UIComponentMap addUIComponentMap map key: widgetcheck | val: com.realpage.core.component.UIComponent@23a9ba52
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-widgetsearch.yaml
+UIComponentMap addUIComponentMap map key: widgetsearch | val: com.realpage.core.component.UIComponent@7d61eccf
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 46779
+Only local connections are allowed.
+[1574097986.703][WARNING]: Timed out connecting to Chrome, retrying...
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (084b172c5fece6472322a6363c702a87)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+https://realpageos-uat.devplaypen.com/properties
+UIComponentMap getComponent key: properties
+[1574097995.653][WARNING]: Timed out connecting to Chrome, retrying...
+https://realpageos-uat.devplaypen.com/properties
+https://realpageos-uat.devplaypen.com/property/e5310f08-793b-4166-b001-365ab2a88c98
+https://realpageos-uat.devplaypen.com/property/e5310f08-793b-4166-b001-365ab2a88c98
+*****Property Management Company
+============
+Property Details
+============
+
+  Scenario Outline: Rendering Properties Page                                                [90m# src/test/resources/com/realpage/components/Properties/propertiesoverview.feature:29[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m                               [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                                                       [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1maryana.rezai@realpage.com[0m[32m"[0m                              [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                                                [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                                                          [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mAnd [0m[32mUser is directed to the Home Page "[0m[32m[1m/properties[0m[32m"[0m                                      [90m# LoginStepDefinitions.User_is_directed_to_the_Home_Page(String)[0m
+    [32mWhen [0m[32mUser expands the Naigation Menu[0m                                                     [90m# PropertiesStepDefinitions.User_expands_the_Naigation_Menu()[0m
+    [32mAnd [0m[32mUser clicks on Properties[0m                                                            [90m# PropertiesStepDefinitions.User_clicks_on_Properties()[0m
+    [32mThen [0m[32mUser is directed to the Properties Page "[0m[32m[1m/properties[0m[32m"[0m                               [90m# PropertiesStepDefinitions.User_is_directed_to_the_Properties_Page(String)[0m
+    [32mWhen [0m[32mUser clicks on the property search drop down[0m                                        [90m# PropertiesStepDefinitions.User_clicks_on_the_property_search_drop_down()[0m
+    [32mAnd [0m[32mUser picks Property Name[0m                                                             [90m# PropertiesStepDefinitions.User_picks_Property_Name()[0m
+    [32mWhen [0m[32mUser enters a Property Name [0m[32m[1mVilla Verano[0m                                            [90m# PropertiesStepDefinitions.User_enters_a_Property_Name(String)[0m
+    [32mAnd [0m[32mUser clicks on the search submit icon[0m                                                [90m# PropertiesStepDefinitions.User_clicks_on_the_search_submit_icon()[0m
+    [32mWhen [0m[32mUser clicks on the actual property name[0m                                             [90m# PropertiesStepDefinitions.User_clicks_on_the_actual_property_name()[0m
+    [32mThen [0m[32mUser is directed to the property details page "[0m[32m[1m/property/[0m[32m"[0m                          [90m# PropertiesStepDefinitions.User_is_directed_to_the_property_details_page(String)[0m
+    [32mThen [0m[32mThe property name is shown in the URL "[0m[32m[1me5310f08-793b-4166-b001-365ab2a88c98[0m[32m"[0m        [90m# PropertiesStepDefinitions.The_property_name_is_shown_in_the_URL(String)[0m
+    [32mAnd [0m[32mThere is a Property Management Company details section "[0m[32m[1mProperty Management Company[0m[32m"[0m [90m# PropertiesStepDefinitions.There_is_a_Property_Management_Company_details_section(String)[0m
+    [32mAnd [0m[32mThere is a Property Details section "[0m[32m[1mProperty Details[0m[32m"[0m                               [90m# PropertiesStepDefinitions.There_is_a_Property_Details_section(String)[0m
+
+1 Scenarios ([32m1 passed[0m)
+18 Steps ([32m18 passed[0m)
+0m29.303s
+
