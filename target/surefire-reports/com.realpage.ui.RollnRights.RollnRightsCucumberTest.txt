@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.realpage.ui.RollnRights.RollnRightsCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 23.879 sec - in com.realpage.ui.RollnRights.RollnRightsCucumberTest

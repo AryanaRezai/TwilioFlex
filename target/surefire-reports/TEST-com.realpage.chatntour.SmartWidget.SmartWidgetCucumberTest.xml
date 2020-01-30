@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.realpage.chatntour.SmartWidget.SmartWidgetCucumberTest" time="15.275" tests="5" errors="0" skipped="3" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\arezai\workspace\chatntour-automation-framework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="SmartWidgetCucumberTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\arezai\workspace\chatntour-automation-framework"/>
+    <property name="Run.environment" value="uat"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\arezai\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Selenium\geckodriver;;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Users\arezai\scoop\shims;C:\Users\arezai\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\allure\allure-2.6.0\allure-2.6.0\bin;C:\Program Files\internet explorer;C:\Users\arezai\workspace\realpage-automation-framework\src\test\resources\drivers\win;C:\Users\arezai\AppData\Local\Microsoft\WindowsApps;C:\Users\arezai\AppData\Local\GitHubDesktop\bin;;."/>
+    <property name="maven.conf" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="run.brand" value="realpage"/>
+    <property name="library.jansi.path" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\arezai"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="arezai"/>
+    <property name="java.class.path" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -DRC_BROWSERS=chrome -Drun.brand=realpage -DRun.environment=uat -Dtest=SmartWidgetCucumberTest"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="RC_BROWSERS" value="chrome"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given QA Tester wants to navigate the content of smartWidgetrja" classname="| QA Tester | smartWidgetrja |" time="0.015">
+    <failure message="Unable to open page: " type="java.lang.AssertionError">java.lang.AssertionError: Unable to open page: 
+</failure>
+    <system-out><![CDATA[Feature: ChatTest HTML Rendering
+
+***** WebDriverManager ******
+DataManager profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+PageFactory profile1: production
+
+***** UIPage ******
+UIPage profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+UIPage profile: production
+UIPage file: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+UIPage yamlFile: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+UIPage getPages: {Domain=https://www.google.com/, WidgetreportingPage=https://reporting.realpageuc.com/, LoginPagee=https://admin.rentjoy.com/login}
+PageFactory profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+PageFactory profile: production
+DataManager profile: production
+DataManager profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+
+***** UIComponentMapFactory ******
+UIComponentMapFactory getUIComponentMap profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory getUIComponentMap profile: production
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory buildUIComponents profile: production
+UIComponentMapFactory loadYamlFile profile: production
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage\ui-components-chattest.yaml
+UIComponentMap addUIComponentMap map key: chattest | val: com.realpage.core.component.UIComponent@821330f
+UIComponentMapFactory loadYamlFile profile: production
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage\ui-components-FlexLogin.yaml
+UIComponentMap addUIComponentMap map key: flexlogin | val: com.realpage.core.component.UIComponent@45385f75
+UIComponentMapFactory loadYamlFile profile: production
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage\ui-components-login.yaml
+UIComponentMap addUIComponentMap map key: login | val: com.realpage.core.component.UIComponent@15f47664
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=production, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\chatntour-automation-framework
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (db0ff32ea43173372e766bed4e137a47)
+WebDriverUtils page: smartWidgetrja
+UIPage uiPageName: smartWidgetrja
+UIPage uiPageUrl: null
+
+WebDriverUtils Url: 
+Mock Status is set: false
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 41118
+Only local connections are allowed.
+[1576688759.874][WARNING]: Timed out connecting to Chrome, retrying...
+org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 50 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: '5CG7523PNR-LT', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\arezai\AppData\Local\Temp\scoped_dir30016_13836}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: db0ff32ea43173372e766bed4e137a47
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at com.foundation.selenium.WebDriverUtils.openPage(WebDriverUtils.java:39)
+	at com.foundation.cucumber.CucumberStepDefinitions.open_site(CucumberStepDefinitions.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:35)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:289)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:82)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:41)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:87)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]></system-err>
+  </testcase>
+  <testcase name="| QA Tester | smartWidgetrja |" classname="| QA Tester | smartWidgetrja |" time="0.018">
+    <failure message="Unable to open page: " type="java.lang.AssertionError">java.lang.AssertionError: Unable to open page: 
+</failure>
+  </testcase>
+  <testcase name="When User clicks on the Start Chatting button" classname="| QA Tester | smartWidgetrja |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then The greeting is displayed &quot;Hi! I&apos;m your Virtual Assistant. At any time you can type&quot;" classname="| QA Tester | smartWidgetrja |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When User enters finding an apartment &quot;Find an apartment&quot;" classname="| QA Tester | smartWidgetrja |" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

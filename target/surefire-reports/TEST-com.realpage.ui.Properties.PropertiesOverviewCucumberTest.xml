@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.realpage.ui.Properties.PropertiesOverviewCucumberTest" time="31.714" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\arezai\workspace\realpage-automation-framework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="PropertiesOverviewCucumberTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\arezai\workspace\realpage-automation-framework"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\arezai\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Selenium\geckodriver;;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Users\arezai\scoop\shims;C:\Users\arezai\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\allure\allure-2.6.0\allure-2.6.0\bin;C:\Program Files\internet explorer;C:\Users\arezai\workspace\realpage-automation-framework\src\test\resources\drivers\win;C:\Users\arezai\AppData\Local\Microsoft\WindowsApps;C:\Users\arezai\AppData\Local\GitHubDesktop\bin;;."/>
+    <property name="maven.conf" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="run.brand" value="realpage"/>
+    <property name="library.jansi.path" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\arezai"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="arezai"/>
+    <property name="java.class.path" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -DRC_BROWSERS=chrome -Drun.environment=uat -Drun.brand=realpage -Dtest=PropertiesOverviewCucumberTest"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="run.environment" value="uat"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\arezai\workspace\Tools\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="RC_BROWSERS" value="chrome"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given QA Tester wants to navigate the content of LoginPage" classname="| QA Tester | LoginPage | Villa Verano |" time="0.001"/>
+  <testcase name="And User have landed on Login Page" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="When User enters valid username &quot;aryana.rezai@realpage.com&quot;" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="And User enters valid password &quot;password&quot;" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="And User clicks on Login Button" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="And User is directed to the Home Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="When User expands the Naigation Menu" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="And User clicks on Properties" classname="| QA Tester | LoginPage | Villa Verano |" time="0.023"/>
+  <testcase name="Then User is directed to the Properties Page &quot;/properties&quot;" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="When User clicks on the property search drop down" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="And User picks Property Name" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="When User enters a Property Name Villa Verano" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="And User clicks on the search submit icon" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="When User clicks on the actual property name" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="Then User is directed to the property details page &quot;/property/&quot;" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="Then The property name is shown in the URL &quot;e5310f08-793b-4166-b001-365ab2a88c98&quot;" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="And There is a Property Management Company details section &quot;Property Management Company&quot;" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="And There is a Property Details section &quot;Property Details&quot;" classname="| QA Tester | LoginPage | Villa Verano |" time="0"/>
+  <testcase name="| QA Tester | LoginPage | Villa Verano |" classname="| QA Tester | LoginPage | Villa Verano |" time="1.282"/>
+</testsuite>
