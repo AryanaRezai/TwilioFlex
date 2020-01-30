@@ -131,8 +131,17 @@ public class FlexLoginStepDefinitions extends PageBase {
 				   try{
 					  driver.findElement(By.className(FlexLoginComponent.getUIElements().get("flexmenubtn").getClassName()));
 
-					
-					  // WebElement menubtn = driver.findElement(By.className("Twilio-Dropdown"));
+					  Thread.sleep(500);
+					  System.out.println("#####");
+					  
+//					if(driver.findElement(By.xpath("/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[1]/div/div[1]/div/div[1]/div/div[2]/div/div[2]")).isDisplayed()){
+//						
+//						Thread.sleep(500);
+//						System.out.println("@@@@@");
+//						driver.findElement(By.id("cmdProcess")).click();
+//					} else {
+//						
+//					}
 					   
 				   } catch (NoSuchElementException e){
 					   fail("Menu button is not there");

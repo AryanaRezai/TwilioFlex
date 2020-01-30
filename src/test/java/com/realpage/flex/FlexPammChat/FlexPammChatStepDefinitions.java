@@ -325,9 +325,9 @@ public class FlexPammChatStepDefinitions extends PageBase{
 			String agentstext = text.getText();
 			System.out.println(agentstext);
 			
-			assertTrue(agentstext.contains("Hi there"));
-			System.out.println("11111");
-			Thread.sleep(30000);
+			//assertTrue(agentstext.contains("Hi there"));
+			//System.out.println("11111");
+			//Thread.sleep(30000);
 
 		} catch (NoSuchElementException e) {
 			fail("Cannot open flex in a new tab");
@@ -339,38 +339,39 @@ public class FlexPammChatStepDefinitions extends PageBase{
 
 		try {
 			
-			 WebElement infotab = driver.findElement(By.className("css-14pgxlz"));
+			 WebElement infotab = driver.findElement(By.className("css-1i3d2ep"));
 			 infotab.click();
-			 Thread.sleep(1000);
+			 Thread.sleep(3000);
+
 			 
-			 WebElement chattab = driver.findElement(By.className("css-1i3d2ep"));
-			 chattab.click();
-			 Thread.sleep(1000);
-			 
-			 infotab.click();
-			 Thread.sleep(1000);
-			 
-			
-			 
-			 WebElement flagconversation= driver.findElement(By.xpath("//*[@id='root']/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/button"));
-			 Thread.sleep(1000);
+			System.out.println("flagg and unflagg tasks");
+		
+			 WebElement flagconversation= driver.findElement(By.xpath("/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/button"));
 			 flagconversation.click();
 			 Thread.sleep(1000);
-			 WebElement flag= driver.findElement(By.xpath("//*[@id='root']/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[2]/button"));
+			 System.out.println("flagg conv");
+			 
+			 
+			 WebElement flag= driver.findElement(By.xpath("/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[2]/button"));
 			 Thread.sleep(1000);
 			 flag.click();
+			 System.out.println("flag");
 			 Thread.sleep(1000);
-			 WebElement ok= driver.findElement(By.xpath("//*[@id='root']/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[2]/div/button"));
+			 WebElement ok= driver.findElement(By.xpath("/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[2]/div/button"));
 			 Thread.sleep(1000);
 			 ok.click();
+			 System.out.println("ok");
 			 Thread.sleep(1000);
 			 
 			 //Agent unflags the conversation
-			 WebElement unflag= driver.findElement(By.xpath("//*[@id='root']/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[3]/button"));
+			 WebElement unflag= driver.findElement(By.xpath("/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[3]/button"));
 			 Thread.sleep(1000);
 			 unflag.click();
-			 Thread.sleep(1000);
+	
+			 WebElement chattab = driver.findElement(By.className("css-y47si7"));
 			 chattab.click();
+			 Thread.sleep(3000);
+			 System.out.println("unflagged");
 			
 
 		} catch (NoSuchElementException e) {
@@ -383,26 +384,27 @@ public class FlexPammChatStepDefinitions extends PageBase{
 
 		try {
 		
-			 WebElement chatinputbox = driver.findElement(By.id("new-message-input"));
-			 chatinputbox.click();
-			 System.out.println("input box found");
-			 Thread.sleep(1000);
+//			 WebElement chatinputbox = driver.findElement(By.id("new-message-input"));
+//			 chatinputbox.click();
+//			 System.out.println("input box found");
+//			 Thread.sleep(1000);
 			 
 			 
 			  WebDriverWait wait = new WebDriverWait(driver, 500);
-			  WebElement canned = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='new-message-wrapper']/div/button[2]/i")));
-			
-//			canned.click();
-//			 System.out.println("canned response found");
-//			Thread.sleep(500);
-//			WebElement closecan = driver.findElement(By.className("fa-times"));
-//			closecan.click();
-//			 
-//			driver.findElement(By.xpath("#canned_menu > div > div.canned-responses-left > div:nth-child(1)")).click();
+			  WebElement canned = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='new-message-wrapper']/div/button[2]/i")));	
+		      canned.click();
+			  System.out.println("canned response found");
+			  
+			  
+			Thread.sleep(500);
+			WebElement closecan = driver.findElement(By.className("fa-times"));
+			closecan.click();
+		 
+		//	driver.findElement(By.xpath("#canned_menu > div > div.canned-responses-left > div:nth-child(1)")).click();
 			 
 			
-			//Select greeting = new Select(driver.findElement(By.cssSelector("#canned_menu")));
-			//greeting.getFirstSelectedOption();
+		//	Select greeting = new Select(driver.findElement(By.cssSelector("#canned_menu")));
+		//	greeting.getFirstSelectedOption();
 			
 
 			

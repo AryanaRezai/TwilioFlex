@@ -134,14 +134,15 @@ public class ChatTestStepDefinitions extends PageBase {
 			}
 	   
 	
-	@When("^consumer enters phone number$")
-	public void consumer_enters_phone_number() throws Throwable {
+	@When("^consumer enters phone number \"([^\"]*)\"$")
+	public void consumer_enters_phone_number(String arg1) throws Throwable {
 
 				   try{
 					   
 
 						 WebElement emailadd= driver.findElement(By.id("chat-form-phone"));
-						 emailadd.sendKeys("4692165826");
+						 Thread.sleep(500);
+						 emailadd.sendKeys(arg1);
 						 Thread.sleep(500);
  
 					   
