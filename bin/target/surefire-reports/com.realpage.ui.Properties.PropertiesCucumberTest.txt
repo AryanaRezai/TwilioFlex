@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.realpage.ui.Properties.PropertiesCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.023 sec - in com.realpage.ui.Properties.PropertiesCucumberTest

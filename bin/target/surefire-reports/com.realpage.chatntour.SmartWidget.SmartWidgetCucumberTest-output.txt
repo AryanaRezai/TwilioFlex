@@ -1,0 +1,174 @@
+Feature: ChatTest HTML Rendering
+
+***** WebDriverManager ******
+DataManager profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+PageFactory profile1: production
+
+***** UIPage ******
+UIPage profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+UIPage profile: production
+UIPage file: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+UIPage yamlFile: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+UIPage getPages: {Domain=https://www.google.com/, WidgetreportingPage=https://reporting.realpageuc.com/, LoginPagee=https://admin.rentjoy.com/login}
+PageFactory profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+PageFactory profile: production
+DataManager profile: production
+DataManager profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+
+***** UIComponentMapFactory ******
+UIComponentMapFactory getUIComponentMap profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory getUIComponentMap profile: production
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents profileDir: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory buildUIComponents profile: production
+UIComponentMapFactory loadYamlFile profile: production
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage\ui-components-chattest.yaml
+UIComponentMap addUIComponentMap map key: chattest | val: com.realpage.core.component.UIComponent@821330f
+UIComponentMapFactory loadYamlFile profile: production
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage\ui-components-FlexLogin.yaml
+UIComponentMap addUIComponentMap map key: flexlogin | val: com.realpage.core.component.UIComponent@45385f75
+UIComponentMapFactory loadYamlFile profile: production
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\chatntour-automation-framework\target\test-classes\data\realpage\ui-components-login.yaml
+UIComponentMap addUIComponentMap map key: login | val: com.realpage.core.component.UIComponent@15f47664
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=production, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\chatntour-automation-framework
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 41118
+Only local connections are allowed.
+[1576688759.874][WARNING]: Timed out connecting to Chrome, retrying...
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (db0ff32ea43173372e766bed4e137a47)
+WebDriverUtils page: smartWidgetrja
+UIPage uiPageName: smartWidgetrja
+UIPage uiPageUrl: null
+
+WebDriverUtils Url: 
+Mock Status is set: false
+org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 50 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: '5CG7523PNR-LT', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\arezai\AppData\Local\Temp\scoped_dir30016_13836}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: db0ff32ea43173372e766bed4e137a47
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at com.foundation.selenium.WebDriverUtils.openPage(WebDriverUtils.java:39)
+	at com.foundation.cucumber.CucumberStepDefinitions.open_site(CucumberStepDefinitions.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:35)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:289)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:82)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:41)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:87)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+  Scenario Outline: Rendering Consumer Widget Page                                            [90m# src/test/resources/com/realpage/components/SmartWidget/smartwidget.feature:18[0m
+    [31mGiven [0m[31m[0m[31m[1mQA Tester[0m[31m wants to navigate the content of [0m[31m[1msmartWidgetrja[0m                           [90m# CucumberStepDefinitions.open_site(String,String)[0m
+      [31mjava.lang.AssertionError: Unable to open page: 
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at com.foundation.selenium.WebDriverUtils.openPage(WebDriverUtils.java:45)
+      	at com.foundation.cucumber.CucumberStepDefinitions.open_site(CucumberStepDefinitions.java:65)
+      	at ?.Given QA Tester wants to navigate the content of smartWidgetrja(src/test/resources/com/realpage/components/SmartWidget/smartwidget.feature:7)
+      [0m
+    [36mWhen [0m[36mUser clicks on the Start Chatting button[0m                                             [90m# SmartWidgetStepDefinitions.User_clicks_on_the_Start_Chatting_button()[0m
+    [36mThen [0m[36mThe greeting is displayed "[0m[36m[1mHi! I'm your Virtual Assistant. At any time you can type[0m[36m"[0m [90m# SmartWidgetStepDefinitions.The_greeting_is_displayed(String)[0m
+    [36mWhen [0m[36mUser enters finding an apartment "[0m[36m[1mFind an apartment[0m[36m"[0m                                 [90m# SmartWidgetStepDefinitions.User_enters_finding_an_apartment(String)[0m
+
+1 Scenarios ([31m1 failed[0m)
+4 Steps ([31m1 failed[0m, [36m3 skipped[0m)
+0m12.571s
+
+java.lang.AssertionError: Unable to open page: 
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.foundation.selenium.WebDriverUtils.openPage(WebDriverUtils.java:45)
+	at com.foundation.cucumber.CucumberStepDefinitions.open_site(CucumberStepDefinitions.java:65)
+	at ?.Given QA Tester wants to navigate the content of smartWidgetrja(src/test/resources/com/realpage/components/SmartWidget/smartwidget.feature:7)
+
