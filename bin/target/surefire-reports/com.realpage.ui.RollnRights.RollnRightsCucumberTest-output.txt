@@ -1,0 +1,178 @@
+Feature: Onboarding HTML Rendering
+
+***** WebDriverManager ******
+DataManager profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+PageFactory profile1: uat
+
+***** UIPage ******
+UIPage profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+UIPage profile: uat
+UIPage file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+UIPage yamlFile: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+UIPage getPages: {Domain=https://www.qa.google.com/, AdlLoginPage=https://uc-agent-desktop-uat.devplaypen.com/login, LoginPage=https://realpageos-uat.devplaypen.com/login/, ConsumerWidgetPage=https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg, LoginPagee=https://admin.rentjoy.com/login, lpBluePage=https://staging.rentjoy.com/apartment/1050-galatyn-parkway-richardson-tx-1130385?layout=2#welcome, OnePage=https://staging.rentjoy.com/apartment/, Flexloginpage=https://flex-uat.devplaypen.com}
+PageFactory profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+PageFactory profile: uat
+DataManager profile: uat
+DataManager profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+
+***** UIComponentMapFactory ******
+UIComponentMapFactory getUIComponentMap profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory getUIComponentMap profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents profileDir: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory buildUIComponents profile: uat
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-chattest.yaml
+UIComponentMap addUIComponentMap map key: chattest | val: com.realpage.core.component.UIComponent@7dfd3c81
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-chattestdev.yaml
+UIComponentMap addUIComponentMap map key: chattestdev | val: com.realpage.core.component.UIComponent@4a3631f8
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets.yaml
+UIComponentMap addUIComponentMap map key: devwidgets | val: com.realpage.core.component.UIComponent@4278284b
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets1.yaml
+UIComponentMap addUIComponentMap map key: devwidgets1 | val: com.realpage.core.component.UIComponent@1fb669c3
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets2.yaml
+UIComponentMap addUIComponentMap map key: devwidgets2 | val: com.realpage.core.component.UIComponent@50d13246
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-devwidgets3.yaml
+UIComponentMap addUIComponentMap map key: devwidgets3 | val: com.realpage.core.component.UIComponent@294a6b8e
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-FlexLogin.yaml
+UIComponentMap addUIComponentMap map key: flexlogin | val: com.realpage.core.component.UIComponent@46944ca9
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-login.yaml
+UIComponentMap addUIComponentMap map key: login | val: com.realpage.core.component.UIComponent@4535b6d5
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-mainwidgetcheck.yaml
+UIComponentMap addUIComponentMap map key: mainwidgetcheck | val: com.realpage.core.component.UIComponent@56303b57
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-olgatool.yaml
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-onboarding.yaml
+UIComponentMap addUIComponentMap map key: onboarding | val: com.realpage.core.component.UIComponent@79145d5a
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-productssettings.yaml
+UIComponentMap addUIComponentMap map key: widgetcheck | val: com.realpage.core.component.UIComponent@5b11a194
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-properties.yaml
+UIComponentMap addUIComponentMap map key: properties | val: com.realpage.core.component.UIComponent@55e8ec2f
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-signin.yaml
+UIComponentMap addUIComponentMap map key: signin | val: com.realpage.core.component.UIComponent@76ba13c
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-texttest.yaml
+UIComponentMap addUIComponentMap map key: texttest | val: com.realpage.core.component.UIComponent@72b16078
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-widgetcheck.yaml
+UIComponentMap addUIComponentMap map key: widgetcheck | val: com.realpage.core.component.UIComponent@70ab80e3
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\realpage-automation-framework\target\test-classes\data\realpage\ui-components-widgetsearch.yaml
+UIComponentMap addUIComponentMap map key: widgetsearch | val: com.realpage.core.component.UIComponent@52350abb
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\realpage-automation-framework
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 19978
+Only local connections are allowed.
+[1574098123.384][WARNING]: Timed out connecting to Chrome, retrying...
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (b7e39b47caeb407c877ddb472f10d87e)
+WebDriverUtils page: LoginPage
+UIPage uiPageName: LoginPage
+UIPage uiPageUrl: https://realpageos-uat.devplaypen.com/login/
+https://realpageos-uat.devplaypen.com/login/
+WebDriverUtils Url: https://realpageos-uat.devplaypen.com/login/
+Mock Status is set: false
+Able to find page url https://realpageos-uat.devplaypen.com/login/
+UIComponentMap getComponent key: login
+UIComponentMap getComponent key: onboarding
+[1574098131.150][WARNING]: Timed out connecting to Chrome, retrying...
+
+  Scenario Outline: Rendering Onboarding Page                    [90m# src/test/resources/com/realpage/components/RollnRights/rollnrights.feature:28[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mLoginPage[0m   [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mUser have landed on Login Page[0m                           [90m# LoginStepDefinitions.User_have_landed_on_Login_Page()[0m
+    [32mWhen [0m[32mUser enters valid username "[0m[32m[1maryana.rezai@realpage.com[0m[32m"[0m  [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [32mAnd [0m[32mUser enters valid password "[0m[32m[1mpassword[0m[32m"[0m                    [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [32mAnd [0m[32mUser clicks on Login Button[0m                              [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+    [32mThen [0m[32mUser navigates to People Page[0m                           [90m# RollnRightsStepDefinitions.User_navigates_to_People_Page()[0m
+    [32mAnd [0m[32mfinds an specific agent "[0m[32m[1mwilliam[0m[32m"[0m                        [90m# RollnRightsStepDefinitions.finds_an_specific_agent(String)[0m
+    [32mAnd [0m[32mVerifies that agents roll[0m                                [90m# RollnRightsStepDefinitions.Verifies_that_agents_roll()[0m
+    [32mWhen [0m[32mUser clicks on the Log Out link[0m                         [90m# LoginStepDefinitions.User_clicks_on_the_Log_Out_link()[0m
+    [33mThen [0m[33mUser is redirected to the Logout Page "/logout"[0m
+    [36mAnd [0m[36m[0m[36m[1mQA Tester[0m[36m wants to navigate the content of [0m[36m[1mLoginPage[0m     [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [36mWhen [0m[36mUser enters valid username "[0m[36m[1mwilliam.davis@realpage.com[0m[36m"[0m [90m# LoginStepDefinitions.User_enters_valid_username(String)[0m
+    [36mAnd [0m[36mUser enters valid password "[0m[36m[1mpassword[0m[36m"[0m                    [90m# LoginStepDefinitions.User_enters_valid_password(String)[0m
+    [36mAnd [0m[36mUser clicks on Login Button[0m                              [90m# LoginStepDefinitions.User_clicks_on_Login_Button()[0m
+
+1 Scenarios ([33m1 undefined[0m)
+14 Steps ([36m4 skipped[0m, [33m1 undefined[0m, [32m9 passed[0m)
+0m21.650s
+
+
+You can implement missing steps with the snippets below:
+
+@Then("^User is redirected to the Logout Page \"([^\"]*)\"$")
+public void User_is_redirected_to_the_Logout_Page(String arg1) throws Throwable {
+    // Express the Regexp above with the code you wish you had
+    throw new PendingException();
+}
+

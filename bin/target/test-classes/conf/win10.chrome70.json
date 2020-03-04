@@ -1,0 +1,17 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "aryanarezai1",
+  "key": "nBYVszmG9472MHvWekaS",
+
+  "capabilities": {
+    "browserstack.debug": true
+  },
+  
+	"environments": [{
+	  "os": "Windows",
+	  "os_version": "10",
+	  "browser": "Chrome",
+	  "browser_version": "70.0",
+	  "resolution": "1024x768"
+	}]
+}

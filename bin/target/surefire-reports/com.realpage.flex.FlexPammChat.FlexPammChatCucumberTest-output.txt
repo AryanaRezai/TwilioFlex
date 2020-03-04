@@ -1,0 +1,116 @@
+Feature: ChatTest HTML Rendering
+
+***** WebDriverManager ******
+DataManager profileDir: C:\Users\arezai\workspace\flex-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+PageFactory profile1: uat
+
+***** UIPage ******
+UIPage profileDir: C:\Users\arezai\workspace\flex-automation-framework\target\test-classes\data\realpage
+UIPage profile: uat
+UIPage file: C:\Users\arezai\workspace\flex-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+UIPage yamlFile: C:\Users\arezai\workspace\flex-automation-framework\target\test-classes\data\realpage\ui-page.yaml
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+
+***** UIPage ******
+UIPage getPages: {Domain=https://www.qa.google.com/, AdlLoginPage=https://uc-agent-desktop-uat.devplaypen.com/login, LoginPage=https://realpageos-uat.devplaypen.com/login/, ConsumerWidgetPage=https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg, LoginPagee=https://admin.rentjoy.com/login, lpBluePage=https://staging.rentjoy.com/apartment/1050-galatyn-parkway-richardson-tx-1130385?layout=2#welcome, OnePage=https://staging.rentjoy.com/apartment/, Flexloginpage=https://flex-uat.devplaypen.com}
+PageFactory profileDir: C:\Users\arezai\workspace\flex-automation-framework\target\test-classes\data\realpage
+PageFactory profile: uat
+DataManager profile: uat
+DataManager profileDir: C:\Users\arezai\workspace\flex-automation-framework\target\test-classes\data\realpage
+DataManager brand: realpage
+
+***** UIComponentMapFactory ******
+UIComponentMapFactory getUIComponentMap profileDir: C:\Users\arezai\workspace\flex-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory getUIComponentMap profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents profileDir: C:\Users\arezai\workspace\flex-automation-framework\target\test-classes\data\realpage
+UIComponentMapFactory buildUIComponents profile: uat
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\flex-automation-framework\target\test-classes\data\realpage\ui-components-chattest.yaml
+UIComponentMap addUIComponentMap map key: chattest | val: com.realpage.core.component.UIComponent@5c86a017
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\flex-automation-framework\target\test-classes\data\realpage\ui-components-FlexLogin.yaml
+UIComponentMap addUIComponentMap map key: flexlogin | val: com.realpage.core.component.UIComponent@642a7222
+UIComponentMapFactory loadYamlFile profile: uat
+
+***** UIComponentMap ******
+UIComponentMapFactory buildUIComponents file: C:\Users\arezai\workspace\flex-automation-framework\target\test-classes\data\realpage\ui-components-login.yaml
+UIComponentMap addUIComponentMap map key: login | val: com.realpage.core.component.UIComponent@791d1f8b
+
+***** DataManager ******
+[INFO] Using profile: {siteDescription=Real Page, environment=uat, siteStartingUrl=https://www.realpage.com/, brand=realpage}
+
+***** WebDriverUtils ******
+WebDriverUtils embeddedRcDriver: embedded-rc:chrome
+WebDriverUtils RC_BROWSERS: chrome
+WebDriverUtils localDriver: chrome
+C:\Users\arezai\workspace\flex-automation-framework
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 31746
+Only local connections are allowed.
+[1574371728.777][WARNING]: Timed out connecting to Chrome, retrying...
+End WebDriverUtils localDriver: chrome
+End WebDriverUtils localDriver: chrome
+
+***** WebDriverUtils ******
+WebDriverUtils driver: ChromeDriver: chrome on XP (a3a6c133dad0c88bcf50dafd741e3d3d)
+WebDriverUtils page: Flexloginpage
+UIPage uiPageName: Flexloginpage
+UIPage uiPageUrl: https://flex-uat.devplaypen.com
+https://flex-uat.devplaypen.com
+WebDriverUtils Url: https://flex-uat.devplaypen.com
+Mock Status is set: false
+Able to find page url https://flex-uat.devplaypen.com
+UIComponentMap getComponent key: flexlogin
+UIComponentMap getComponent key: flexpammchat
+
+  Scenario Outline: Rendering Consumer Widget Page                         [90m# src/test/resources/com/realpage/components/FlexPammChat/flexpammchat.feature:32[0m
+    [32mGiven [0m[32m[0m[32m[1mQA Tester[0m[32m wants to navigate the content of [0m[32m[1mFlexloginpage[0m         [90m# CucumberStepDefinitions.open_site(String,String)[0m
+    [32mAnd [0m[32mAgent enters User name [0m[32m[1mtest-leasing.agent@realpage.onmicrosoft.com[0m [90m# FlexLoginStepDefinitions.Agent_enters_User_name(String)[0m
+    [32mAnd [0m[32mAgent enters password [0m[32m[1mTestflex123![0m                                 [90m# FlexLoginStepDefinitions.Agent_enters_password(String)[0m
+    [32mAnd [0m[32mAgent selects Sign In[0m                                              [90m# FlexLoginStepDefinitions.Agent_selects_Sign_In()[0m
+    [32mThen [0m[32mAgent is logged in[0m                                                [90m# FlexLoginStepDefinitions.Agent_is_logged_in()[0m
+    [31mAnd [0m[31mAgent opens a widget in a new window[0m                               [90m# FlexPammChatStepDefinitions.Agent_opens_a_widget_in_a_new_window()[0m
+      [31mjava.lang.AssertionError: Cannot open flex in a new tab
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at com.realpage.flex.FlexPammChat.FlexPammChatStepDefinitions.Agent_opens_a_widget_in_a_new_window(FlexPammChatStepDefinitions.java:182)
+      	at ?.And Agent opens a widget in a new window(src/test/resources/com/realpage/components/FlexPammChat/flexpammchat.feature:12)
+      [0m
+    [36mWhen [0m[36mConsumer selects CHAT[0m                                             [90m# ChatTestStepDefinitions.Consumer_selects_CHAT()[0m
+    [36mAnd [0m[36mConsumer enters first name "[0m[36m[1mAry[0m[36m"[0m                                   [90m# ChatTestStepDefinitions.Consumer_enters_first_name(String)[0m
+    [36mAnd [0m[36mConsumer enters last name "[0m[36m[1mRez[0m[36m"[0m                                    [90m# ChatTestStepDefinitions.Consumer_enters_last_name(String)[0m
+    [36mAnd [0m[36mConsumer enters email address "[0m[36m[1maryana.rezai@realpage.com[0m[36m"[0m          [90m# ChatTestStepDefinitions.Consumer_enters_email_address(String)[0m
+    [36mAnd [0m[36mconsumer enters phone number[0m                                       [90m# ChatTestStepDefinitions.consumer_enters_phone_number()[0m
+    [36mAnd [0m[36mConsumer clicks the START CHATTING button[0m                          [90m# ChatTestStepDefinitions.Consumer_clicks_the_START_CHATTING_button()[0m
+    [36mAnd [0m[36mUser logs in to PAMM[0m                                               [90m# FlexPammChatStepDefinitions.User_logs_in_to_PAMM()[0m
+    [36mAnd [0m[36mUser validates contacts name[0m                                       [90m# FlexPammChatStepDefinitions.User_validates_contacts_name()[0m
+    [36mAnd [0m[36mUser enters a message from the Agent[0m                               [90m# FlexPammChatStepDefinitions.User_enters_a_message_from_the_Agent()[0m
+    [36mAnd [0m[36mUser verifies that the contact received the message[0m                [90m# FlexPammChatStepDefinitions.User_verifies_that_the_contact_received_the_message()[0m
+    [36mAnd [0m[36mUser verifies agents nickname on the widget[0m                        [90m# FlexPammChatStepDefinitions.User_verifies_agents_nickname_on_the_widget()[0m
+    [36mAnd [0m[36mUser sends a message from the widget[0m                               [90m# FlexPammChatStepDefinitions.User_sends_a_message_from_the_widge()[0m
+    [36mAnd [0m[36mUser verifies that the agent received the message[0m                  [90m# FlexPammChatStepDefinitions.User_verifies_that_the_agent_received_the_message()[0m
+    [36mAnd [0m[36mUser verifies the info section[0m                                     [90m# FlexPammChatStepDefinitions.User_verifies_the_info_section()[0m
+    [36mAnd [0m[36mUser sends a canned response from the agent[0m                        [90m# FlexPammChatStepDefinitions.User_sends_a_canned_response_from_the_agent()[0m
+
+1 Scenarios ([31m1 failed[0m)
+21 Steps ([31m1 failed[0m, [36m15 skipped[0m, [32m5 passed[0m)
+0m34.029s
+
+java.lang.AssertionError: Cannot open flex in a new tab
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.realpage.flex.FlexPammChat.FlexPammChatStepDefinitions.Agent_opens_a_widget_in_a_new_window(FlexPammChatStepDefinitions.java:182)
+	at ?.And Agent opens a widget in a new window(src/test/resources/com/realpage/components/FlexPammChat/flexpammchat.feature:12)
+

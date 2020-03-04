@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.realpage.chatntour.SmartWidget.SmartWidgetCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 15.275 sec <<< FAILURE! - in com.realpage.chatntour.SmartWidget.SmartWidgetCucumberTest
+Given QA Tester wants to navigate the content of smartWidgetrja(| QA Tester | smartWidgetrja |)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: Unable to open page: 
+
+| QA Tester | smartWidgetrja |  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.AssertionError: Unable to open page: 
+

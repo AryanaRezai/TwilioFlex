@@ -9,14 +9,10 @@ Feature: ChatTest HTML Rendering
     And Consumer enters first name "Ary"
     And Consumer enters last name "Rez"
     And Consumer enters email address "aryana.rezai@realpage.com"
-    And consumer enters phone number
+    And consumer enters phone number "4692165826"
     And Consumer clicks the START CHATTING button
     When Consumer is directed to the connecting page
-    Then Agent logs in to the agent desktop <agentDesk>
-    And Agent navigates to the Tasks Page
-    And Agent accepts the chat
-    And Agent is directed to bridge widget
-    And Agent logs out of agent desktop
+ 
    
    
     Examples:

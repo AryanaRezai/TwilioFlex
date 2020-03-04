@@ -1,0 +1,17 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "aryanarezai1",
+  "key": "nBYVszmG9472MHvWekaS",
+
+  "capabilities": {
+    "browserstack.debug": true
+  },
+  
+	"environments": [{
+	  "os": "iOS",
+	  "os_version": "iphone6",
+	  "browser": "safari",
+      "browser_version": "11.2",
+	   "resolution": "1334x750"
+	}]
+}

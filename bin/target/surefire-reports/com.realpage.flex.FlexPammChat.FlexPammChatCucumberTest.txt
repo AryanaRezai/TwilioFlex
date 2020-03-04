@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.realpage.flex.FlexPammChat.FlexPammChatCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 2, Errors: 0, Skipped: 15, Time elapsed: 36.374 sec <<< FAILURE! - in com.realpage.flex.FlexPammChat.FlexPammChatCucumberTest
+And Agent opens a widget in a new window(| QA Tester | Flexloginpage | test-leasing.agent@realpage.onmicrosoft.com | Testflex123! |)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: Cannot open flex in a new tab
+
+| QA Tester | Flexloginpage | test-leasing.agent@realpage.onmicrosoft.com | Testflex123! |  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: Cannot open flex in a new tab
+
