@@ -114,7 +114,7 @@ public class FlexLoginStepDefinitions extends PageBase {
 				   waitForElementPresence(driver, By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
 				   WebElement element = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
 				   element.click();
-				   
+				   System.out.println("");
 				   Thread.sleep(500);
 				   WebElement nextbtn = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
 				   nextbtn.click();
