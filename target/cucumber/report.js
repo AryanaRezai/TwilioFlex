@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8553349200,
+  "duration": 4713798100,
   "status": "passed"
 });
 formatter.scenario({
@@ -142,7 +142,7 @@ formatter.match({
   "location": "CucumberStepDefinitions.open_site(String,String)"
 });
 formatter.result({
-  "duration": 1904296400,
+  "duration": 1370639800,
   "status": "passed"
 });
 formatter.match({
@@ -155,7 +155,7 @@ formatter.match({
   "location": "FlexLoginStepDefinitions.Agent_enters_User_name(String)"
 });
 formatter.result({
-  "duration": 3355950100,
+  "duration": 3190035400,
   "status": "passed"
 });
 formatter.match({
@@ -168,29 +168,30 @@ formatter.match({
   "location": "FlexLoginStepDefinitions.Agent_enters_password(String)"
 });
 formatter.result({
-  "duration": 154893200,
+  "duration": 132766700,
   "status": "passed"
 });
 formatter.match({
   "location": "FlexLoginStepDefinitions.Agent_selects_Sign_In()"
 });
 formatter.result({
-  "duration": 3200991600,
+  "duration": 3047090400,
   "status": "passed"
 });
 formatter.match({
   "location": "FlexLoginStepDefinitions.Agent_is_logged_in()"
 });
 formatter.result({
-  "duration": 17497324000,
-  "error_message": "java.lang.AssertionError: Menu button is not there\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat com.realpage.flex.FlexLogin.FlexLoginStepDefinitions.Agent_is_logged_in(FlexLoginStepDefinitions.java:147)\r\n\tat ✽.Then Agent is logged in(src/test/resources/com/realpage/components/FlexPammChat/flexpammchat.feature:11)\r\n",
-  "status": "failed"
+  "duration": 2161159000,
+  "status": "passed"
 });
 formatter.match({
   "location": "FlexPammChatStepDefinitions.Agent_opens_a_widget_in_a_new_window()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 34610364300,
+  "error_message": "org.openqa.selenium.NoSuchFrameException: No frame element found by name or id Twilio-Splitter-Pane\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b1534ae328c771e0856c93e187490ca824\u0027, time: \u00272016-03-15 10:43:46\u0027\nSystem info: host: \u00275CG7523PNR-LT\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:997)\r\n\tat com.realpage.flex.FlexPammChat.FlexPammChatStepDefinitions.Agent_opens_a_widget_in_a_new_window(FlexPammChatStepDefinitions.java:116)\r\n\tat ✽.And Agent opens a widget in a new window(src/test/resources/com/realpage/components/FlexPammChat/flexpammchat.feature:12)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "ChatTestStepDefinitions.Consumer_selects_CHAT()"
@@ -295,7 +296,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 1439317900,
+  "duration": 1870629900,
   "status": "passed"
 });
 });

@@ -77,106 +77,132 @@ public class FlexPammChatStepDefinitions extends PageBase{
 	public void Agent_opens_a_widget_in_a_new_window() throws Throwable {
 		try{
 			
-//			WebElement agentdesktop= driver.findElement(By.cssSelector("#root > div > div.Twilio-RootContainer-default.css-18ljn0d > div.Twilio.Twilio-MainContainer.css-a9ubwn > div.Twilio-MainContainer-default.css-wct8tc > div.Twilio-MainContainer-Content.css-kspy0u > div > div.Twilio.Twilio-ViewCollection.css-1rz1a0b > div.Twilio-View.Twilio-View-agent-desktop.css-11jpuyb > div.Twilio-AgentDesktopView-default.css-wct8tc > div > div:nth-child(1) > div > div.Twilio-AgentDesktopView\.Panel1-default.css-18ljn0d > div.Twilio.Twilio-NoTasksCanvas.css-1018htb"));
-//			agentdesktop.click();
-//			Thread.sleep(500);
-//
-//			
-//			  WebElement status = driver.findElement(By.xpath("//*[@id='root']/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[1]/div/div[1]/div[1]/div/select"));
-//			  String statustext=status.getAttribute("value");
-//			  System.out.println(statustext);
-//			  
-//			 
-//			  if (!statustext.equals("Available")){
-//				  
-//				  status.click();
-//				  Thread.sleep(500);
-//				  Select available= new Select(driver.findElement(By.xpath("//*[@id='root']/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[1]/div/div[1]/div[1]/div/select")));
-//				  available.selectByVisibleText("Available");
-//				  status.click();
-//				  Thread.sleep(500);
-//				
-//			  }
-//			
-			 
-			
-			
-//              WebDriverWait waitt = new WebDriverWait(driver, 30);
-//			  WebElement element = waitt.until(ExpectedConditions.elementToBeClickable(By.className("Twilio-TaskListBaseItem-FirstLine")));
-//			  Thread.sleep(500);
-//			  System.out.println("found the element");
-//			
-//			  element.click();
-//			  driver.manage().window().maximize();
-//			  
-//			    //driver.manage().window().setSize(new Dimension(700, 1000));
-//			    Thread.sleep(500);
-//			    String url = driver.getCurrentUrl();
-//				System.out.println(url);
+
 				
 				
 				//open pamm tab
 				JavascriptExecutor jss = (JavascriptExecutor) driver; 
 				 jss.executeScript("window.open('https://qa-rpcc.realpage.com/');");
+				 
 				 ArrayList<String> tabss= new ArrayList<String>(driver.getWindowHandles());
-				 driver.switchTo().window(tabss.get(1));
+				 System.out.println("This is Pamm" + "" + driver.switchTo().window(tabss.get(1)));
 				 Thread.sleep(500);
 				 WebElement pammuser= driver.findElement(By.id("txtLogin"));
 				 pammuser.sendKeys("arezai");
 				 
 				 WebElement pammpsw= driver.findElement(By.id("txtPwd"));
-				 pammpsw.sendKeys("MaheMan@2020");
+				 pammpsw.sendKeys("!uLpP6eB");
 				 
 				 Thread.sleep(500);
 				 WebElement pammloginbtn= driver.findElement(By.id("btnLogin"));
 				 pammloginbtn.click();
-				 Thread.sleep(500);
-				
+				 Thread.sleep(1000);
+				 
+				 
+				 //switch to flex to make sure no other tasks are existing
+				  driver.switchTo().window(tabss.get(0));
+				 
+				  
+                   WebElement a = driver.findElement(By.className("Twilio-TaskListsContainer"));
+				   if (a != null) {
+				   Thread.sleep(500);
+				   driver.findElement(By.className("Twilio-TaskListBaseItem-FirstLine")).click();
+				   Thread.sleep(500);
+				   
+				   //switch to PAMM iframe
+				 System.out.println(driver.switchTo().defaultContent());
+				 
+				  System.out.println("switched the iframe");
+				  
+				 driver.switchTo().frame("");
+				  System.out.println("switched the iframe");
+				  Thread.sleep(500);
+				  
+				   WebElement process=driver.findElement(By.xpath("/html/body/form/div[3]/div[1]/div[5]/input"));
+				   process.click();
+				   
+//					driver.findElement(By.className("Twilio-TaskListBaseItem-FirstLine")).click();
+//					System.out.println("clicking");
+//				//	driver.findElement(By.id("cmdProcess")).click();
+				} else {
+//					
+					System.out.println("Clean");
+//					
+				} 
+//				 
+			  
+		    	  
 				//open widget page
 				 JavascriptExecutor js = (JavascriptExecutor) driver; 
 				 js.executeScript("window.open('https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg');");
 				 ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
+				 System.out.println(tabs);
 				 driver.switchTo().window(tabs.get(2));
 				 Thread.sleep(500);
 		
-			      System.out.println(driver.getWindowHandles().size());
-			  
-			 // driver.get("https://consumerwidget-qa.devplaypen.com/widget/window?wid=ybB9NXFPhKFKHATTISkzw");
-			 // driver.manage().window().setSize(new Dimension(700, 1000));
-			 // driver.manage().window().setPosition(new Point(800,50));
-			  
-		//	  driver.findElement(By.className("communicationMode-inner")).click();
-//			 element.sendKeys(Keys.CONTROL+"n");
-//			 Thread.sleep(1000);
-			
-
-			
-			
-//			Set<String> windows = driver.getWindowHandles();
-//			String agentpage = driver.getWindowHandle();
-//			((JavascriptExecutor)driver).executeScript("windw.open();");
-//			Set<String> consumerWindow = driver.getWindowHandles();
-//			consumerWindow.removeAll(windows);
-//			String consumerSiteHandle = ((String)consumerWindow.toArray()[0]);
-//			driver.switchTo().window(consumerSiteHandle);
-//			driver.get("https://consumerwidget-qa.devplaypen.com/widget/window?wid=ybB9NXFPhKFKHATTISkzw");
-//			//driver.switchTo().window(adminToolHandle);
-//		
-
-////			
-//			 ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
-//			 driver.switchTo().window(tabs.get(1));
-//			driver.manage().window().setSize(new Dimension(500, 1000));
-//			driver.manage().window().setPosition(new Point(800,50));
-//			Thread.sleep(500);
+			     System.out.println("This is the widget" + driver.getWindowHandles().size());
+			      
+			      
+			      
+			      
+			      
+			      
+//			      //Open Flex to look for eventual existing tasks to close
+//				  ArrayList<String> tabsss= new ArrayList<String>(driver.getWindowHandles());
+//	        	  System.out.println("This is Flex" + driver.switchTo().window(tabsss.get(0)));
+//		    	  Thread.sleep(1000);
+//		    	  
+//		    	  
+//		    	  
+//					if(driver.findElement(By.className("Twilio-TaskListBaseItem-FirstLine")).isDisplayed()){
+//					
+//					System.out.println("@@@@@");
+//					//driver.findElement(By.id("cmdProcess")).click();
+//				} else {
+//					
+//					System.out.println("$$$$$$");
+//					 ArrayList<String> tabtab= new ArrayList<String>(driver.getWindowHandles());
+//		        	 System.out.println( driver.switchTo().window(tabtab.get(2)));
+//					
+//				}
+//		    	  
+//			  
+//			 // driver.get("https://consumerwidget-qa.devplaypen.com/widget/window?wid=ybB9NXFPhKFKHATTISkzw");
+//			 // driver.manage().window().setSize(new Dimension(700, 1000));
+//			 // driver.manage().window().setPosition(new Point(800,50));
+//			  
+//		//	  driver.findElement(By.className("communicationMode-inner")).click();
+////			 element.sendKeys(Keys.CONTROL+"n");
+////			 Thread.sleep(1000);
 //			
-			
-//	        
-//			  ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
-//			  driver.switchTo().window(tabs.get(1));
-//			  Thread.sleep(500);
-			    String urls = driver.getCurrentUrl();
-				System.out.println(urls);
+//
+//			
+//			
+////			Set<String> windows = driver.getWindowHandles();
+////			String agentpage = driver.getWindowHandle();
+////			((JavascriptExecutor)driver).executeScript("windw.open();");
+////			Set<String> consumerWindow = driver.getWindowHandles();
+////			consumerWindow.removeAll(windows);
+////			String consumerSiteHandle = ((String)consumerWindow.toArray()[0]);
+////			driver.switchTo().window(consumerSiteHandle);
+////			driver.get("https://consumerwidget-qa.devplaypen.com/widget/window?wid=ybB9NXFPhKFKHATTISkzw");
+////			//driver.switchTo().window(adminToolHandle);
+////		
+//
+//////			
+////			 ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
+////			 driver.switchTo().window(tabs.get(1));
+////			driver.manage().window().setSize(new Dimension(500, 1000));
+////			driver.manage().window().setPosition(new Point(800,50));
+////			Thread.sleep(500);
+////			
+//			
+////	        
+////			  ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
+////			  driver.switchTo().window(tabs.get(1));
+////			  Thread.sleep(500);
+//			    String urls = driver.getCurrentUrl();
+//				System.out.println(urls);
 					
 			
 	} catch (NoSuchElementException e) {
@@ -330,7 +356,7 @@ public class FlexPammChatStepDefinitions extends PageBase{
 			//Thread.sleep(30000);
 
 		} catch (NoSuchElementException e) {
-			fail("Cannot open flex in a new tab");
+			fail("Agent didn't received the message");
 		}
 	}
 	
@@ -373,9 +399,17 @@ public class FlexPammChatStepDefinitions extends PageBase{
 			 Thread.sleep(3000);
 			 System.out.println("unflagged");
 			
-
+			 
+			 //verify the duration section 
+			 WebElement duration = driver.findElement(By.xpath("/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[3]"));
+             String durationcontent= duration.getText();
+             System.out.println(durationcontent);
+             
+             //switch back to chat
+             driver.findElement(By.className("")).click();
+             
 		} catch (NoSuchElementException e) {
-			fail("Cannot open flex in a new tab");
+			fail("Cannot verify the info section");
 		}
 	}
 	
@@ -412,7 +446,7 @@ public class FlexPammChatStepDefinitions extends PageBase{
 
 
 		} catch (NoSuchElementException e) {
-			fail("Cannot open flex in a new tab");
+			fail("Cannot send a canned response");
 		}
 	}
 
