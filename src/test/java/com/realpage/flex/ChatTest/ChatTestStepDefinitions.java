@@ -76,6 +76,7 @@ public class ChatTestStepDefinitions extends PageBase {
 	public void Consumer_selects_CHAT() throws Throwable {
 		
 	   try{
+		   
 		   WebElement chat = driver.findElement(By.className("communicationMode-chat"));
 		   chat.click();
 	   
