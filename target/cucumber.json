@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [
   {
     "line": 1,
@@ -315,3 +316,5 @@
     "uri": "src/test/resources/com/realpage/components/FlexPammChat/flexpammchat.feature"
   }
 ]
+=======
+>>>>>>> Stashed changes

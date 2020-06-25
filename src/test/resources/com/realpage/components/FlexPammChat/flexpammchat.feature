@@ -25,6 +25,7 @@ Feature: ChatTest HTML Rendering
     And User sends a canned response from the agent
     When User ends the conversation
    
+   
     Examples:
     |userName|pageName|userEmail|passWord|
     |QA Tester|Flexloginpage|test-leasing.agent@realpage.onmicrosoft.com|UniversalStudios@2020|

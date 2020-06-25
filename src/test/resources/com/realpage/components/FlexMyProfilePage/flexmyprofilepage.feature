@@ -12,9 +12,7 @@ Feature: ChatTest HTML Rendering
     And Agent navigates to My Profile Page
     And Agent sees the agents info
     
-  
-   
-   
+
     Examples:
     |userName|pageName|userEmail|passWord|
     |QA Tester|Flexloginpage|test-leasing.agent@realpage.onmicrosoft.com|UniversalStudios@2020|

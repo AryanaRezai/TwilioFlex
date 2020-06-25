@@ -75,6 +75,7 @@ public class FlexMyProfilePageStepDefinitions extends PageBase {
 	@When("^Agent navigates to My Profile Page$")
 	public void Agent_navigates_to_My_Profile_Page() throws Throwable {
 		
+		
 	   try{
 
 		   Thread.sleep(500);
@@ -102,7 +103,11 @@ public class FlexMyProfilePageStepDefinitions extends PageBase {
 		   assertTrue(aiheader.equals("Test-Leasing Agent (Twilio Flex)"));
 		   
 		   //Verifying the content
+<<<<<<< Updated upstream
 		   WebElement elementt=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfocontent").getXpathSelector()));
+=======
+		   WebElement elementt=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("try{flexagentinfocontent").getXpathSelector()));
+>>>>>>> Stashed changes
 		   String aicontent= elementt.getText();
 		   System.out.println(aicontent);
 		   assertTrue(aicontent.contains("Roles:agent"));
@@ -111,12 +116,15 @@ public class FlexMyProfilePageStepDefinitions extends PageBase {
 		   assertTrue(aicontent.contains("Worker SID: WKd2f42f6a990b13814710fdf67eb3c004"));
 		   assertTrue(aicontent.contains("Department:"));
 		   assertTrue(aicontent.contains("Display Name:"));
+<<<<<<< Updated upstream
 		   
 		   //Verifying agent roll info
 		   WebElement elementtt=driver.findElement(By.className(FlexMyProfilePageComponent.getUIElements().get("flexagentroll").getClassName()));
 		   String agentroll = elementtt.getAttribute("Value");
 		   System.out.println(agentroll);
 		   assertTrue(agentroll.equals("AutomationAgent"));
+=======
+>>>>>>> Stashed changes
 		   
 		   
 	   } catch (NoSuchElementException e){
@@ -130,6 +138,7 @@ public class FlexMyProfilePageStepDefinitions extends PageBase {
 	public void Agent_sees_a_disabled_channels_section() throws Throwable {
 		try{
 	   
+<<<<<<< Updated upstream
 
 //		  //Verifying the header
 //		   WebElement element=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfoheader").getXpathSelector()));
@@ -148,6 +157,53 @@ public class FlexMyProfilePageStepDefinitions extends PageBase {
 	@When("^Agent sees a disabled languages section$")
 	public void Agent_sees_a_disabled_languages_section() throws Throwable {
 		try{
+=======
+//		@When("^Agent enters password ([^\"]+)$")
+//		public void Agent_enters_password(String passWord) throws Throwable {
+//			
+//		   try{
+//			
+//			   WebElement password = driver.findElement(By.name(FlexLoginComponent.getUIElements().get("flexpassword").getName()));
+//			   password.sendKeys(passWord);
+//		   } catch (NoSuchElementException e){
+//			   fail("Cannot enter the password");
+//		   
+//		}
+//	}
+//		
+//			@When("^Agent selects Sign In$")
+//			public void Agent_selects_Sign_In() throws Throwable {
+//				
+//			   try{
+//				   waitForElementPresence(driver, By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
+//				   WebElement element = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
+//				   element.click();
+//				   System.out.println("");
+//				   Thread.sleep(500);
+//				   WebElement nextbtn = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
+//				   nextbtn.click();
+//				   Thread.sleep(300);
+//			   } catch (NoSuchElementException e){
+//				   fail("Cannot select the Sign In button");
+//			   
+//			}
+//		}
+//			   
+//				@When("^Agent is logged in$")
+//				public void Agent_is_logged_in() throws Throwable {
+//					
+//				   try{
+//					  driver.findElement(By.className(FlexLoginComponent.getUIElements().get("flexmenubtn").getClassName()));
+//
+//					  Thread.sleep(500);					  
+//
+//					   
+//				   } catch (NoSuchElementException e){
+//					   fail("Menu button is not there");
+//				   
+//				}
+//			}
+>>>>>>> Stashed changes
 	   
 
 //		  //Verifying the header
@@ -283,6 +339,5 @@ public class FlexMyProfilePageStepDefinitions extends PageBase {
 	}
 
 }
-	   
 	   
 

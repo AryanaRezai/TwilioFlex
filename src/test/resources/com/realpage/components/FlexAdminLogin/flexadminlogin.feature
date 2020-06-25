@@ -9,8 +9,6 @@ Feature: ChatTest HTML Rendering
     And Admin enters password <passWord>
     And Admin selects Sign In
     Then Admin is logged in
-    
-  
    
    
     Examples:

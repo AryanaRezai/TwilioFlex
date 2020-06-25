@@ -76,6 +76,7 @@ public class FlexAdminLoginStepDefinitions extends PageBase {
 	public void Admin_enters_User_name(String userName) throws Throwable {
 		
 	   try{
+		   
 		  
 		waitForElementPresence(driver, By.name(FlexAdminLoginComponent.getUIElements().get("flexemail").getName()));
 		WebElement element=driver.findElement(By.name(FlexAdminLoginComponent.getUIElements().get("flexemail").getName()));

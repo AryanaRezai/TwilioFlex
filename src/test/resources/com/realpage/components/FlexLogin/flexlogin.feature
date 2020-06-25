@@ -10,8 +10,7 @@ Feature: ChatTest HTML Rendering
     And Agent selects Sign In
     Then Agent is logged in
     
-  
-   
+
    
     Examples:
     |userName|pageName|userEmail|passWord|

@@ -9,10 +9,7 @@ Feature: ChatTest HTML Rendering
     And Agent enters password <passWord>
     And Agent selects Sign In
     Then Agent is logged in
-    
-  
-   
-   
+
     Examples:
     |userName|pageName|userEmail|passWord|
     |QA Tester|Flexloginpage|test-leasing.agent@realpage.onmicrosoft.com|UniversalStudios@2020|

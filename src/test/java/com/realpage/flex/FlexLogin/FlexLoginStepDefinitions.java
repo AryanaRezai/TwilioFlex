@@ -85,6 +85,7 @@ public class FlexLoginStepDefinitions extends PageBase {
 		   WebElement nextbtn = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
 		   nextbtn.click();
 		   
+		   
 		   Thread.sleep(1000);
 		   
 	   } catch (NoSuchElementException e){

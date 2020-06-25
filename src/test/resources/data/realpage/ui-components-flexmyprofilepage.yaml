@@ -5,7 +5,11 @@ development: &id001 !!com.realpage.core.component.UIComponentMap
         flexprofilepage: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "", name: "", xpathSelector: "/html/body/div/div/div[1]/div[2]/div[1]/div[1]/div/div[1]/button[2]"}
         flexagentinfoheader: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "", name: "", xpathSelector: "/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[2]/div/h2"}
         flexagentinfocontent: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "", name: "", xpathSelector: "/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[2]/div/div[1]"}
+<<<<<<< Updated upstream
         flexagentroll: !!com.realpage.core.component.UIElement {className: "friendly-name", cssSelector: "", idSelector: "", name: "", xpathSelector: ""}
+=======
+        flexnextbutton: !!com.realpage.core.component.UIElement {className: "", cssSelector: "", idSelector: "idSIButton9", name: "", xpathSelector: ""}
+>>>>>>> Stashed changes
         flexmenubtn: !!com.realpage.core.component.UIElement {className: "Twilio-Icon", cssSelector: "", idSelector: "", name: "", xpathSelector: ""}
         name: flexmyprofilepage
 uat: *id001
