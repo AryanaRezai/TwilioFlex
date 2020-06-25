@@ -5,17 +5,17 @@ Feature: ChatTest HTML Rendering
 
    *Scenario Name: "Flex Login"
     Given <userName> wants to navigate the content of <pageName>
-    And Agent enters User name <userEmail>
-    And Agent enters password <passWord>
-    And Agent selects Sign In
-    Then Agent is logged in
+    And Admin enters User name <userEmail>
+    And Admin enters password <passWord>
+    And Admin selects Sign In
+    Then Admin is logged in
     
   
    
    
     Examples:
     |userName|pageName|userEmail|passWord|
-    |QA Tester|Flexloginpage|test-leasing.agent@realpage.onmicrosoft.com|UniversalStudios@2020|
+    |QA Tester|Flexloginpage|aryana.rezai@realpage.com|UniversalStudios@2020|
   
     
    

@@ -15,7 +15,7 @@ Feature: ChatTest HTML Rendering
    
     Examples:
     |userName|pageName|userEmail|passWord|
-    |QA Tester|Flexloginpage|test-leasing.agent@realpage.onmicrosoft.com|Automation@2020|
+    |QA Tester|Flexloginpage|test-leasing.agent@realpage.onmicrosoft.com|UniversalStudios@2020|
   
     
    

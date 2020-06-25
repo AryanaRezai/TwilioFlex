@@ -91,57 +91,32 @@ public class FlexPammChatStepDefinitions extends PageBase{
 				 pammuser.sendKeys("arezai");
 				 
 				 WebElement pammpsw= driver.findElement(By.id("txtPwd"));
-				 pammpsw.sendKeys("!uLpP6eB");
+				 pammpsw.sendKeys("Summon@2020");
 				 
 				 Thread.sleep(500);
 				 WebElement pammloginbtn= driver.findElement(By.id("btnLogin"));
 				 pammloginbtn.click();
-				 Thread.sleep(1000);
+				 Thread.sleep(2000);
 				 
+				 //open a widget
+				 JavascriptExecutor jsss = (JavascriptExecutor) driver; 
+				 jsss.executeScript("window.open('https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg');");
+				 Thread.sleep(2000);
 				 
-				 //switch to flex to make sure no other tasks are existing
-				  driver.switchTo().window(tabss.get(0));
+			
 				 
-				  
-                   WebElement a = driver.findElement(By.className("Twilio-TaskListsContainer"));
-				   if (a != null) {
-				   Thread.sleep(500);
-				   driver.findElement(By.className("Twilio-TaskListBaseItem-FirstLine")).click();
-				   Thread.sleep(500);
-				   
-				   //switch to PAMM iframe
-				 System.out.println(driver.switchTo().defaultContent());
-				 
-				  System.out.println("switched the iframe");
-				  
-				 driver.switchTo().frame("");
-				  System.out.println("switched the iframe");
-				  Thread.sleep(500);
-				  
-				   WebElement process=driver.findElement(By.xpath("/html/body/form/div[3]/div[1]/div[5]/input"));
-				   process.click();
-				   
-//					driver.findElement(By.className("Twilio-TaskListBaseItem-FirstLine")).click();
-//					System.out.println("clicking");
-//				//	driver.findElement(By.id("cmdProcess")).click();
-				} else {
-//					
-					System.out.println("Clean");
-//					
-				} 
-//				 
 			  
 		    	  
-				//open widget page
-				 JavascriptExecutor js = (JavascriptExecutor) driver; 
-				 js.executeScript("window.open('https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg');");
-				 ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
-				 System.out.println(tabs);
-				 driver.switchTo().window(tabs.get(2));
-				 Thread.sleep(500);
-		
-			     System.out.println("This is the widget" + driver.getWindowHandles().size());
-			      
+//				//open widget page
+//				 JavascriptExecutor js = (JavascriptExecutor) driver; 
+//				 js.executeScript("window.open('https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg');");
+//				 ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
+//				 System.out.println(tabs);
+//				 driver.switchTo().window(tabs.get(2));
+//				 Thread.sleep(500);
+//		
+//			     System.out.println("This is the widget" + driver.getWindowHandles().size());
+//			      
 			      
 			      
 			      
@@ -178,31 +153,31 @@ public class FlexPammChatStepDefinitions extends PageBase{
 //
 //			
 //			
-////			Set<String> windows = driver.getWindowHandles();
-////			String agentpage = driver.getWindowHandle();
-////			((JavascriptExecutor)driver).executeScript("windw.open();");
-////			Set<String> consumerWindow = driver.getWindowHandles();
-////			consumerWindow.removeAll(windows);
-////			String consumerSiteHandle = ((String)consumerWindow.toArray()[0]);
-////			driver.switchTo().window(consumerSiteHandle);
-////			driver.get("https://consumerwidget-qa.devplaypen.com/widget/window?wid=ybB9NXFPhKFKHATTISkzw");
-////			//driver.switchTo().window(adminToolHandle);
-////		
-//
-//////			
-////			 ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
-////			 driver.switchTo().window(tabs.get(1));
-////			driver.manage().window().setSize(new Dimension(500, 1000));
-////			driver.manage().window().setPosition(new Point(800,50));
-////			Thread.sleep(500);
+//			Set<String> windows = driver.getWindowHandles();
+//			String agentpage = driver.getWindowHandle();
+//			((JavascriptExecutor)driver).executeScript("windw.open();");
+//			Set<String> consumerWindow = driver.getWindowHandles();
+//			consumerWindow.removeAll(windows);
+//			String consumerSiteHandle = ((String)consumerWindow.toArray()[0]);
+//			driver.switchTo().window(consumerSiteHandle);
+//			driver.get("https://consumerwidget-qa.devplaypen.com/widget/window?wid=ybB9NXFPhKFKHATTISkzw");
+//			//driver.switchTo().window(adminToolHandle);
+//		
+
 ////			
+//			 ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
+//			 driver.switchTo().window(tabs.get(1));
+//			driver.manage().window().setSize(new Dimension(500, 1000));
+//			driver.manage().window().setPosition(new Point(800,50));
+//			Thread.sleep(500);
 //			
-////	        
-////			  ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
-////			  driver.switchTo().window(tabs.get(1));
-////			  Thread.sleep(500);
-//			    String urls = driver.getCurrentUrl();
-//				System.out.println(urls);
+			
+	        
+			  ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
+			  driver.switchTo().window(tabs.get(2));
+			  Thread.sleep(500);
+			    String urls = driver.getCurrentUrl();
+				System.out.println(urls);
 					
 			
 	} catch (NoSuchElementException e) {
@@ -211,33 +186,70 @@ public class FlexPammChatStepDefinitions extends PageBase{
 }
 
 	
-	@And("User logs in to PAMM$")
-	public void User_logs_in_to_PAMM() throws InterruptedException {
-
-		try {
-			
-        
-			  ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
-        	  driver.switchTo().window(tabs.get(0));
-	    	  Thread.sleep(500);
-			  String urls = driver.getCurrentUrl();
-			  System.out.println(urls);
-			  driver.manage().window().maximize();
-			
-		
-
-
-		} catch (NoSuchElementException e) {
-			fail("Cannot open flex in a new tab");
-		}
-	}
-	
+//	@And("User navigates to Flex to clean up previous tasks$")
+//	public void User_navigates_to_Flex_to_clean_up_previous_tasks() throws InterruptedException {
+//
+//		try {
+//			
+//			 ArrayList<String> tabss= new ArrayList<String>(driver.getWindowHandles());
+//			 //switch to flex to make sure no other tasks are existing
+//			  driver.switchTo().window(tabss.get(0));
+//			 
+//			  
+//             WebElement a = driver.findElement(By.className("Twilio-TaskListsContainer"));
+//			   if (a != null) {
+//			   Thread.sleep(500);
+//			   driver.findElement(By.className("Twilio-TaskListBaseItem-FirstLine")).click();
+//			   Thread.sleep(500);
+//			   
+//			   //switch to PAMM iframe
+//			 System.out.println(driver.switchTo().defaultContent());
+//			 
+//			  System.out.println("switched the iframe");
+//			  
+//			 driver.switchTo().frame("");
+//			  System.out.println("switched the iframe");
+//			  Thread.sleep(500);
+//			  
+//			   WebElement process=driver.findElement(By.xpath("/html/body/form/div[3]/div[1]/div[5]/input"));
+//			   process.click();
+//			   
+////				driver.findElement(By.className("Twilio-TaskListBaseItem-FirstLine")).click();
+////				System.out.println("clicking");
+////			//	driver.findElement(By.id("cmdProcess")).click();
+//			} else {
+////		
+//				
+//			} 
+//        
+////			  ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
+////        	  driver.switchTo().window(tabs.get(0));
+////	    	  Thread.sleep(500);
+////			  String urls = driver.getCurrentUrl();
+////			  System.out.println(urls);
+////			  driver.manage().window().maximize();
+//			
+//		
+//			  
+//				 //switch to flex to make sure no other tasks are existing
+//				  driver.switchTo().window(tabss.get(2));
+//
+//		} catch (NoSuchElementException e) {
+//			fail("Cannot open flex in a new tab");
+//		}
+//	}
+//	
 
 	
 	@And("User validates contacts name$")
 	public void User_validates_contacts_name() throws InterruptedException {
 
 		try {
+			 ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
+			  driver.switchTo().window(tabs.get(0));
+			  Thread.sleep(500);
+			    String urls = driver.getCurrentUrl();
+				System.out.println(urls);
 			
 		WebElement contactname= driver.findElement(By.className("Twilio-TaskListBaseItem-FirstLine"));
 		String nameofcontact = contactname.getText();
@@ -256,6 +268,8 @@ public class FlexPammChatStepDefinitions extends PageBase{
 	public void User_enters_a_message_from_the_Agent() throws InterruptedException {
 
 		try {
+			
+			
 			
 			//Agent clicks on the task
 		WebElement task=driver.findElement(By.xpath("//*[@id='root']/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[1]/div/div[1]/div[1]/div[1]/div/div[1]/div/div[1]/div/div[2]"));
@@ -279,16 +293,19 @@ public class FlexPammChatStepDefinitions extends PageBase{
 
 		try {
 			
-			ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
-			driver.switchTo().window(tabs.get(2));
-			 Thread.sleep(2000);
+			 ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
+			  driver.switchTo().window(tabs.get(2));
+			  Thread.sleep(500);
+			  String urls = driver.getCurrentUrl();
+			  System.out.println(urls);
 			
-//			WebElement text = driver.findElement(By.xpath("//*[@id='IM0f4291af0ac3485d9d69ffde38b41f68']/div[2]"));
-//			String agentstext = text.getText();
-//			System.out.println(agentstext);
+			WebDriverWait wait= new WebDriverWait(driver, 90);
+			WebElement text = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[3]/div[2]/div[2]/div[2]/div[1]/div/div[1]/div[1]/div/div/div/div[3]/div[1]")));
+            String agentstext = text.getText();
+			System.out.println(agentstext);
 			
-//			assertTrue(agentstext.contains("Hi Ary"));
-//			System.out.println("11111");
+			assertTrue(agentstext.equals("Hi Ary"));
+			System.out.println("11111");
 			
 
 		} catch (NoSuchElementException e) {
@@ -296,18 +313,21 @@ public class FlexPammChatStepDefinitions extends PageBase{
 		}
 	}
 	
+	
+	
+	
+	
 	@And("User verifies agents nickname on the widget$")
 	public void User_verifies_agents_nickname_on_the_widget() throws InterruptedException {
 
 		try {
 			
 			WebDriverWait wait = new WebDriverWait(driver, 50);
-			  WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#uc-chat-messages > div:nth-child(2) > div.operator-presentation.m-b-2 > p.font-20.text-l-h.font-bold.text-dark-grey.m-b-10.operator-name")));
-					//  (By.cssSelector("#uc-chat-messages > div:nth-child(2) > div.operator-presentation.m-b-2 > p.font-20.text-l-h.font-bold.text-dark-grey.m-b-10.operator-name")));
-			 //WebElement agentnickname= driver.findElement(By.cssSelector("#uc-chat-messages > div:nth-child(2) > div.operator-presentation.m-b-2 > p.font-20.text-l-h.font-bold.text-dark-grey.m-b-10.operator-name"));
-			 String nickname= element.getText();
+			WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[3]/div[2]/div[2]/div[2]/div[1]/div/div[1]/div[1]/div/div/div/div[1]/div[1]/p[2]")));
+			 WebElement agentnickname= driver.findElement(By.xpath("/html/body/div[3]/div[2]/div[2]/div[2]/div[1]/div/div[1]/div[1]/div/div/div/div[1]/div[1]/p[2]"));
+			 String nickname= agentnickname.getText();
 			 System.out.println(nickname);
-			// assertTrue(nickname.equals("Aryana Rezai"));
+			assertTrue(nickname.equals("AutomationAgent"));
 			
 			 
 
@@ -321,12 +341,12 @@ public class FlexPammChatStepDefinitions extends PageBase{
 	public void User_sends_a_message_from_the_widge() throws InterruptedException {
 
 		try {
-			Thread.sleep(500);
-			WebElement coninputbox= driver.findElement(By.id("uc-message-input"));
+			WebDriverWait wait= new WebDriverWait(driver, 90);
+			WebElement coninputbox= wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("uc-message-input")));
 			 coninputbox.sendKeys("Hi there");
-			 Thread.sleep(400);
+			 Thread.sleep(500);
 			 Actions action = new Actions(driver);
-			 action.sendKeys(Keys.ENTER).build().perform();;
+			 action.sendKeys(Keys.ENTER).build().perform();
 			 Thread.sleep(500);
 			 
 
@@ -345,37 +365,38 @@ public class FlexPammChatStepDefinitions extends PageBase{
 			 Thread.sleep(500);
 			ArrayList<String> tabs= new ArrayList<String>(driver.getWindowHandles());
 			driver.switchTo().window(tabs.get(0));
-			Thread.sleep(1000);
 			
-			WebElement text = driver.findElement(By.xpath("//*[@id='root']/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/div[1]/div/div[6]/div[1]/div/div[2]/div/div/div/div[2]"));
+			
+			WebDriverWait wait= new WebDriverWait(driver, 90);
+			WebElement text = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='root']/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/div[1]/div/div[6]/div[1]/div/div[2]/div/div/div/div[2]")));
 			String agentstext = text.getText();
 			System.out.println(agentstext);
 			
-			//assertTrue(agentstext.contains("Hi there"));
-			//System.out.println("11111");
-			//Thread.sleep(30000);
 
 		} catch (NoSuchElementException e) {
 			fail("Agent didn't received the message");
 		}
 	}
 	
+	
 	@And("User verifies the info section$")
 	public void User_verifies_the_info_section() throws InterruptedException {
 
 		try {
 			
-			 WebElement infotab = driver.findElement(By.className("css-1i3d2ep"));
-			 infotab.click();
-			 Thread.sleep(3000);
+			
+			WebDriverWait wait= new WebDriverWait(driver, 90);
+			WebElement infotab = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("css-1i3d2ep")));
+			infotab.click();
+			 
 
 			 
 			System.out.println("flagg and unflagg tasks");
-		
-			 WebElement flagconversation= driver.findElement(By.xpath("/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/button"));
-			 flagconversation.click();
-			 Thread.sleep(1000);
-			 System.out.println("flagg conv");
+			WebDriverWait waitt= new WebDriverWait(driver, 90);
+			WebElement flagconversation = waitt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/button")));
+			flagconversation.click();
+			Thread.sleep(1000);
+			System.out.println("flagg conv");
 			 
 			 
 			 WebElement flag= driver.findElement(By.xpath("/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[2]/button"));
@@ -390,13 +411,13 @@ public class FlexPammChatStepDefinitions extends PageBase{
 			 Thread.sleep(1000);
 			 
 			 //Agent unflags the conversation
-			 WebElement unflag= driver.findElement(By.xpath("/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[3]/button"));
+			 
+			 WebElement unflag= driver.findElement(By.xpath("/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[4]/button"));
+			 Actions actions = new Actions(driver);
+			 actions.moveToElement(unflag);
 			 Thread.sleep(1000);
 			 unflag.click();
-	
-			 WebElement chattab = driver.findElement(By.className("css-y47si7"));
-			 chattab.click();
-			 Thread.sleep(3000);
+			 Thread.sleep(2000);
 			 System.out.println("unflagged");
 			
 			 
@@ -406,7 +427,9 @@ public class FlexPammChatStepDefinitions extends PageBase{
              System.out.println(durationcontent);
              
              //switch back to chat
-             driver.findElement(By.className("")).click();
+             WebElement chattab = driver.findElement(By.className("css-y47si7"));
+			 chattab.click();
+			 Thread.sleep(3000);
              
 		} catch (NoSuchElementException e) {
 			fail("Cannot verify the info section");
@@ -418,10 +441,7 @@ public class FlexPammChatStepDefinitions extends PageBase{
 
 		try {
 		
-//			 WebElement chatinputbox = driver.findElement(By.id("new-message-input"));
-//			 chatinputbox.click();
-//			 System.out.println("input box found");
-//			 Thread.sleep(1000);
+
 			 
 			 
 			  WebDriverWait wait = new WebDriverWait(driver, 500);
@@ -451,6 +471,33 @@ public class FlexPammChatStepDefinitions extends PageBase{
 	}
 
 
+	@And("User ends the conversation$")
+	public void User_ends_the_conversation() throws InterruptedException {
+
+		try {
+ 
+			 
+			  WebDriverWait wait = new WebDriverWait(driver, 90);
+			  WebElement endconv = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("end-conversation")));	
+		      endconv.click();	      
+		     
+		      
+		    
+		    
+		      WebDriverWait waitt = new WebDriverWait(driver, 90);
+			  WebElement confirmendconv = waitt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[2]/div[2]/div/div[3]/button[2]")));
+			  Thread.sleep(1000);
+		      confirmendconv.click();
+		      Thread.sleep(1000);
+		      
+		      WebElement inputbox= driver.findElement(By.id("new-message-input"));
+		    //  assertTrue(!inputbox.isEnabled());
+		
+
+		} catch (NoSuchElementException e) {
+			fail("Cannot send a canned response");
+		}
+	}
 
 	
 

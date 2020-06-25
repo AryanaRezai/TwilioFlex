@@ -72,73 +72,73 @@ public class FlexAgentsPageStepDefinitions extends PageBase {
 	 */
 	
 	
-	@When("^Agent enters User name ([^\"]+)$")
-	public void Agent_enters_User_name(String userName) throws Throwable {
-		
-	   try{
-		  
-		waitForElementPresence(driver, By.name(FlexLoginComponent.getUIElements().get("flexemail").getName()));
-		WebElement element=driver.findElement(By.name(FlexLoginComponent.getUIElements().get("flexemail").getName()));
-		element.sendKeys(userName);
-		   
-		
-		   WebElement nextbtn = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
-		   nextbtn.click();
-		   
-		   Thread.sleep(1000);
-		   
-	   } catch (NoSuchElementException e){
-		   fail("Cannot enter the userName");
-	   
-	    }
-	}
-	   
-	   
-		@When("^Agent enters password ([^\"]+)$")
-		public void Agent_enters_password(String passWord) throws Throwable {
-			
-		   try{
-			
-			   WebElement password = driver.findElement(By.name(FlexLoginComponent.getUIElements().get("flexpassword").getName()));
-			   password.sendKeys(passWord);
-		   } catch (NoSuchElementException e){
-			   fail("Cannot enter the password");
-		   
-		}
-	}
-		
-			@When("^Agent selects Sign In$")
-			public void Agent_selects_Sign_In() throws Throwable {
-				
-			   try{
-				   waitForElementPresence(driver, By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
-				   WebElement element = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
-				   element.click();
-				   System.out.println("");
-				   Thread.sleep(500);
-				   WebElement nextbtn = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
-				   nextbtn.click();
-				   Thread.sleep(300);
-			   } catch (NoSuchElementException e){
-				   fail("Cannot select the Sign In button");
-			   
-			}
-		}
-			   
-				@When("^Agent is logged in$")
-				public void Agent_is_logged_in() throws Throwable {
-					
-				   try{
-					  driver.findElement(By.className(FlexLoginComponent.getUIElements().get("flexmenubtn").getClassName()));
-
-					  Thread.sleep(500);					  
-
-					   
-				   } catch (NoSuchElementException e){
-					   fail("Menu button is not there");
-				   
-				}
-			}
+//	@When("^Agent enters User name ([^\"]+)$")
+//	public void Agent_enters_User_name(String userName) throws Throwable {
+//		
+//	   try{
+//		  
+//		waitForElementPresence(driver, By.name(FlexLoginComponent.getUIElements().get("flexemail").getName()));
+//		WebElement element=driver.findElement(By.name(FlexLoginComponent.getUIElements().get("flexemail").getName()));
+//		element.sendKeys(userName);
+//		   
+//		
+//		   WebElement nextbtn = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
+//		   nextbtn.click();
+//		   
+//		   Thread.sleep(1000);
+//		   
+//	   } catch (NoSuchElementException e){
+//		   fail("Cannot enter the userName");
+//	   
+//	    }
+//	}
+//	   
+//	   
+//		@When("^Agent enters password ([^\"]+)$")
+//		public void Agent_enters_password(String passWord) throws Throwable {
+//			
+//		   try{
+//			
+//			   WebElement password = driver.findElement(By.name(FlexLoginComponent.getUIElements().get("flexpassword").getName()));
+//			   password.sendKeys(passWord);
+//		   } catch (NoSuchElementException e){
+//			   fail("Cannot enter the password");
+//		   
+//		}
+//	}
+//		
+//			@When("^Agent selects Sign In$")
+//			public void Agent_selects_Sign_In() throws Throwable {
+//				
+//			   try{
+//				   waitForElementPresence(driver, By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
+//				   WebElement element = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
+//				   element.click();
+//				   System.out.println("");
+//				   Thread.sleep(500);
+//				   WebElement nextbtn = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
+//				   nextbtn.click();
+//				   Thread.sleep(300);
+//			   } catch (NoSuchElementException e){
+//				   fail("Cannot select the Sign In button");
+//			   
+//			}
+//		}
+//			   
+//				@When("^Agent is logged in$")
+//				public void Agent_is_logged_in() throws Throwable {
+//					
+//				   try{
+//					  driver.findElement(By.className(FlexLoginComponent.getUIElements().get("flexmenubtn").getClassName()));
+//
+//					  Thread.sleep(500);					  
+//
+//					   
+//				   } catch (NoSuchElementException e){
+//					   fail("Menu button is not there");
+//				   
+//				}
+//			}
 	   
 }
 	   

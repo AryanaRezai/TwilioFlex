@@ -1,4 +1,4 @@
-package com.realpage.flex.FlexMyProfilePage;
+package com.realpage.flex.FlexAdminLogin;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -12,10 +12,10 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		glue = {"com.foundation.cucumber", "com.realpage.flex.FlexLogin", "com.realpage.flex.FlexMyProfilePage"},
+		glue = {"com.foundation.cucumber", "com.realpage.flex.FlexAdminLogin"},
 		format = {"pretty", "html:target/cucumber", "json:target/cucumber.json"},
-		features = {"src/test/resources/com/realpage/components/FlexMyProfilePage/flexmyprofilepage.feature"}
+		features = {"src/test/resources/com/realpage/components/FlexAdminLogin/flexadminlogin.feature"}
 		)
-public class FlexMyProfilePageCucumberTest {
+public class FlexAdminLoginCucumberTest {
 
 }

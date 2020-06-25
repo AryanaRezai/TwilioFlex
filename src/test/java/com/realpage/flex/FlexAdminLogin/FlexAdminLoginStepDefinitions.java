@@ -1,4 +1,4 @@
-package com.realpage.flex.FlexLogin;
+package com.realpage.flex.FlexAdminLogin;
 
 import com.realpage.core.component.UIComponent;
 import com.realpage.core.component.UIComponentMap;
@@ -41,12 +41,12 @@ import static org.junit.Assert.fail;
  	- All Search functionality 
  *******************************************************
  */
-public class FlexLoginStepDefinitions extends PageBase {
+public class FlexAdminLoginStepDefinitions extends PageBase {
 
 	
 	private WebDriver driver;
 	private UIComponentMap uiMap;
-	private UIComponent FlexLoginComponent;
+	private UIComponent FlexAdminLoginComponent;
 	private List<WebElement> containers;
 	private UIPageFactory uiPageFactory;
 	
@@ -58,11 +58,11 @@ public class FlexLoginStepDefinitions extends PageBase {
 	 */
 	
 	@Autowired
-	public FlexLoginStepDefinitions(WebDriverManager webDriver, DataManager data) {
+	public FlexAdminLoginStepDefinitions(WebDriverManager webDriver, DataManager data) {
 		this.driver = webDriver.getWebDriver();
 		uiMap = data.getUIComponentMap();
 		uiPageFactory = data.getUIPageFactory();
-		FlexLoginComponent = uiMap.getComponent("flexlogin");
+		FlexAdminLoginComponent = uiMap.getComponent("flexadminlogin");
 	}
 
 	/*
@@ -72,51 +72,56 @@ public class FlexLoginStepDefinitions extends PageBase {
 	 */
 	
 	
-	@When("^Agent enters User name ([^\"]+)$")
-	public void Agent_enters_User_name(String userName) throws Throwable {
+	@When("^Admin enters User name ([^\"]+)$")
+	public void Admin_enters_User_name(String userName) throws Throwable {
 		
 	   try{
 		  
-		waitForElementPresence(driver, By.name(FlexLoginComponent.getUIElements().get("flexemail").getName()));
-		WebElement element=driver.findElement(By.name(FlexLoginComponent.getUIElements().get("flexemail").getName()));
+		waitForElementPresence(driver, By.name(FlexAdminLoginComponent.getUIElements().get("flexemail").getName()));
+		WebElement element=driver.findElement(By.name(FlexAdminLoginComponent.getUIElements().get("flexemail").getName()));
 		element.sendKeys(userName);
 		   
-		
-		   WebElement nextbtn = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
+		 Thread.sleep(1000);
+		   WebElement nextbtn = driver.findElement(By.id(FlexAdminLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
 		   nextbtn.click();
 		   
 		   Thread.sleep(1000);
 		   
 	   } catch (NoSuchElementException e){
-		   fail("Cannot enter the userName");
+		   fail("Admin Cannot enter the userName");
 	   
 	    }
 	}
+	
+	
 	   
 	   
-		@When("^Agent enters password ([^\"]+)$")
-		public void Agent_enters_password(String passWord) throws Throwable {
+		@When("^Admin enters password ([^\"]+)$")
+		public void Admin_enters_password(String passWord) throws Throwable {
 			
 		   try{
 			
-			   WebElement password = driver.findElement(By.name(FlexLoginComponent.getUIElements().get("flexpassword").getName()));
+			   WebElement password = driver.findElement(By.id(FlexAdminLoginComponent.getUIElements().get("flexpassword").getIdSelector()));
 			   password.sendKeys(passWord);
+			   
+			   
+			   
 		   } catch (NoSuchElementException e){
-			   fail("Cannot enter the password");
+			   fail("Admin Cannot enter the password");
 		   
 		}
 	}
 		
-			@When("^Agent selects Sign In$")
-			public void Agent_selects_Sign_In() throws Throwable {
+			@When("^Admin selects Sign In$")
+			public void Admin_selects_Sign_In() throws Throwable {
 				
 			   try{
-				   waitForElementPresence(driver, By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
-				   WebElement element = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
+				   waitForElementPresence(driver, By.id(FlexAdminLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
+				   WebElement element = driver.findElement(By.id(FlexAdminLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
 				   element.click();
 				   System.out.println("Signed In");
 				   Thread.sleep(500);
-				   WebElement nextbtn = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
+				   WebElement nextbtn = driver.findElement(By.id(FlexAdminLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
 				   nextbtn.click();
 				   Thread.sleep(300);
 			   } catch (NoSuchElementException e){
@@ -125,17 +130,17 @@ public class FlexLoginStepDefinitions extends PageBase {
 			}
 		}
 			   
-				@When("^Agent is logged in$")
-				public void Agent_is_logged_in() throws Throwable {
+				@When("^Admin is logged in$")
+				public void Admin_is_logged_in() throws Throwable {
 					
 				   try{
-					  driver.findElement(By.className(FlexLoginComponent.getUIElements().get("flexmenubtn").getClassName()));
+					  driver.findElement(By.className(FlexAdminLoginComponent.getUIElements().get("flexmenubtn").getClassName()));
 
 					  Thread.sleep(500);					  
 
 					   
 				   } catch (NoSuchElementException e){
-					   fail("Menu button is not there");
+					   fail("Admin failed to log in");
 				   
 				}
 			}

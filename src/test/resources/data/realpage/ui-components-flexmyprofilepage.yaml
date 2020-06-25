@@ -1,13 +1,13 @@
 development: &id001 !!com.realpage.core.component.UIComponentMap
   UIComponents:
-    flexlogin:
+    flexmyprofilepage:
       UIElements:
-        flexemail: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "", name: "loginfmt", xpathSelector: ""}
-        flexpassword: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "", name: "passwd", xpathSelector: ""}
-        flexsubmit: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "idSIButton9", name: "", xpathSelector: ""}
-        flexnextbutton: !!com.realpage.core.component.UIElement {className: "", cssSelector: "", idSelector: "idSIButton9", name: "", xpathSelector: ""}
+        flexprofilepage: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "", name: "", xpathSelector: "/html/body/div/div/div[1]/div[2]/div[1]/div[1]/div/div[1]/button[2]"}
+        flexagentinfoheader: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "", name: "", xpathSelector: "/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[2]/div/h2"}
+        flexagentinfocontent: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "", name: "", xpathSelector: "/html/body/div/div/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[2]/div/div[1]"}
+        flexagentroll: !!com.realpage.core.component.UIElement {className: "friendly-name", cssSelector: "", idSelector: "", name: "", xpathSelector: ""}
         flexmenubtn: !!com.realpage.core.component.UIElement {className: "Twilio-Icon", cssSelector: "", idSelector: "", name: "", xpathSelector: ""}
-        name: flexlogin
+        name: flexmyprofilepage
 uat: *id001
 stage: *id001
 production: *id001

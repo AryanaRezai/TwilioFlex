@@ -15,7 +15,6 @@ Feature: ChatTest HTML Rendering
     And Consumer enters last name "Rez"
     And Consumer enters email address "aryana.rezai@realpage.com"
     And Consumer clicks the START CHATTING button
-    And User logs in to PAMM
     And User validates contacts name
     And User enters a message from the Agent
     And User verifies that the contact received the message
@@ -24,11 +23,11 @@ Feature: ChatTest HTML Rendering
     And User verifies that the agent received the message
     And User verifies the info section
     And User sends a canned response from the agent
-  
+    When User ends the conversation
    
     Examples:
     |userName|pageName|userEmail|passWord|
-    |QA Tester|Flexloginpage|test-leasing.agent@realpage.onmicrosoft.com|Automation@2020|
+    |QA Tester|Flexloginpage|test-leasing.agent@realpage.onmicrosoft.com|UniversalStudios@2020|
   
     
    

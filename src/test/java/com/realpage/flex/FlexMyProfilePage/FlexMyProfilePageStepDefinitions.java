@@ -46,7 +46,7 @@ public class FlexMyProfilePageStepDefinitions extends PageBase {
 	
 	private WebDriver driver;
 	private UIComponentMap uiMap;
-	private UIComponent FlexLoginComponent;
+	private UIComponent FlexMyProfilePageComponent;
 	private List<WebElement> containers;
 	private UIPageFactory uiPageFactory;
 	
@@ -62,7 +62,7 @@ public class FlexMyProfilePageStepDefinitions extends PageBase {
 		this.driver = webDriver.getWebDriver();
 		uiMap = data.getUIComponentMap();
 		uiPageFactory = data.getUIPageFactory();
-		FlexLoginComponent = uiMap.getComponent("flexlogin");
+		FlexMyProfilePageComponent = uiMap.getComponent("flexmyprofilepage");
 	}
 
 	/*
@@ -72,76 +72,217 @@ public class FlexMyProfilePageStepDefinitions extends PageBase {
 	 */
 	
 	
-	@When("^Agent enters User name ([^\"]+)$")
-	public void Agent_enters_User_name(String userName) throws Throwable {
+	@When("^Agent navigates to My Profile Page$")
+	public void Agent_navigates_to_My_Profile_Page() throws Throwable {
 		
 	   try{
-		  
-		waitForElementPresence(driver, By.name(FlexLoginComponent.getUIElements().get("flexemail").getName()));
-		WebElement element=driver.findElement(By.name(FlexLoginComponent.getUIElements().get("flexemail").getName()));
-		element.sendKeys(userName);
-		   
-		
-		   WebElement nextbtn = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
-		   nextbtn.click();
-		   
-		   Thread.sleep(1000);
+
+		   Thread.sleep(500);
+		   waitForElementPresence(driver, By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexprofilepage").getXpathSelector()));
+		   WebElement element=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexprofilepage").getXpathSelector()));
+		   element.click();   	   
+		   Thread.sleep(500);
 		   
 	   } catch (NoSuchElementException e){
-		   fail("Cannot enter the userName");
+		   fail("Cannot navigate to My Profile Page");
+	   
+	    }
+	}
+	
+	
+	@When("^Agent sees the agents info$")
+	public void Agent_sees_the_agents_info() throws Throwable {
+		try{
+	   
+
+		  //Verifying the header
+		   WebElement element=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfoheader").getXpathSelector()));
+		   String aiheader= element.getText();
+		   System.out.println(aiheader);
+		   assertTrue(aiheader.equals("Test-Leasing Agent (Twilio Flex)"));
+		   
+		   //Verifying the content
+		   WebElement elementt=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfocontent").getXpathSelector()));
+		   String aicontent= elementt.getText();
+		   System.out.println(aicontent);
+		   assertTrue(aicontent.contains("Roles:agent"));
+		   assertTrue(aicontent.contains("Email:"));
+		   assertTrue(aicontent.contains("Location:"));
+		   assertTrue(aicontent.contains("Worker SID: WKd2f42f6a990b13814710fdf67eb3c004"));
+		   assertTrue(aicontent.contains("Department:"));
+		   assertTrue(aicontent.contains("Display Name:"));
+		   
+		   //Verifying agent roll info
+		   WebElement elementtt=driver.findElement(By.className(FlexMyProfilePageComponent.getUIElements().get("flexagentroll").getClassName()));
+		   String agentroll = elementtt.getAttribute("Value");
+		   System.out.println(agentroll);
+		   assertTrue(agentroll.equals("AutomationAgent"));
+		   
+		   
+	   } catch (NoSuchElementException e){
+		   fail("Cannot see the agents info on My Profile Page");
 	   
 	    }
 	}
 	   
+	
+	@When("^Agent sees a disabled channels section$")
+	public void Agent_sees_a_disabled_channels_section() throws Throwable {
+		try{
 	   
-		@When("^Agent enters password ([^\"]+)$")
-		public void Agent_enters_password(String passWord) throws Throwable {
-			
-		   try{
-			
-			   WebElement password = driver.findElement(By.name(FlexLoginComponent.getUIElements().get("flexpassword").getName()));
-			   password.sendKeys(passWord);
-		   } catch (NoSuchElementException e){
-			   fail("Cannot enter the password");
+
+//		  //Verifying the header
+//		   WebElement element=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfoheader").getXpathSelector()));
+//		   String aiheader= element.getText();
+//		   System.out.println(aiheader);
+//		   assertTrue(aiheader.equals("Test-Leasing Agent (Twilio Flex)"));
+//	
 		   
-		}
+		   
+	   } catch (NoSuchElementException e){
+		   fail("Cannot see the agents info on My Profile Page");
+	   
+	    }
 	}
-		
-			@When("^Agent selects Sign In$")
-			public void Agent_selects_Sign_In() throws Throwable {
-				
-			   try{
-				   waitForElementPresence(driver, By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
-				   WebElement element = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexsubmit").getIdSelector()));
-				   element.click();
-				   System.out.println("");
-				   Thread.sleep(500);
-				   WebElement nextbtn = driver.findElement(By.id(FlexLoginComponent.getUIElements().get("flexnextbutton").getIdSelector()));
-				   nextbtn.click();
-				   Thread.sleep(300);
-			   } catch (NoSuchElementException e){
-				   fail("Cannot select the Sign In button");
-			   
-			}
-		}
-			   
-				@When("^Agent is logged in$")
-				public void Agent_is_logged_in() throws Throwable {
-					
-				   try{
-					  driver.findElement(By.className(FlexLoginComponent.getUIElements().get("flexmenubtn").getClassName()));
-
-					  Thread.sleep(500);					  
-
-					   
-				   } catch (NoSuchElementException e){
-					   fail("Menu button is not there");
-				   
-				}
-			}
+	
+	@When("^Agent sees a disabled languages section$")
+	public void Agent_sees_a_disabled_languages_section() throws Throwable {
+		try{
 	   
+
+//		  //Verifying the header
+//		   WebElement element=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfoheader").getXpathSelector()));
+//		   String aiheader= element.getText();
+//		   System.out.println(aiheader);
+//		   assertTrue(aiheader.equals("Test-Leasing Agent (Twilio Flex)"));
+//	
+		   
+		   
+	   } catch (NoSuchElementException e){
+		   fail("Cannot see the agents info on My Profile Page");
+	   
+	    }
+	}
+	
+	
+	@When("^Agent sees a disabled queues section$")
+	public void Agent_sees_a_disabled_queues_section() throws Throwable {
+		try{
+	   
+
+//		  //Verifying the header
+//		   WebElement element=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfoheader").getXpathSelector()));
+//		   String aiheader= element.getText();
+//		   System.out.println(aiheader);
+//		   assertTrue(aiheader.equals("Test-Leasing Agent (Twilio Flex)"));
+//	
+		   
+		   
+	   } catch (NoSuchElementException e){
+		   fail("Cannot see the agents info on My Profile Page");
+	   
+	    }
+	}
+	
+	@When("^Agent sees a disabled skills section$")
+	public void Agent_sees_a_disabled_skills_section() throws Throwable {
+		try{
+	   
+
+//		  //Verifying the header
+//		   WebElement element=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfoheader").getXpathSelector()));
+//		   String aiheader= element.getText();
+//		   System.out.println(aiheader);
+//		   assertTrue(aiheader.equals("Test-Leasing Agent (Twilio Flex)"));
+//	
+		   
+		   
+	   } catch (NoSuchElementException e){
+		   fail("Cannot see the agents info on My Profile Page");
+	   
+	    }
+	}
+	
+	
+	@When("^Agent sees an enabled sounds section$")
+	public void Agent_sees_an_enabled_sounds_section() throws Throwable {
+		try{
+	   
+
+//		  //Verifying the header
+//		   WebElement element=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfoheader").getXpathSelector()));
+//		   String aiheader= element.getText();
+//		   System.out.println(aiheader);
+//		   assertTrue(aiheader.equals("Test-Leasing Agent (Twilio Flex)"));
+//	
+		   
+		   
+	   } catch (NoSuchElementException e){
+		   fail("Cannot see the agents info on My Profile Page");
+	   
+	    }
+	}
+	
+	
+	@When("^Agent sees an enabled font size section$")
+	public void Agent_sees_an_enabled_font_size_section() throws Throwable {
+		try{
+	   
+
+//		  //Verifying the header
+//		   WebElement element=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfoheader").getXpathSelector()));
+//		   String aiheader= element.getText();
+//		   System.out.println(aiheader);
+//		   assertTrue(aiheader.equals("Test-Leasing Agent (Twilio Flex)"));
+//	
+		   
+		   
+	   } catch (NoSuchElementException e){
+		   fail("Cannot see the agents info on My Profile Page");
+	   
+	    }
+	}
+	   
+	
+	@When("^Agent sees a disabled teams section$")
+	public void Agent_sees_an_disabled_teams_section() throws Throwable {
+		try{
+	   
+
+//		  //Verifying the header
+//		   WebElement element=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfoheader").getXpathSelector()));
+//		   String aiheader= element.getText();
+//		   System.out.println(aiheader);
+//		   assertTrue(aiheader.equals("Test-Leasing Agent (Twilio Flex)"));
+//	
+		   
+		   
+	   } catch (NoSuchElementException e){
+		   fail("Cannot see the agents info on My Profile Page");
+	   
+	    }
+	}
+	
+	@When("^Agent sees a disabled voice settings section$")
+	public void Agent_sees_an_disabled_voice_settings_section() throws Throwable {
+		try{
+	   
+
+//		  //Verifying the header
+//		   WebElement element=driver.findElement(By.xpath(FlexMyProfilePageComponent.getUIElements().get("flexagentinfoheader").getXpathSelector()));
+//		   String aiheader= element.getText();
+//		   System.out.println(aiheader);
+//		   assertTrue(aiheader.equals("Test-Leasing Agent (Twilio Flex)"));
+//	
+		   
+		   
+	   } catch (NoSuchElementException e){
+		   fail("Cannot see the agents info on My Profile Page");
+	   
+	    }
+	}
+
 }
-	   
 	   
 	   
 

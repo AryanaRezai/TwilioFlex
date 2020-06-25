@@ -1,0 +1,15 @@
+development: &id001 !!com.realpage.core.component.UIComponentMap
+  UIComponents:
+    flexadminlogin:
+      UIElements:
+        flexemail: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "", name: "loginfmt", xpathSelector: ""}
+        flexpassword: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "passwordInput", name: "", xpathSelector: ""}
+        flexsubmit: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "submitButton", name: "", xpathSelector: ""}
+        flexnextbutton: !!com.realpage.core.component.UIElement {className: "", cssSelector: "", idSelector: "idSIButton9", name: "", xpathSelector: ""}
+        flexmenubtn: !!com.realpage.core.component.UIElement {className: "Twilio-Icon", cssSelector: "", idSelector: "", name: "", xpathSelector: ""}
+        name: flexadminlogin
+uat: *id001
+stage: *id001
+production: *id001
+development: *id001
+
